@@ -515,3 +515,6 @@ ul.skill-list li strong {
 .pr-xlg {
 	padding-right: 30px !important;
 }
+.markdown-body {
+    margin-left:50px;
+} 
