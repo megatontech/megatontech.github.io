@@ -279,7 +279,7 @@ var $container, $blog_container;
 		// ------------------------------
 		// PORTFOLIO FILTERING - ISOTOPE
 		// cache container
-		$container = $('.portfolio-items');
+		$container = $('.Repository-items');
 		if($container.length) {
 			//$container.imagesLoaded(function() {
 
