@@ -423,7 +423,7 @@ a.more-link,
  	max-height: 160px; border-radius: 50%;
 		}
 	.header p {
- 	font-size: 1em; margin: .1em 0 .6em; display: inline-block; font-style: italic; padding: 6px 10px; background: #595e63; color: #345; color: rgba(0,0,0,.7); border-radius: 4px; line-height: 1;
+ 	font-size: 1em; margin: .1em 0 .6em; display: inline-block; font-style: italic; padding: 6px 10px; background: #03899c; color: #666; color: rgba(0,0,0,.7); border-radius: 4px; line-height: 1;
 		}
 /* single page menu  */
 .single-page-layout .vs-nav li a {

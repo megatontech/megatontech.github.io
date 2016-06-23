@@ -1,0 +1,352 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js single-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true" data-inanimation="fadeInUp"
+    data-outanimation="fadeOutDownBig">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The personal website,blog of yuri yu: programmer, web developer.
+">
+    <meta name="keywords" content="MEGATONTECH, web dev, web developer, YURI , YU,techme">
+    <meta name="author" content="Yuri yu">
+    <meta name="google-site-verification" content="J1I2enqCVWPWxLX82JE84giuntMY1SztQxGovPSBLc4">
+    <title>Yuri yu- Home</title>
+    <!-- FAV and TOUCH ICONS -->
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+    <script src="/js/modernizr.custom.js"></script>
+    <!-- STYLES -->
+    <link rel="stylesheet" media="print" href="/css/print.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/js/nprogress/nprogress.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/fonts/fontello/css/fontello.css">
+    <link rel="stylesheet" href="/css/jquery.fancybox-1.3.4.css">
+    <link rel="stylesheet" href="/js/google-code-prettify/prettify.css">
+    <link rel="stylesheet" href="/css/uniform.default.css">
+    <link rel="stylesheet" href="/css/flexslider.css">
+    <link rel="stylesheet" href="/js/mediaelement/mediaelementplayer.css">
+    <link rel="stylesheet" href="/css/tooltipster.css">
+    <link rel="stylesheet" href="/css/rr_light.css">
+    <link rel="stylesheet" href="/js/tipuesearch/tipuesearch.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/personal.css">
+    <link rel="stylesheet" href="/css/fonts.googleapis.com.css">
+    <!--[if lte IE 9]>
+    <script src="/js/html5shiv.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <script src="/js/selectivizr-min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- CONTAINER -->
+    <div class="container" id="container">
+        <!-- HEADER -->
+        <header class="header">
+            <h1>yuri yu</h1>
+            <p>geek, programmer, web developer, acfuner</p>
+            <!-- NAV MENU -->
+            <ul class="vs-nav">
+                <li><a href="/"><i title="go to home" class="icon-home-1 tooltip" data-tooltip-pos="bottom"></i></a></li>
+                <li><a><i title="search" class="search-link fa fa-search tooltip" data-tooltip-pos="right"></i></a></li>
+            </ul>
+            <!-- NAV MENU -->
+            <!-- SEARCH -->
+            <div class="header-search">
+                <form role="search" method="get" id="search-form" action="/search">
+                    <input type="text" name="q" id="search" placeholder="ENTER KEYWORD" required>
+                    <input type="submit" id="search-submit" title="Search" value="→">
+                </form>
+            </div>
+            <!-- SEARCH -->
+        </header>
+        <!-- HEADER -->
+        <!-- WRAPPER -->
+        <div class="wrapper">
+            <!-- .blog-single -->
+            <div class="readable-content blog-single">
+                <!-- .hentry -->
+                <article class="post type-post format-standard hentry">
+                    <!-- .entry-header -->
+                    <header class="entry-header">
+                        <h1 class="entry-title">在开源项目中引入持续集成工具travis-ci</h1>
+                    </header>
+                    <!-- .entry-header -->
+                    <!-- .entry-meta -->
+                    <div class="entry-meta">
+                        <span class="posted-in">
+                        </span>
+                        <span class="posted-on">
+                            on
+                            <a rel="bookmark"><time class="entry-date">jun 22, 2016</time></a>
+                        </span>
+
+                        <span class="posted-by">
+                            by
+                            <a href="/blog" class="url fn n" title="View all posts by this author" rel="author">Yuri yu</a>
+                        </span>
+                    </div>
+                    <!-- .entry-meta -->
+                    <!-- .featured-image -->
+                    <div class="featured-image">
+                        <img src="/img/posts/travislogo.png" alt="A screenshot of the travislogo" title="travislogo">
+                    </div>
+                    <!-- .featured-image -->
+                    <!-- .entry-content -->
+                    <div class="entry-content">
+                        <p>
+                            相信了解过敏捷开发的团队开发者都会了解一些持续集成有关的概念，现代软件开发的分工越来越细致，像以前那样的单打独斗的局面已经很少见。合作开发就肯定避免不了一些 软件集成的问题，分模块开发的时候都很顺利，各个独立的测试也没有问题，然而集成到一起测试后就漏洞百出各种问题都会凸显出来，严重影响软件交付，延期现象时有发生。
+                            而且集成越晚，团队付出的代价就越大。因为谁也不知道集成到一起的时候会出现什么问题，这样就严重挫伤了开发者的勇气，进而会萌生出转向保守开发的心理，开发效率大大降低。 这与敏捷开发价值观之一，沟通、简单、反馈、
+                            <strong>勇气</strong>、谦逊是相背离的。
+                        </p>
+                        <p>如何能够更高效的开展敏捷开发呢，除了应用devops的理念之外，一些辅助的工具当然是必不可少的（工欲善其事，必先利其器嘛）。在之前参加微软组织的一次交流活动中， 学习到了微软新的TFS（team
+                            foundation server）系统，这个系统就集成了devops的工作流，已经能完整覆盖敏捷开发的各个基本环节。我记得开发者是可以免费试用半年的，同时还附赠几个月的azure云服务。
+                            TFS自然是微软技术体系下开发者的首选工具，java开发者的选择更多如Jenkins之类的，不过TFS价格也着实昂贵，安装调试也要耗费很多资源。 这对于github上的开源软件作者明显是不合适的，今天呢就来介绍一下这个在github中很好用的持续集成工具travis-ci。
+                            虽然tarvisci对企业用户是收费的，但是对开源开发者是完全免费的
+                            <strong>Your first 100 builds are free! No credit card required<strong>，嗯，足够用了
+                        </p>
+                        <p>
+                            首先呢，就在github的账号下，选择集成（Integrations）菜单项，进到集成工具列表中。完全不用担心兼容性，这里面的工具都是能与github完美结合的。
+                        </p>
+                        <p>
+                            <div class="featured-image">
+                                <img src="/img/posts/tarvisci1.jpg" alt="" title="">
+                            </div>
+                        </p>
+                        <p>
+                            travis的知名度很高，所以排在列表第一位
+                        </p>
+                        <p>
+                            <div class="featured-image">
+                                <img src="/img/posts/tarvisci2.jpg" alt="" title="">
+                            </div>
+                        </p>
+                        <p>
+                            一键加入到github项目中去，会向你所要github的授权，跟smartgit配置时一样的处理就行了，没有太多的步骤
+                        </p>
+                        <p>
+                            <div class="featured-image">
+                                <img src="/img/posts/tarvisci3.jpg" alt="" title="">
+                            </div>
+                        </p>
+                        <p>
+                            可以为自己管理的多个组织配置持续集成，包括每个项目也可以单独配置是否启用tarvisci
+                        </p>
+                        <p>
+                            <div class="featured-image">
+                                <img src="/img/posts/tarvisci4.jpg" alt="" title="">
+                            </div>
+                        </p>
+                        <p>
+                            如果以后不喜欢这个组建也可以在个人设置菜单中关闭掉
+                        </p>
+                        <p>
+                            <div class="featured-image">
+                                <img src="/img/posts/tarvisci4-1.jpg" alt="" title="">
+                            </div>
+                        </p>
+                        <p>
+                            刚开始说了一大堆持续集成的好处，那么到底它好在哪里呢，这就开始了。 Wiki比较权威（https://en.wikipedia.org/wiki/Continuous_integration），就引用其中的部分阐述吧
+                            <code>The main aim of CI is to prevent integration problems, referred to as "integration hell" in early descriptions of XP. CI is not universally accepted as an improvement over frequent integration, so it is important to distinguish between the two as there is disagreement about the virtues of each.
+In XP, CI was intended to be used in combination with automated unit tests written through the practices of test-driven development. Initially this was conceived of as running all unit tests in the developer's local environment and verifying they all passed before committing to the mainline. This helps avoid one developer's work-in-progress breaking another developer's copy. If necessary, partially complete features can be disabled before commit, such as by using feature toggles.
+
+Later elaborations of the concept introduced build servers, which automatically ran the unit tests periodically or even after every commit and reported the results to the developers. The use of build servers (not necessarily running unit tests) had already been practised by some teams outside the XP community. Nowadays, many organisations have adopted CI without adopting all of XP.
+
+In addition to automated unit tests, organisations using CI typically use a build server to implement continuous processes of applying quality control in general — small pieces of effort, applied frequently. In addition to running the unit and integration tests, such processes run additional static and dynamic tests, measure and profile performance, extract and format documentation from the source code and facilitate manual QA processes. This continuous application of quality control aims to improve the quality of software, and to reduce the time taken to deliver it, by replacing the traditional practice of applying quality control after completing all development. This is very similar to the original idea of integrating more frequently to make integration easier, only applied to QA processes.
+
+In the same vein, the practice of continuous delivery further extends CI by making sure the software checked in on the mainline is always in a state that can be deployed to users and makes the actual deployment process very rapid.</code>
+                        </p>
+                        <p>
+                            其中的最佳实践就包括 Maintain a code repository Main article: Version control 维护代码库（版本控制），这部分不用说没有版本控制根本没办法干活的
+                        </p>
+                        <p>
+                            Automate the build Main article: Build automation 自动化构建，手动编译？NO NO NO 配置好脚本让服务器去做好了
+                        </p>
+                        <p>
+                            Make the build self-testing 自动化测试构建，还要紧盯着测试过程吗？当然不需要
+                        </p>
+                        <p>
+                            Everyone commits to the baseline every day 每人每日向基线提交代码，这个应该说不强求
+                        </p>
+                        <p>
+                            Every commit (to baseline) should be built 每次提交都要能成功构建，这是必须的，服务器上的代码要一定能运行起来，如果构建失败，多个团队的工作都要停滞
+                        </p>
+                        <p>
+                            Keep the build fast 构建要快，天下武功唯快不破
+                        </p>
+                        <p>
+                            Test in a clone of the production environment 在模拟的发布环境下测试，常见的问题（在我这明明可以运行的啊！）
+                        </p>
+                        <p>
+                            Make it easy to get the latest deliverables 要很容易就获得可交付的版本，给部署和实施人员提供便利
+                        </p>
+                        <p>
+
+                            Everyone can see the results of the latest build 所有人都要能知道最新构建的结果，测试透明化有利于团队的建设，同时也省去了很大一部分沟通所需的时间成本
+                        </p>
+                        <p>
+                            Automate deployment 自动化部署，这个太666了，正是我们需要的。
+                            上面的几点总结已经能帮我们解决团队开发中遇到的很多问题，那么我们来看tarvisci是如何为我们工作的,也可参考（https://docs.travis-ci.com/）
+                        </p>
+                        <p>
+                            在配置界面配置好tarvisci后，项目并不会自动构建，需要我们在项目的根目录下放置一个配置文件.travis.yml，这个yml格式的配置文件可以配置如下语言的编译，测试和编译环境的配置都要由此文件决定，具体可参考（https://docs.travis-ci.com/user/customizing-the-build/）
+                            ANDROID
+C
+C#
+C++
+CLOJURE
+CRYSTAL
+D
+DART
+ERLANG
+ELIXIR
+F#
+GO
+GROOVY
+HASKELL
+HAXE
+JAVA
+JAVASCRIPT (WITH NODE.JS)
+JULIA
+OBJECTIVE-C
+PERL
+PERL6
+PHP
+PYTHON
+R
+RUBY
+RUST
+SCALA
+SMALLTALK
+VISUAL BASIC
+                        </p>
+                         <p>配置好这个文件上传到github即可看到效果，tarvis会自动捕获commit，并且为这个commit进行编译，编译成功的话就会像这样
+                        </p>
+                        <p>
+                            <div class="featured-image">
+                                <img src="/img/posts/tarvisci5.jpg" alt="" title="">
+                            </div>
+                        </p>
+                        <p>如果失败呢，就是这样的提示从下面的错误信息可以找到排查错误的线索，同时会有网页和邮件的通知，由于之前配置了错误的编译语言，我的邮箱已经被塞满了
+                            在C#语言的项目中tarvis用的是mono跨平台编译，因为整套系统都是运行在linux下，所以如果有不支持mono的部分代码会编译不通过，而且文档中也提到部分编译配置是与mac代码不兼容的
+                        </p>
+                        <p>
+                            <div class="featured-image">
+                                <img src="/img/posts/tarvisci6.jpg" alt="" title="">
+                            </div>
+                        </p>
+                        <p>
+                            我们看到很多开源项目中有这样的一个编译提醒，这个也很容易实现
+                        </p>
+                        <p>
+                            <div class="featured-image">
+                                <img src="/img/posts/tarvisci7.jpg" alt="" title="">
+                            </div>
+                        </p>
+                        <p>只要去tarvis项目主页里点击这个图标，就会弹出选择窗口，一般复制这个markdown格式的粘贴到readme文件里就能看到实时的编译状态了
+                        </p>
+                        <p>
+                            <div class="featured-image">
+                                <img src="/img/posts/tarvisci8.jpg" alt="" title="">
+                            </div>
+                        </p>
+                        <p>本文简要介绍一下tarvis这个工具，有时间的话会另起一篇devop工具的blog，谢谢阅读
+                            下面是个好长好长的tracklog
+                        </p>
+                        <p>
+                            <div class="featured-image">
+                                <img src="/img/posts/tarvisci9.png" alt="" title="">
+                            </div>
+                        </p>
+
+                        <!-- .related-posts -->
+                    </div>
+                    <!-- .entry-content -->
+                    <!-- .entry-meta -->
+                    <footer class="entry-meta">
+                        <h3>TAGS</h3>
+                        <a href="#" title="">Github</a>
+                    </footer>
+                    <!-- .entry-meta -->
+                </article>
+                <!-- .hentry -->
+                <!-- .about-author -->
+                <aside class="about-author">
+                    <h3>WRITTEN BY</h3>
+                    <!-- .author-bio -->
+                    <div class="author-bio">
+                        <!-- .author-img -->
+                        <div class="author-img">
+                            <a href="/#/about"><img alt="Avatar" src="/img/avatar.png" class="avatar"></a>
+                        </div>
+                        <!-- .author-img -->
+                        <!-- .author-info -->
+                        <div class="author-info">
+                            <h4 class="author-name">yuri yu</h4>
+                            <p>yuri yu is a programmer </p>
+                        </div>
+                        <!-- .author-info -->
+                    </div>
+                    <!-- .author-bio -->
+                </aside>
+                <!-- .about-author -->
+                <!-- .nav-single -->
+                <nav class="nav-single row">
+                    <div class="nav-previous col-sm-6">
+
+                        <h4>PREVIOUS POST</h4>
+                        <a href="#" rel="prev"><span class="meta-nav">←</span> There's no more post</a>
+                    </div>
+                    <div class="nav-next col-sm-6">
+                    </div>
+                </nav>
+                <!-- .nav-single -->
+            </div>
+            <!-- .blog-single -->
+        </div>
+        <!-- WRAPPER -->
+        <!-- PORTFOLIO SINGLE AJAX CONTENT CONTAINER -->
+        <div class="p-overlay"></div>
+        <div class="p-overlay"></div>
+        <!-- ALERT : used for contact form mail delivery alert -->
+        <div class="site-alert animated"></div>
+        <!-- SCRIPTS -->
+        <script src="/js/jquery-1.10.2.min.js"></script>
+        <script src="/js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="/js/jquery.address-1.5.min.js"></script>
+        <script src="/js/triple.layout.js"></script>
+        <script src="/js/smoothscroll.js"></script>
+        <script src="/js/nprogress/nprogress.js"></script>
+        <script src="/js/fastclick.js"></script>
+        <script src="/js/jquery.imagesloaded.min.js"></script>
+        <script src="/js/jquery.isotope.min.js"></script>
+        <script src="/js/jquery.flexslider-min.js"></script>
+        <script src="/js/jquery.fitvids.js"></script>
+        <script src="/js/jquery.validate.min.js"></script>
+        <script src="/js/jquery.uniform.min.js"></script>
+        <script src="/js/jquery.fancybox-1.3.4.pack.js"></script>
+        <script src="/js/jquery.tooltipster.min.js"></script>
+        <script src="/js/google-code-prettify/prettify.js"></script>
+        <script src="/js/twitterFetcher_v10_min.js"></script>
+        <script src="/js/mediaelement/mediaelement-and-player.min.js"></script>
+        <script src="/js/send-mail.js"></script>
+        <script src="/js/classie.js"></script>
+        <script src="/js/readmore.min.js"></script>
+        <script src="/js/readremaining.jquery.js"></script>
+        <script src="/js/personal.js"></script>
+        <script src="/js/main.js"></script>
+        <script src="/js/blog-post.js"></script>
+        <script src="/js/lazyload.js"></script>
+        <script>
+            $("img").lazyload();
+        </script>
+    </div>
+    <!-- CONTAINER -->
+</body>
+
+</html>
