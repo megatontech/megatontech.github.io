@@ -1,5 +1,7 @@
 ﻿<!DOCTYPE html>
-<html lang="en" class="no-js single-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true" data-inanimation="fadeInUp" data-outanimation="fadeOutDownBig">
+<html lang="en" class="no-js single-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true" data-inanimation="fadeInUp"
+    data-outanimation="fadeOutDownBig">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,6 +42,7 @@
     <script src="/js/selectivizr-min.js"></script>
     <![endif]-->
 </head>
+
 <body>
     <!-- CONTAINER -->
     <div class="container" id="container">
@@ -71,7 +74,7 @@
                 <article class="post type-post format-standard hentry">
                     <!-- .entry-header -->
                     <header class="entry-header">
-                        <h1 class="entry-title">Freedom! it's free!!!</h1>
+                        <h1 class="entry-title">关于GITHUB刷星星的原理简析</h1>
                     </header>
                     <!-- .entry-header -->
                     <!-- .entry-meta -->
@@ -80,7 +83,7 @@
                         </span>
                         <span class="posted-on">
                             on
-                            <a rel="bookmark"><time class="entry-date">jun 21, 2016</time></a>
+                            <a rel="bookmark"><time class="entry-date">jun 23, 2016</time></a>
                         </span>
 
                         <span class="posted-by">
@@ -91,23 +94,86 @@
                     <!-- .entry-meta -->
                     <!-- .featured-image -->
                     <div class="featured-image">
-                        <img src="/img/posts/Freedom.jpg" alt="A screenshot of the Freedom" title="Freedom">
+                        <img src="/img/posts/starbot.png" alt="A screenshot of the starbot" title="starbot">
                     </div>
                     <!-- .featured-image -->
                     <!-- .entry-content -->
                     <div class="entry-content">
                         <p>
-                            Thanks github for making this great product,now i feel totally free! 
+                            今天看github的时候发现动态里有朋友关注了一个 <a href="https://github.com/prachi1210/starbot">https://github.com/prachi1210/starbot</a>项目，看起来是能够无限刷github星星数量的。
                         </p>
-                        <a href="https://pages.github.com/" id="the-problem">The Freedom</a>
+                        <div class="featured-image">
+                            <img src="/img/posts/starbot2.gif" alt="A screenshot of the starbot" title="starbot">
+                        </div>
                         <p>
-                            
+                            程序是php写的，虽然没学过这个语言，但是估计基本能看懂其中原理，赶紧clone一个下来。
                         </p>
-                        
+                        <div class="featured-image">
+                            <img src="/img/posts/starbot3.jpg" alt="A screenshot of the starbot" title="starbot">
+                        </div>
                         <h2 id="the-solution">The Installion</h2>
                         <p>
-                            usage: <code>git clone https://github.com/username/username.github.io</code>
+                            关注的人还挺多的，主要程序文件只有main.py和unstar下面的unstar.py,需要的文件是names.txt和一些php的支持库
+
                         </p>
+                        <p>来看代码 get_random_word(file_name): # function to get random name from file total_bytes = os.stat(file_name).st_size
+                            random_point = random.randint(0, total_bytes) file = open(file_name) file.seek(random_point)
+                            file.readline() return file.readline()
+
+                            </code>
+                            这段很简单从文本文件里读出随机的名字
+                        </p>
+                        <p>
+                            <code>username = get_random_word(r"names.txt").lower()
+    username = username.replace('\n','')
+    username = username+str(random.randint(10000,99000)) # generate random username
+    email = username+"@yahoo.com"
+    password = "iambatman69"
+    f.write(username+"\n")
+    print(username)
+    print(email)
+</code>然后构造出一个个假的邮箱地址，密码都是一样的
+                        </p>
+                        <p>
+                            <code>br.open("https://github.com/join?source=header-home")
+    br.form = list(br.forms())[1]
+    login_control = br.form.find_control("user[login]")
+    if login_control.type == "text":  
+        login_control.value = username
+    email_control = br.form.find_control("user[email]")
+    if email_control.type == "text":  
+        email_control.value = email
+    password_control = br.form.find_control("user[password]")
+    if password_control.type == "password":  
+        password_control.value = password
+    for control in br.form.controls:
+        submit = control
+        
+    submit.readonly = False
+    print ("Created new user")
+    br.submit()</code> 解析注册网页，注册很多个新用户
+                        </p>
+                        <p>
+                            <code>      br.open("https://github.com/"+searchusername+"/"+searchreponame)
+    br.form = list(br.forms())[4]
+
+    for control in br.form.controls:
+        star= control
+        
+    star.readonly = False
+    print("Starred")
+    br.submit() # Star the repo
+
+    time.sleep(2) # Time delay to prevent too many requests
+    i = i+1</code> 用这个新用户去请求加星的网页，post一个加星的请求，然后歇一会儿继续上面的操作
+                        </p>
+                        <p>恢复刷星呢，就是同样的原理把上一步存好的用户登陆一下接触加星操作即可</p>
+                        <p>其实这个hack呢没有太多高深的技术，只是利用了github未激活邮箱也能加星的一个机制，可以在很短时间内刷榜，如下图</p>
+                        <p><div class="featured-image">
+                            <img src="/img/posts/starbot4.png" alt="A screenshot of the starbot" title="starbot">
+                        </div></p>
+                        <p>实际上呢这个功能对github影响不是太大，但是会误导一些用户，而且刷星会增加大量的垃圾账号</p>
+                        <p>作者已经上报了这个漏洞，但是目前呢还没有官方的修复<strong>值得一提的是，作者本身这个项目并没有刷星</strong></p>
                         <!-- .related-posts -->
                     </div>
                     <!-- .entry-content -->
@@ -132,7 +198,7 @@
                         <!-- .author-info -->
                         <div class="author-info">
                             <h4 class="author-name">yuri yu</h4>
-                            <p>yuri yu is a programmer  </p>
+                            <p>yuri yu is a programmer </p>
                         </div>
                         <!-- .author-info -->
                     </div>
@@ -189,4 +255,5 @@
     </div>
     <!-- CONTAINER -->
 </body>
+
 </html>
