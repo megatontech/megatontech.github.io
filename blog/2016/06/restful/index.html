@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en" class="no-js single-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true" data-inanimation="fadeInUp"
-    data-outanimation="fadeOutDownBig">
+      data-outanimation="fadeOutDownBig">
 
 <head>
     <meta charset="UTF-8">
@@ -99,15 +99,155 @@
                     <!-- .featured-image -->
                     <!-- .entry-content -->
                     <div class="entry-content">
-                        
+                        <p>本文内容很简单，只阐述下面几个问题——一切美好的东西都应该是简单的</p>
+                        <ul>
+                            <li><p>什么是REST？</p></li>
+                            <li><p>为什么要REST？</p></li>
+                            <li><p>如何才能REST？</p></li>
+                        </ul>
+                        <h2>什么是REST？</h2>
                         <p>
-                            有时间再写
+                            <div class="featured-image">
+                            </div>
                         </p>
+                        <p>
+                            What is REST & RESTful?
+                            表述性状态传送是一种基于互联网技术的大型软件架构风格 Representational State Transfer (REST) .REST关注于数据对象、资源是如何定位、定义和加载可伸缩性而且易于交换的那些信息.REST为超文本程序设计的一种架构风格，通过标准的HTTP谓词来访问URI定位的资源。REST不是任何一种技术或平台，而是一种简单的设计风格。WCF就是很出名的REST架构风格的服务。
+                        </p>
+
+                        <p>
+                            In computing, representational state transfer (REST) is an architectural style consisting of a coordinated set of components, connectors, and data elements within a distributed hypermedia system, where the focus is on component roles and a specific set of interactions between data elements rather than implementation details. Its purpose is to induce performance, scalability, simplicity, modifiability, visibility, portability, and reliability. REST is the software architectural style of the World Wide Web.
+                        </p>
+
+                        <p>
+                            The term representational state transfer was introduced and defined in 2000 by Roy Fielding in his doctoral dissertation at UC Irvine. REST has been applied to describe desired web architecture, to identify existing problems, to compare alternative solutions and to ensure that protocol extensions would not violate the core constraints that make the web successful. Fielding used REST to design HTTP 1.1 and Uniform Resource Identifiers (URI).
+                        </p>
+
+                        <p>
+                            To the extent that systems conform to the constraints of REST they can be called RESTful. RESTful systems typically, but not always, communicate over Hypertext Transfer Protocol (HTTP) with the same HTTP verbs (GET, POST, PUT, DELETE, etc.) that web browsers use to retrieve web pages and to send data to remote servers.[1] REST systems interface with external systems as web resources identified by Uniform Resource Identifiers (URIs), for example /people/tom, which can be operated upon using standard verbs such as GET /people/tom.
+                        </p>
+
+                        <p>
+                            The name "Representational State" is intended to evoke an image of how a well-designed Web application behaves: a network of web pages (a virtual state-machine), where the user progresses through the application by selecting links (state transitions), resulting in the next page (representing the next state of the application) being transferred to the user and rendered for their use.
+                        </p>
+                        <hr />
+                        <h2>为什么要REST？</h2>
                         <p>
                             <div class="featured-image">
                             </div>
                         </p>
 
+                        <p>
+                            性能
+                        </p>
+
+                        <p>
+                            Performance - component interactions can be the dominant factor in user-perceived performance and network efficiency
+                            可伸缩性
+                        </p>
+
+                        <p>
+                            Scalability to support large numbers of components and interactions among components. Roy Fielding, one of the principal authors of the HTTP specification, describes REST's effect on scalability as follows:
+                            REST's client–server separation of concerns simplifies component implementation, reduces the complexity of connector semantics, improves the effectiveness of performance tuning, and increases the scalability of pure server components. Layered system constraints allow intermediaries—proxies, gateways, and firewalls—to be introduced at various points in the communication without changing the interfaces between components, thus allowing them to assist in communication translation or improve performance via large-scale, shared caching. REST enables intermediate processing by constraining messages to be self-descriptive: interaction is stateless between requests, standard methods and media types are used to indicate semantics and exchange information, and responses explicitly indicate cacheability.
+                        </p>
+
+                        <p>
+                            界面简单
+                            Simplicity of interfaces
+                        </p>
+
+                        <p>
+                            可扩展
+                            Modifiability of components to meet changing needs (even while the application is running)
+                        </p>
+
+                        <p>
+                            通信可见
+                            Visibility of communication between components by service agents
+                        </p>
+
+                        <p>
+                            可移动
+                            Portability of components by moving program code with the data
+                        </p>
+
+                        <p>
+                            可信赖
+                            Reliability is the resistance to failure at the system level in the presence of failures within components, connectors, or data[11]
+
+                            Architectural constraints
+                            The architectural properties of REST are realized by applying specific interaction constraints to components, connectors, and data elements.[1][10] One can characterise applications conforming to the REST constraints described in this section as "RESTful".[3] If a service violates any of the required constraints, it cannot be considered RESTful. Complying with these constraints, and thus conforming to the REST architectural style, enables any kind of distributed hypermedia system to have desirable non-functional properties, such as performance, scalability, simplicity, modifiability, visibility, portability, and reliability.[1]
+
+                            The formal REST constraints are
+
+                            Client–server
+                            See also: Client–server model
+                            A uniform interface separates clients from servers. This separation of concerns means that, for example, clients are not concerned with data storage, which remains internal to each server, so that the portability of client code is improved. Servers are not concerned with the user interface or user state, so that servers can be simpler and more scalable. Servers and clients may also be replaced and developed independently, as long as the interface between them is not altered.
+                        </p>
+
+                        <p>
+                            无状态
+                            Stateless
+                            See also: Stateless protocol
+                            The client–server communication is further constrained by no client context being stored on the server between requests. Each request from any client contains all the information necessary to service the request, and session state is held in the client. The session state can be transferred by the server to another service such as a database to maintain a persistent state for a period and allow authentication. The client begins sending requests when it is ready to make the transition to a new state. While one or more requests are outstanding, the client is considered to be in transition. The representation of each application state contains links that may be used the next time the client chooses to initiate a new state-transition.[12]
+                        </p>
+
+                        <p>
+                            可缓存
+                            Cacheable
+                            See also: Web cache
+                            As on the World Wide Web, clients and intermediaries can cache responses. Responses must therefore, implicitly or explicitly, define themselves as cacheable, or not, to prevent clients from reusing stale or inappropriate data in response to further requests. Well-managed caching partially or completely eliminates some client–server interactions, further improving scalability and performance.
+                        </p>
+
+                        <p>
+                            分层
+                            Layered system
+                            See also: Layered system
+                            A client cannot ordinarily tell whether it is connected directly to the end server, or to an intermediary along the way. Intermediary servers may improve system scalability by enabling load balancing and by providing shared caches. They may also enforce security policies.
+                        </p>
+
+                        <p>
+                            按需编码
+                            Code on demand (optional)
+                            See also: Client-side scripting
+                            Servers can temporarily extend or customize the functionality of a client by the transfer of executable code. Examples of this may include compiled components such as Java applets and client-side scripts such as JavaScript.
+                        </p>
+
+                        <p>
+                            通用接口
+                            Uniform interface
+                            The uniform interface constraint is fundamental to the design of any REST service.[1] The uniform interface simplifies and decouples the architecture, which enables each part to evolve independently. The four constraints for this uniform interface are
+                        </p>
+
+                        <p>
+                            资源标识
+                            Identification of resources
+                            Individual resources are identified in requests, for example using URIs in web-based REST systems. The resources themselves are conceptually separate from the representations that are returned to the client. For example, the server may send data from its database as HTML, XML or JSON, none of which are the server's internal representation.
+                            Manipulation of resources through these representations
+                            When a client holds a representation of a resource, including any metadata attached, it has enough information to modify or delete the resource.
+                        </p>
+
+                        <p>
+                            消息自解释
+                            Self-descriptive messages
+                            Each message includes enough information to describe how to process the message. For example, which parser to invoke may be specified by an Internet media type (previously known as a MIME type).[1]
+                            Hypermedia as the engine of application state (HATEOAS)
+                            Clients make state transitions only through actions that are dynamically identified within hypermedia by the server (e.g., by hyperlinks within hypertext). Except for simple fixed entry points to the application, a client does not assume that any particular action is available for any particular resources beyond those described in representations previously received from the server. There is no universally accepted format for representing links between two resources. RFC 5988 and JSON Hypermedia API Language (proposed) are two popular formats for specifying REST hypermedia links.[13]
+                        </p>
+                        <hr />
+                        <h2>如何才能REST？</h2>
+                        <p>
+                            <div class="featured-image">
+                            </div>
+                        </p>
+                        <p>
+                            可以参考RESTful Day系列文章
+                            http://www.codeproject.com/Articles/105273/Create-RESTful-WCF-Service-API-Step-By-Step-Guide
+                            http://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=7869570
+                            http://www.codeproject.com/Articles/21174/Everything-About-REST-Web-Services-What-and-How-Pa
+                            http://www.codeproject.com/Articles/21258/Everything-about-REST-web-services-what-and-how
+                        </p>
+                        <hr />
                         <!-- .related-posts -->
                     </div>
                     <!-- .entry-content -->
@@ -192,5 +332,4 @@
     </div>
     <!-- CONTAINER -->
 </body>
-
 </html>
