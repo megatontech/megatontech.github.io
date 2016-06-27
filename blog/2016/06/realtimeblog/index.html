@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="/js/tipuesearch/tipuesearch.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/flot.css">
     <link rel="stylesheet" href="/css/personal.css">
     <link rel="stylesheet" href="/css/fonts.googleapis.com.css">
     <!--[if lte IE 9]>
@@ -74,7 +75,7 @@
                 <article class="post type-post format-standard hentry">
                     <!-- .entry-header -->
                     <header class="entry-header">
-                        <h1 class="entry-title">是面试诶，好激动</h1>
+                        <h1 class="entry-title">一个有趣的IOT想法</h1>
                     </header>
                     <!-- .entry-header -->
                     <!-- .entry-meta -->
@@ -94,35 +95,56 @@
                     <!-- .entry-meta -->
                     <!-- .featured-image -->
                     <div class="featured-image">
-                        <img src="/img/posts/interview0627.gif" alt="A screenshot of the Restful" title="EDI">
+                        <img src="/img/posts/realtimeblog1.jpg" alt="A screenshot of the IOT" title="IOT">
                     </div>
                     <!-- .featured-image -->
                     <!-- .entry-content -->
                     <div class="entry-content">
                         <p>
-                            今天下午有个面试，算起来正经的面试已经1年多快两年都没经历过了，会是什么样的技术问题呢，会有什么样的笔试题呢，挺期待的。  </p>
+                            突然有个想法githubpage支持的是静态页面，有什么办法让它变得更有动感呢？加入更多的JS特效？No！大陆访问github已经很困难了，时断时续的非常讨厌
+                        </p>
+                        <div class="featured-image">
+                            <img src="/img/posts/realtimeblog2.jpg" alt="A screenshot of the IOT" title="IOT">
+                        </div>
                         <p>
-                            要是周末不加班赶App的进度的话，能有更多的时间来准备。现在流行的技术架构是什么样呢？  </p>
+                            看着个sonar的统计已经一次加载了很多的文件，尤其js文件，已经加载了25个，如果主页再引用新的，可能网页会很难调试了，我就只会在新页面里加了
+                        </p>
+                        <div id="content">
+                            <div class="demo-container">
+                                <div id="placeholder" class="demo-placeholder"></div>
+                            </div>
+                        </div>
+                        <div id="main" style="width:800px;height:400px;"></div>
                         <p>
-                            面试官会是技术大牛吗？HR会有什么问题？晚上回来要好好整理一下才行，excited
-                            <strong>等下午回来的把这个post补上:D</strong>
-                            <strong>面试经验+1，下次记得吃早饭，要记得吃午饭，否则挺不住的。PS：微软的紫竹科技园附近也没有什么好吃的</strong>
+                            那么呢，更有趣的解决方法是吧一些实时数据接入到这个主页上来，用flot也不难，echart很漂亮，three就算了浏览器会崩的，数据来源就很广啦~比如自己架设的气象站，比如webSDR,比如家庭耗电统计，或者是网络、硬盘使用率
                         </p>
                         <p>
-                            Well it's confirmed to be a total failure.Not only programming test failed. the interview failed as well.
-                            For what reason?Not well prepared ,not having breakfeast not having lunch ,tired of traffic.NOPE!
-                            Only reason is lack of experience of interviewing and confidence.
-                            Though finding a new job is not in a hurry , i still need a offer to encourage myself keep developing my programing skills.
-                            Note:i thought dual monitor is very popular but not in this company,i been using dual monitor for nearly 4 years ,and that proved to increace development very 
-                            singnafficently.And the office feels so oppressive maybe it's because of the weather.
-                            Questions:algorthm *1 initnalize *1 sort *1 vireity *1 struct *1 OOP *1 SQL *1 
-                            oral Questions: mulity thread instrucres parell 
-                            So that interview in microsoft on tomorrow afternoon will be a more interesting one
-                            still hungry ,so no more typing,prepare for tomorrow ,in M$ office . 
+                            遇到的一个问题呢，就是本地的数据需要一个出口端，ip或者域名，然而这些都不是免费的，什么是免费的呢？github的流量是免费的！
                         </p>
                         <p>
-                            with confidence!
+                            那么思路问题解决了，我可以把本地采集的数据打包传送到github上去，然后在网页端用js解析并且用数据可视化的插件显示出来，这样子一个免费的IOT基本系统就成型了。
                         </p>
+                        <p>
+                            实际操作中遇到一些具体问题：
+                            <ul>
+                                <li>
+                                    一、本地数据如何采集、转发</li>
+                                <li>
+                                    二、本地电脑如何与设备通信</li>
+                                <li>
+                                    三、本地多台电脑主机如何协同工作</li>
+                                <li>
+                                    四、本地数据如何打包上传到github</li>
+                                <li>
+                                    五、网页如何解析和显示数据</li>
+                                <li>
+                                    六、数据通信断了怎么办</li>
+                                <li>
+                                    七、如何配置所有工作自动化操作 </li>
+                            </ul>
+                        </p>
+                        <p>之后几天有时间的话会陆续把想法一步步的试着实现一下</p>
+
                         <!-- .related-posts -->
                     </div>
                     <!-- .entry-content -->
@@ -201,9 +223,90 @@
         <script src="/js/main.js"></script>
         <script src="/js/blog-post.js"></script>
         <script src="/js/lazyload.js"></script>
+        <script src="/js/jquery.flot.js"></script>
+        <script src="/js/echarts.min.js"></script>
         <script>
             $("img").lazyload();
         </script>
+        <script type="text/javascript">
+
+	$(function() {
+		var data = [],
+			totalPoints = 300;
+		function getRandomData() {
+			if (data.length > 0)
+				data = data.slice(1);
+			while (data.length < totalPoints) {
+				var prev = data.length > 0 ? data[data.length - 1] : 50,
+					y = prev + Math.random() * 10 - 5;
+				if (y < 0) {
+					y = 0;
+				} else if (y > 100) {
+					y = 100;
+				}
+				data.push(y);
+			}
+			var res = [];
+			for (var i = 0; i < data.length; ++i) {
+				res.push([i, data[i]])
+			}
+			return res;
+		}
+		var updateInterval = 30;
+		var plot = $.plot("#placeholder", [ getRandomData() ], {
+			series: {
+				shadowSize: 0	// Drawing is faster without shadows
+			},
+			yaxis: {
+				min: 0,
+				max: 100
+			},
+			xaxis: {
+				show: false
+			}
+		});
+		function update() {
+			plot.setData([getRandomData()]);
+			plot.draw();
+			setTimeout(update, updateInterval);
+		}
+		update();
+	});
+
+	</script>
+        <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+
+        // 指定图表的配置项和数据
+        var option = {
+    tooltip : {
+        formatter: "{a} <br/>{b} : {c}%"
+    },
+    toolbox: {
+        feature: {
+            restore: {},
+            saveAsImage: {}
+        }
+    },
+    series: [
+        {
+            name: '加班时间',
+            type: 'gauge',
+            detail: {formatter:'{value}%'},
+            data: [{value: 50, name: 'BUG修复比例'}]
+        }
+    ]
+};
+
+
+var appticket = setInterval(function () {
+    option.series[0].data[0].value = (Math.random() * 100).toFixed(2) - 0;
+    myChart.setOption(option, true);
+},100);
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
     </div>
     <!-- CONTAINER -->
 </body>
