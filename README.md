@@ -1,3 +1,4 @@
+Fork时就带的说明文档，现在并没什么用
 # [codeinpink.github.io](http://codeinpink.github.io/)
 
 This branch contains the generated files for my personal site,
