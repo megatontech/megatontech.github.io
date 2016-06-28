@@ -1,15 +1,3 @@
-Fork时就带的说明文档，现在并没什么用
-# [codeinpink.github.io](http://codeinpink.github.io/)
-
-This branch contains the generated files for my personal site,
-[codeinpink.github.io](http://codeinpink.github.io/), built using Jekyll.
-I build the site locally and push it to the master branch because I use my own
-plugins for things like category pages, tag pages, and project pages.
-
-My site offers searching and a contact form, both of which are typically not
-found on static sites. To handle searches, I use [Tipue Search](http://www.tipue.com/search/).
-For my contact form, I use [Formspree](https://formspree.io/). I recommend both!
-
-To use my [Portfolio Generator](https://github.com/codeinpink/jekyll-portfolio-generator) plugin,
-visit the [repo](https://github.com/codeinpink/jekyll-portfolio-generator)
-for it. There you will find lots of information and examples!
+#Fork时就带的说明文档，现在并没什么用
+***
+##blog可以用了，但是需要一个c#的生成器，jekyll实在是不好用yml风格的配置我也不喜欢，虽然现在用vs直接写html也挺方便。但是容易出错，比如上次标签页无法切换的bug
