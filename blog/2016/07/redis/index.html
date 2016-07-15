@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js single-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true" data-inanimation="fadeInUp"
+      data-outanimation="fadeOutDownBig">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The personal website,blog of yuri yu: programmer, web developer.
+">
+    <meta name="keywords" content="MEGATONTECH, web dev, web developer, YURI , YU,techme">
+    <meta name="author" content="Yuri yu">
+    <meta name="google-site-verification" content="J1I2enqCVWPWxLX82JE84giuntMY1SztQxGovPSBLc4">
+    <title>Yuri yu- Home</title>
+    <!-- FAV and TOUCH ICONS -->
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+    <script src="/js/modernizr.custom.js"></script>
+    <!-- STYLES -->
+    <link rel="stylesheet" media="print" href="/css/print.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/js/nprogress/nprogress.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/fonts/fontello/css/fontello.css">
+    <link rel="stylesheet" href="/css/jquery.fancybox-1.3.4.css">
+    <link rel="stylesheet" href="/js/google-code-prettify/prettify.css">
+    <link rel="stylesheet" href="/css/uniform.default.css">
+    <link rel="stylesheet" href="/css/flexslider.css">
+    <link rel="stylesheet" href="/js/mediaelement/mediaelementplayer.css">
+    <link rel="stylesheet" href="/css/tooltipster.css">
+    <link rel="stylesheet" href="/css/rr_light.css">
+    <link rel="stylesheet" href="/js/tipuesearch/tipuesearch.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/personal.css">
+    <link rel="stylesheet" href="/css/fonts.googleapis.com.css">
+    <!--[if lte IE 9]>
+    <script src="/js/html5shiv.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <script src="/js/selectivizr-min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- CONTAINER -->
+    <div class="container" id="container">
+        <!-- HEADER -->
+        <header class="header">
+            <h1>yuri yu</h1>
+            <p>geek, programmer, web developer, acfuner</p>
+            <!-- NAV MENU -->
+            <ul class="vs-nav">
+                <li><a href="/"><i title="go to home" class="icon-home-1 tooltip" data-tooltip-pos="bottom"></i></a></li>
+                <li><a><i title="search" class="search-link fa fa-search tooltip" data-tooltip-pos="right"></i></a></li>
+            </ul>
+            <!-- NAV MENU -->
+            <!-- SEARCH -->
+            <div class="header-search">
+                <form role="search" method="get" id="search-form" action="/search">
+                    <input type="text" name="q" id="search" placeholder="ENTER KEYWORD" required>
+                    <input type="submit" id="search-submit" title="Search" value="→">
+                </form>
+            </div>
+            <!-- SEARCH -->
+        </header>
+        <!-- HEADER -->
+        <!-- WRAPPER -->
+        <div class="wrapper">
+            <!-- .blog-single -->
+            <div class="readable-content blog-single">
+                <!-- .hentry -->
+                <article class="post type-post format-standard hentry">
+                    <!-- .entry-header -->
+                    <header class="entry-header">
+                        <h1 class="entry-title">用redis加速你的mvc吧</h1>
+                    </header>
+                    <!-- .entry-header -->
+                    <!-- .entry-meta -->
+                    <div class="entry-meta">
+                        <span class="posted-in">
+                        </span>
+                        <span class="posted-on">
+                            on
+                            <a rel="bookmark"><time class="entry-date">jul 15, 2016</time></a>
+                        </span>
+
+                        <span class="posted-by">
+                            by
+                            <a href="/blog" class="url fn n" title="View all posts by this author" rel="author">Yuri yu</a>
+                        </span>
+                    </div>
+                    <!-- .entry-meta -->
+                    <!-- .featured-image -->
+                    <div class="featured-image">
+                        <img src="/img/posts/redis.jpg" alt="A screenshot of the redis" title="redis">
+                    </div>
+                    <!-- .featured-image -->
+                    <!-- .entry-content -->
+                    <div class="entry-content">
+                        <p>时隔半个月，终于又能上网了，连接到e时代的感觉真是非凡</p>
+                        <div class="article">
+                            <p>这几天找了几份面试发现.net的技术更新比起其他语言还是慢很多，比如hadoop集群啦 ，gulp/webpack啦，socketio啦，electron啦，react啦，Impala啦，nosql啦，再就是这个好用的redis</p>
+                            <p>抽空要把上面的都学习了解并且写点像样的东西出来，不是以前那种糊弄自己的blog了（反正空间有的是，闲着也是浪费哈）</p>
+                            <p>直接从项目开始</p>
+                            <img src="/img/posts/redis1.jpg" alt="A screenshot of the redis" title="redis">
+                            <p>新建mvc项目</p>
+                            <img src="/img/posts/redis2.jpg" alt="A screenshot of the redis" title="redis">
+                            <p>nuget包管理里面下载最方便，如果不喜欢可以去github上fork</p>
+                            <img src="/img/posts/redis3.jpg" alt="A screenshot of the redis" title="redis">
+                            <p>第一个是redis服务端的所有文件，直接下载就行</p>
+                            <p>由于redis是c实现的，并不支持c#直接访问和通信，所以需要一个hub一样的东西当中介，就是下面两个（任选其一）</p>
+                            <p>安装后会显示在引用里面</p>
+                            <img src="/img/posts/redis4.jpg" alt="A screenshot of the redis" title="redis">
+                            <p>到这个目录找一下redis的服务端文件，windows直接运行linux另算</p>
+                            <img src="/img/posts/redis5.jpg" alt="A screenshot of the redis" title="redis">
+                            <p>服务启动之后呢，会显示端口和一些基础信息，这些启动的参数可以在配置文件里改</p>
+                            <img src="/img/posts/redis6.jpg" alt="A screenshot of the redis" title="redis">
+                            <p>有了服务，开始写缓存的代码，来个基础的，客户端存进去（是支持好几种数据类型的，但是我没记住，给忘了）</p>
+                            <img src="/img/posts/redis7.jpg" alt="A screenshot of the redis" title="redis">
+                            <p>运行项目，执行存缓存的代码，然后找到文件夹的客户端程序（其实有更好用的GUI查看工具，但是我的网很差，下载不到）</p>
+                            <img src="/img/posts/redis8.jpg" alt="A screenshot of the redis" title="redis">
+                            <p>get一下就能查到了，save一下就能把内存中的数据DUMP到本地文件</p>
+                            <img src="/img/posts/redis9.jpg" alt="A screenshot of the redis" title="redis">
+                            <p>就这样，你的mvc项目初步拥有了内存级别的缓存功能，性能可以媲美memcache</p>
+                            <p>有时间的话，再来做更深入的研究吧</p>
+                        </div>
+                        <hr />
+                        <!-- .related-posts -->
+                    </div>
+                    <!-- .entry-content -->
+                    <!-- .entry-meta -->
+                    <footer class="entry-meta">
+                        <h3>TAGS</h3>
+                        <a href="#" title="">redis</a>
+                    </footer>
+                    <!-- .entry-meta -->
+                </article>
+                <!-- .hentry -->
+                <!-- .about-author -->
+                <aside class="about-author">
+                    <h3>WRITTEN BY</h3>
+                    <!-- .author-bio -->
+                    <div class="author-bio">
+                        <!-- .author-img -->
+                        <div class="author-img">
+                            <a href="/#/about"><img alt="Avatar" src="/img/avatar.png" class="avatar"></a>
+                        </div>
+                        <!-- .author-img -->
+                        <!-- .author-info -->
+                        <div class="author-info">
+                            <h4 class="author-name">yuri yu</h4>
+                            <p>yuri yu is a programmer </p>
+                        </div>
+                        <!-- .author-info -->
+                    </div>
+                    <!-- .author-bio -->
+                </aside>
+                <!-- .about-author -->
+                <!-- .nav-single -->
+                <nav class="nav-single row">
+                    <div class="nav-previous col-sm-6">
+
+                        <h4>PREVIOUS POST</h4>
+                        <a href="#" rel="prev"><span class="meta-nav">←</span> There's no more post</a>
+                    </div>
+                    <div class="nav-next col-sm-6">
+                    </div>
+                </nav>
+                <!-- .nav-single -->
+            </div>
+            <!-- .blog-single -->
+        </div>
+        <!-- WRAPPER -->
+        <!-- PORTFOLIO SINGLE AJAX CONTENT CONTAINER -->
+        <div class="p-overlay"></div>
+        <div class="p-overlay"></div>
+        <!-- ALERT : used for contact form mail delivery alert -->
+        <div class="site-alert animated"></div>
+        <!-- SCRIPTS -->
+        <script src="/js/jquery-1.10.2.min.js"></script>
+        <script src="/js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="/js/jquery.address-1.5.min.js"></script>
+        <script src="/js/triple.layout.js"></script>
+        <script src="/js/smoothscroll.js"></script>
+        <script src="/js/nprogress/nprogress.js"></script>
+        <script src="/js/fastclick.js"></script>
+        <script src="/js/jquery.imagesloaded.min.js"></script>
+        <script src="/js/jquery.isotope.min.js"></script>
+        <script src="/js/jquery.flexslider-min.js"></script>
+        <script src="/js/jquery.fitvids.js"></script>
+        <script src="/js/jquery.validate.min.js"></script>
+        <script src="/js/jquery.uniform.min.js"></script>
+        <script src="/js/jquery.fancybox-1.3.4.pack.js"></script>
+        <script src="/js/jquery.tooltipster.min.js"></script>
+        <script src="/js/google-code-prettify/prettify.js"></script>
+        <script src="/js/twitterFetcher_v10_min.js"></script>
+        <script src="/js/mediaelement/mediaelement-and-player.min.js"></script>
+        <script src="/js/send-mail.js"></script>
+        <script src="/js/classie.js"></script>
+        <script src="/js/readmore.min.js"></script>
+        <script src="/js/readremaining.jquery.js"></script>
+        <script src="/js/personal.js"></script>
+        <script src="/js/main.js"></script>
+        <script src="/js/blog-post.js"></script>
+        <script src="/js/lazyload.js"></script>
+        <script>
+            $("img").lazyload();
+        </script>
+    </div>
+    <!-- CONTAINER -->
+</body>
+</html>
