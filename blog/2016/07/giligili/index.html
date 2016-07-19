@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0032)http://www.staggeringbeauty.com/ -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="./paper.js"></script>
+    <script type="text/javascript" src="./Tween.js"></script>
+    <script type="text/javascript" src="./traer.js"></script>
+    <script type="text/javascript" src="./jiggler.js"></script>
+    <script type="text/paperscript" src="./main.js" canvas="canvas" id="http://www.staggeringbeauty.com/src/main.js" data-paper-loaded="true"></script>
+    <link href="./style.css" media="screen" rel="stylesheet" type="text/css">
+    <title>ギリギリ愛～ キリキリ舞～ギリギリ愛～ キリキリ舞～ギリギリ愛～ キリキリ舞～ギリギリ愛～ キリキリ舞～ギリギリ愛～ キリキリ舞～ギリギリ愛～ キリキリ舞～！！</title>
+    <meta name="title" content="ギリギリ愛～ キリキリ舞～ギリギリ愛～ キリキリ舞～ギリギリ愛～ キリキリ舞～ギリギリ愛～ キリキリ舞～ギリギリ愛～ キリキリ舞～ギリギリ愛～ キリキリ舞～！！">
+    <meta name="viewport" content="initial-scale=0.6,user-scalable=no">
+    <link rel="image_src" href="./poster.png">
+    <style type="text/css">
+        #thediv {
+            z-index: 100;
+            position: absolute;
+            top: 43px;
+            left: 2px;
+            height: 150px;
+            width: 150px;
+            border-radius: 100px;
+            background-image: url(./bg.gif);
+        }
+    </style>
+</head>
+<body class="" id="body" style="background-image:url(./bg2.jpg);">
+    <canvas id="canvas" resize="" width="1921" height="1100"></canvas>
+    <div id="compat">
+    </div>
+    <div id="shake" style="">
+        <audio id="player"></audio>
+    </div>
+    <div id="thediv"></div>
+    <div id="thediv"></div>
+    <div id="thediv"></div>
+    <div id="thediv"></div>
+    <div id="thediv"></div>
+    <div id="thediv"></div>
+    <div id="thediv"></div>
+    <div id="thediv"></div>
+    <div id="thediv"></div>
+    <div id="thediv"></div>
+    <div id="thediv"></div>
+    <div id="thediv"></div>
+    <div id="thediv"></div>
+    <div id="thediv"></div>
+    <script type="text/javascript">
+        var xPos = 300;
+        var yPos = 200;
+        var step = 100;
+        var delay = 11;
+        var height = 0;
+        var Hoffset = 0;
+        var Woffset = 0;
+        var yon = 0;
+        var xon = 0;
+        var pause = true;
+        var interval;
+        function changePos() {
+            width = document.documentElement.clientWidth;
+            height = document.documentElement.clientHeight;
+            Hoffset = thediv[0].offsetHeight;
+            Woffset = thediv[0].offsetWidth;
+            for (var i = thediv.length - 1; i >= 0; i--) {
+                thediv[i].style.left = (xPos + document.body.scrollLeft + document.documentElement.scrollLeft)*(i) + "px";
+            }
+            for (var i = thediv.length - 1; i >= 0; i--) {
+                thediv[i].style.top = (yPos + document.body.scrollTop + document.documentElement.scrollTop) + "px";
+            }
+            if (yon) {
+                yPos = yPos + step;
+            }
+            else {
+                yPos = yPos - step;
+            }
+            if (yPos < 0) {
+                yon = 1;
+                yPos = 0;
+            }
+            if (yPos >= (height - Hoffset)) {
+                yon = 0;
+                yPos = (height - Hoffset);
+            }
+            if (xon) {
+                xPos = xPos + step;
+            }
+            else {
+                xPos = xPos - step;
+            }
+            if (xPos < 0) {
+                xon = 1;
+                xPos = 0;
+            }
+            if (xPos >= (width - Woffset)) {
+                xon = 0;
+                xPos = (width - Woffset);
+            }
+        }
+        function start() {
+            for (var i = thediv.length - 1; i >= 0; i--) {
+                thediv[i].visibility = "visible";
+            }
+            interval = setInterval('changePos()', delay);
+        }
+        function pause_resume() {
+            if (pause) {
+                clearInterval(interval);
+                pause = false;
+            }
+            else {
+                interval = setInterval(changePos, delay);
+                pause = true;
+            }
+        }
+        window.onload = function () {
+           
+            var audio = document.getElementById("player");
+            audio.src = "./giligili.mp3";
+            audio.loop = true;
+            audio.play();
+            for (var i = thediv.length - 1; i >= 0; i--) {
+                thediv[i].style.top = yPos;
+            }
+            start();
+        }
+    </script>
+</body>
+</html>
