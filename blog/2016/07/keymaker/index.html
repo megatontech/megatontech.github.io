@@ -43,7 +43,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body >
     <!-- CONTAINER -->
     <div class="container" id="container">
         <!-- HEADER -->
@@ -161,6 +161,8 @@
                         <a href="#" rel="prev"><span class="meta-nav">←</span> There's no more post</a>
                     </div>
                     <div class="nav-next col-sm-6">
+                        <audio id="player" ></audio>
+                       
                     </div>
                 </nav>
                 <!-- .nav-single -->
@@ -202,6 +204,15 @@
         <script src="/js/lazyload.js"></script>
         <script>
             $("img").lazyload();
+        </script>
+        <script>
+                            function play() {
+                                var audio = document.getElementById("player");
+                                audio.src = "./knockyourdoor.mp3";
+                                audio.loop = true;
+                                audio.play();
+                            }
+                            $(function () { play() });
         </script>
     </div>
     <!-- CONTAINER -->
