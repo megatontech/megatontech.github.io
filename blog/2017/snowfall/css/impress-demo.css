@@ -941,7 +941,6 @@ img.mat2 {
     height: auto;
     display: block;
     padding: 10%;
-    background-image: url(img/cardboard.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     border: 8px solid #333;
@@ -957,7 +956,6 @@ img.mat3 {
     margin: 4rem auto;
     padding: 2%;
     background-color: #a67b5b;
-    background-image: url(img/cardboard.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border: 6px double #483c32;
