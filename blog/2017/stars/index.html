@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="zh-CN">
+
+<head>
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>stars</title>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script src="html5_3d_animation.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <canvas id="universe"> y(￣0 ￣)y　</canvas>
+    <img id="heart" src="heart.png" alt="" />
+</body>
+<script type="text/javascript">
+    $(function() {
+        $("#universe").html5_3d_animation({
+            window_width: $(window).width(),
+            window_height: $(window).height(),
+            window_background: '#574E4E',
+            star_count: '99',
+            star_depth: '100'
+        });
+    });
+</script>
+</body>
+
+</html>
