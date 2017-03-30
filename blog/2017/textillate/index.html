@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textillate.js</title>
+    <link href="assets/animate.css" rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+    <script src="assets/jquery-2.0.3.min.js"></script>
+    <script src="assets/jquery.fittext.js"></script>
+    <script src="assets/jquery.lettering.js"></script>
+    <script src="assets/jquery.textillate.js"></script>
+</head>
+
+<body>
+    <div class="decal"></div>
+    <div class="container fade in">
+        <div class="grid grid-pad">
+            <section class="col-1-1">
+                <h2>Playground</h2>
+                <div class="playground grid">
+                    <div class="col-1-1 viewport">
+                        <div class="tlt">
+                            <ul class="texts" style="display: none">
+                                <li data-id="wizard">Grumpy wizards make toxic brew for the evil Queen and Jack.</li>
+                                <li data-id="fox">The quick brown fox jumps over the lazy dog.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-1-1 controls" style="padding-right: 0">
+                        <form class="grid grid-pad">
+                            <div class="control col-1-2">
+                                <label>In Animation</label>
+                                <select data-key="effect" data-type="in"></select>
+                                <select data-key="type" data-type="in">
+                                  <option value="">sequence</option>
+                                  <option value="reverse">reverse</option>
+                                  <option value="sync">sync</option>
+                                  <option value="shuffle">shuffle</option>
+                                </select>
+                            </div>
+                            <div class="control col-1-2">
+                                <label>Out Animation</label>
+                                <select data-key="effect" data-type="out"></select>
+                                <select data-key="type" data-type="out">
+                                  <option value="">sequence</option>
+                                  <option value="reverse">reverse</option>
+                                  <option value="sync">sync</option>
+                                  <option selected="selected" value="shuffle">shuffle</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script>
+        var animateClasses = 'flash bounce shake tada swing wobble pulse flip flipInX flipOutX flipInY flipOutY fadeIn fadeInUp fadeInDown fadeInLeft fadeInRight fadeInUpBig fadeInDownBig fadeInLeftBig fadeInRightBig fadeOut fadeOutUp fadeOutDown fadeOutLeft fadeOutRight fadeOutUpBig fadeOutDownBig fadeOutLeftBig fadeOutRightBig bounceIn bounceInDown bounceInUp bounceInLeft bounceInRight bounceOut bounceOutDown bounceOutUp bounceOutLeft bounceOutRight rotateIn rotateInDownLeft rotateInDownRight rotateInUpLeft rotateInUpRight rotateOut rotateOutDownLeft rotateOutDownRight rotateOutUpLeft rotateOutUpRight hinge rollIn rollOut';
+        var $form = $('.playground form');
+        var $viewport = $('.playground .viewport');
+        var $tlt = $viewport.find('.tlt');
+
+        $(function() {
+            var log = function(msg) {
+                return function() {
+                    if (console) console.log(msg);
+                }
+            }
+
+            var getFormData = function() {
+                var data = {
+                    loop: true,
+                    in: {},
+                    out: {}
+                };
+
+                $form.find('[data-key="effect"]').each(function() {
+                    var $this = $(this),
+                        key = $this.data('key'),
+                        type = $this.data('type');
+
+                    data[type][key] = $this.val();
+                });
+
+                $form.find('[data-key="type"]').each(function() {
+                    var $this = $(this),
+                        key = $this.data('key'),
+                        type = $this.data('type'),
+                        val = $this.val();
+
+                    data[type].shuffle = (val === 'shuffle');
+                    data[type].reverse = (val === 'reverse');
+                    data[type].sync = (val === 'sync');
+                });
+
+                return data;
+            };
+
+            $.each(animateClasses.split(' '), function(i, value) {
+                var type = '[data-type]',
+                    option = '<option value="' + value + '">' + value + '</option>';
+
+                if (/Out/.test(value) || value === 'hinge') {
+                    type = '[data-type="out"]';
+                } else if (/In/.test(value)) {
+                    type = '[data-type="in"]';
+                }
+
+                if (type) {
+                    $form.find('[data-key="effect"]' + type).append(option);
+                }
+            });
+
+            $form.on('change', function() {
+                var obj = getFormData();
+                $tlt.textillate(obj);
+            }).trigger('change');
+
+        });
+    </script>
+</body>
+
+</html>
