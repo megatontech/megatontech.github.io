@@ -35,6 +35,9 @@
                                 日期
                             </th>
                             <th>
+                                文件
+                            </th>
+                            <th>
                                 大小
                             </th>
                             <th>
@@ -57,7 +60,7 @@
         </div>
     </div>
     <script>
-        
+
         function setCurrDate() {
             $(".currentDate").html(moment().format('YYYY MMMM Do a hh:mm:ss '));
         }
@@ -94,8 +97,9 @@
                 var tempDate = moment(count, "DD").format('YYYY-MM-DD');
                 var status = "Empty";
                 var url = tempDate + "/sql.db";
+                var fileurl = "https://megatontech.github.io/hr/" + tempDate + "/sql.db";
                 if (isEffective(url)) { status = "已上传"; } else { status = "未检测到数据"; }
-                tr += "<tr><td>" + (count) + "</td><td>" + tempDate + "</td><td>" + size + "</td><td>" + status + "</td></tr>";
+                tr += "<tr><td>" + (count) + "</td><td>" + tempDate + "</td><td>" + fileurl + "</td><td>" + size + "</td><td>" + status + "</td></tr>";
             }
             var otr = $(tr);
             otr.appendTo(tbody);
