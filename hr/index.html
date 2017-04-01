@@ -64,7 +64,7 @@
         var int = setInterval("setCurrDate()", 1000);
         $(function () {
             function isEffective(url) {
-                console.log("url:" + url);
+                size = "0";
                 try {
                     var xmlhttp;
                     if (window.XMLHttpRequest) {
@@ -77,6 +77,7 @@
                     if (xmlhttp.status == "404") {
                         return false;
                     } else {
+
                         size = xmlhttp.getResponseHeader("Content-Length");
                         return true;
                     }
@@ -85,12 +86,10 @@
                     return false;
                 }
             }
-
             var daysCount = moment().daysInMonth();
             var tbody = $(".tabletbody");
             var tr = "";
             var size = "0";
-
             for (var count = 1; count <= daysCount; count++) {
                 var tempDate = moment(count, "DD").format('YYYY-MM-DD');
                 var status = "Empty";
