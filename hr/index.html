@@ -91,7 +91,7 @@
                 var tempDate = moment(count, "DD").format('YYYY-MM-DD');
                 var size = "0KB";
                 var status = "Empty";
-                var url = "megatontech.github.io/hr/" + tempDate + "/sql.db";
+                var url = tempDate + "/sql.db";
                 if (isEffective(url)) { status = "Exist"; } else { status = "Empty"; }
                 tr += "<tr><td>" + (count) + "</td><td>" + tempDate + "</td><td>" + size + "</td><td>" + status + "</td></tr>";
             }
