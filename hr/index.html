@@ -57,42 +57,45 @@
         </div>
     </div>
     <script>
-        function isEffective(url) {
-            console.log("url:" + url);
-            try {
-                var xmlhttp;
-                if (window.XMLHttpRequest) {
-                    xmlhttp = new XMLHttpRequest();
-                } else {
-                    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-                }
-                xmlhttp.open("get", url, false);
-                xmlhttp.send();
-                if (xmlhttp.status == "404") {
-                    return false;
-                } else {
-                    console.log("xmlhttp:" + xmlhttp);
-                    return true;
-                }
-            } catch (e) {
-                console.log("e:" + e);
-                return false;
-            }
-        }
+        
         function setCurrDate() {
             $(".currentDate").html(moment().format('YYYY MMMM Do a hh:mm:ss '));
         }
         var int = setInterval("setCurrDate()", 1000);
         $(function () {
+            function isEffective(url) {
+                console.log("url:" + url);
+                try {
+                    var xmlhttp;
+                    if (window.XMLHttpRequest) {
+                        xmlhttp = new XMLHttpRequest();
+                    } else {
+                        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    xmlhttp.open("get", url, false);
+                    xmlhttp.send();
+                    if (xmlhttp.status == "404") {
+                        return false;
+                    } else {
+                        console.log("xmlhttp:" + JSON.stringify(xmlhttp));
+                        size = xmlhttp.Content - Length;
+                        return true;
+                    }
+                } catch (e) {
+                    console.log("e:" + e);
+                    return false;
+                }
+            }
+
             var daysCount = moment().daysInMonth();
             var tbody = $(".tabletbody");
             var tr = "";
             for (var count = 1; count <= daysCount; count++) {
                 var tempDate = moment(count, "DD").format('YYYY-MM-DD');
-                var size = "0KB";
+                var size = "0";
                 var status = "Empty";
                 var url = tempDate + "/sql.db";
-                if (isEffective(url)) { status = "Exist"; } else { status = "Empty"; }
+                if (isEffective(url)) { status = "已上传"; } else { status = "未检测到数据"; }
                 tr += "<tr><td>" + (count) + "</td><td>" + tempDate + "</td><td>" + size + "</td><td>" + status + "</td></tr>";
             }
             var otr = $(tr);
