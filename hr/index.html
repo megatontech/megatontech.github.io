@@ -71,7 +71,7 @@
                 if (xmlhttp.status == "404") {
                     return false;
                 } else {
-                    console.log("xmlhttp:"+xmlhttp);
+                    console.log("xmlhttp:" + xmlhttp);
                     return true;
                 }
             } catch (e) {
@@ -88,10 +88,10 @@
             var tbody = $(".tabletbody");
             var tr = "";
             for (var count = 1; count <= daysCount; count++) {
-                var tempDate = moment(count, "DD").format('YYYY-MM-DD ');
+                var tempDate = moment(count, "DD").format('YYYY-MM-DD');
                 var size = "0KB";
                 var status = "Empty";
-                var url = "megatontech.github.io/hr/" + tempDate+"/sql.db";
+                var url = "megatontech.github.io/hr/" + tempDate + "/sql.db";
                 if (isEffective(url)) { status = "Exist"; } else { status = "Empty"; }
                 tr += "<tr><td>" + (count) + "</td><td>" + tempDate + "</td><td>" + size + "</td><td>" + status + "</td></tr>";
             }
