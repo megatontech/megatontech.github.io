@@ -60,12 +60,11 @@
         </div>
     </div>
     <script>
-
         function setCurrDate() {
             $(".currentDate").html(moment().format('YYYY MMMM Do a hh:mm:ss '));
         }
         var int = setInterval("setCurrDate()", 1000);
-        $(function () {
+        $(function() {
             function isEffective(url) {
                 size = "0";
                 try {
@@ -98,7 +97,11 @@
                 var status = "Empty";
                 var url = tempDate + "/sql.db";
                 var fileurl = "https://megatontech.github.io/hr/" + tempDate + "/sql.db";
-                if (isEffective(url)) { status = "已上传"; } else { status = "未检测到数据"; }
+                if (isEffective(url)) {
+                    status = "已上传";
+                } else {
+                    status = "未检测到数据";
+                }
                 tr += "<tr><td>" + (count) + "</td><td>" + tempDate + "</td><td>" + fileurl + "</td><td>" + size + "</td><td>" + status + "</td></tr>";
             }
             var otr = $(tr);
@@ -106,4 +109,5 @@
         });
     </script>
 </body>
+
 </html>
