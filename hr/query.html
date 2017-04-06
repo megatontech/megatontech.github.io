@@ -106,10 +106,10 @@
                         tr += "<tr><td>" + (count) + "</td><td>" + contents[0].values[count][0] + "</td><td>" + contents[0].values[
                             count][1] + "</td><td>" + contents[0].values[count][2] + "</td></tr>";
                     }
+                    var otr = $(tr);
+                    otr.appendTo(tbody);
                 };
                 xhr.send();
-                var otr = $(tr);
-                otr.appendTo(tbody);
             } catch (e) {
                 console.log("e:" + e);
             }
