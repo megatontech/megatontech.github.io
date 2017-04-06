@@ -60,7 +60,7 @@
         function setCurrDate() {
             $(".currentDate").html(moment().format('YYYY MMMM Do a hh:mm:ss '));
         }
-        var tempDate = moment(count, "DD").format('YYYY-MM-DD');
+        var tempDate = moment().format('YYYY-MM-DD');
         var int = setInterval("setCurrDate()", 1000);
         if (isEffective(url)) {
             $(".daystatus").html("已上传");
