@@ -103,7 +103,7 @@
                     // contents is now [{columns:['col1','col2',...], values:[[first row], [second row], ...]}]
                     $(".daystatus").html("已上传" + contents[0].values.length + "条");
                     for (var count = 0; count < contents[0].values.length; count++) {
-                        tr += "<tr><td>" + (count) + "</td><td>" + contents[0].values[count][0] + "</td><td>" + contents[0].values[
+                        tr += "<tr><td>" + (count + 1) + "</td><td>" + contents[0].values[count][0] + "</td><td>" + contents[0].values[
                             count][1] + "</td><td>" + contents[0].values[count][2] + "</td></tr>";
                     }
                     var otr = $(tr);
