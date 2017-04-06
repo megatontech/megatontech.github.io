@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <title>每日数据</title>
+    <discription>每日数据</discription>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcss.com/moment.js/2.6.0/moment.min.js"></script>
+    <script src="https://cdn.bootcss.com/moment.js/2.6.0/lang/zh-cn.min.js"></script>
+    <script src="https://megatontech.github.io.git/js/sql.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap-reboot.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span12">
+                <h3 class="text-center text-info">
+                    每日数据总览
+                </h3>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+                <table class="table table-hover table-bordered">
+                    <thead>
+                        <tr>
+                            <th>
+                                编号
+                            </th>
+                            <th>
+                                记录号
+                            </th>
+                            <th>
+                                状态
+                            </th>
+                            <th>
+                                日期
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="tabletbody"></tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+                <blockquote class="pull-right">
+                    <p>
+                        所有数据库都为SQLITE存储格式.当前<b class="currentDate"></b>
+                    </p> <small>今天 <cite class="daystatus"></cite></small>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+    <script>
+        function setCurrDate() {
+            $(".currentDate").html(moment().format('YYYY MMMM Do a hh:mm:ss '));
+        }
+        var tempDate = moment(count, "DD").format('YYYY-MM-DD');
+        var int = setInterval("setCurrDate()", 1000);
+        if (isEffective(url)) {
+            $(".daystatus").html("已上传");
+
+            try {
+                var tbody = $(".tabletbody");
+                var tr = "";
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', 'https://megatontech.github.io/hr/' + tempDate + '/sql.db', true);
+                xhr.responseType = 'arraybuffer';
+                xhr.onload = function(e) {
+                    var uInt8Array = new Uint8Array(this.response);
+                    var db = new SQL.Database(uInt8Array);
+                    var contents = db.exec("SELECT * FROM HR");
+                    // contents is now [{columns:['col1','col2',...], values:[[first row], [second row], ...]}]
+                    for (var count = 0; count < contents.length; count++) {
+                        tr += "<tr><td>" + (count) + "</td><td>" + contents[count][0] + "</td><td>" + contents[count][1] + "</td><td>" + contents[count][2] + "</td></tr>";
+                    }
+                };
+                xhr.send();
+                var otr = $(tr);
+                otr.appendTo(tbody);
+            } catch (e) {
+                console.log("e:" + e);
+                return false;
+            }
+        } else {
+            $(".daystatus").html("未检测到数据");
+        }
+    </script>
+</body>
+
+</html>
