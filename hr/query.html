@@ -77,7 +77,8 @@
                     var contents = db.exec("SELECT * FROM HR");
                     // contents is now [{columns:['col1','col2',...], values:[[first row], [second row], ...]}]
                     for (var count = 0; count < contents.length; count++) {
-                        tr += "<tr><td>" + (count) + "</td><td>" + contents[count][0] + "</td><td>" + contents[count][1] + "</td><td>" + contents[count][2] + "</td></tr>";
+                        tr += "<tr><td>" + (count) + "</td><td>" + contents[count][0] + "</td><td>" + contents[
+                            count][1] + "</td><td>" + contents[count][2] + "</td></tr>";
                     }
                 };
                 xhr.send();
@@ -85,7 +86,6 @@
                 otr.appendTo(tbody);
             } catch (e) {
                 console.log("e:" + e);
-                return false;
             }
         } else {
             $(".daystatus").html("未检测到数据");
