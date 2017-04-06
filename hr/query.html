@@ -19,7 +19,7 @@
         <div class="row-fluid">
             <div class="span12">
                 <h3 class="text-center text-info">
-                    每日数据总览
+                    每日数据
                 </h3>
             </div>
         </div>
@@ -50,7 +50,7 @@
             <div class="span12">
                 <blockquote class="pull-right">
                     <p>
-                        所有数据库都为SQLITE存储格式.当前<b class="currentDate"></b>
+                        数据都为SQLITE存储格式.当前<b class="currentDate"></b>
                     </p> <small>今天 <cite class="daystatus"></cite></small>
                 </blockquote>
             </div>
@@ -88,8 +88,6 @@
         var int = setInterval("setCurrDate()", 1000);
         var url = tempDate + "/sql.db";
         if (isEffective(url)) {
-            $(".daystatus").html("已上传");
-
             try {
                 var tbody = $(".tabletbody");
                 var tr = "";
@@ -114,7 +112,7 @@
                 console.log("e:" + e);
             }
         } else {
-            $(".daystatus").html("未检测到数据");
+            $(".daystatus").html("未成功上传数据");
         }
     </script>
 </body>
