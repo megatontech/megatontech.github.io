@@ -57,11 +57,36 @@
         </div>
     </div>
     <script>
+        function isEffective(url) {
+            size = "0";
+            try {
+                var xmlhttp;
+                if (window.XMLHttpRequest) {
+                    xmlhttp = new XMLHttpRequest();
+                } else {
+                    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                xmlhttp.open("get", url, false);
+                xmlhttp.send();
+                if (xmlhttp.status == "404") {
+                    return false;
+                } else {
+
+                    size = xmlhttp.getResponseHeader("Content-Length");
+                    return true;
+                }
+            } catch (e) {
+                console.log("e:" + e);
+                return false;
+            }
+        }
+
         function setCurrDate() {
             $(".currentDate").html(moment().format('YYYY MMMM Do a hh:mm:ss '));
         }
         var tempDate = moment().format('YYYY-MM-DD');
         var int = setInterval("setCurrDate()", 1000);
+        var url = tempDate + "/sql.db";
         if (isEffective(url)) {
             $(".daystatus").html("已上传");
 
