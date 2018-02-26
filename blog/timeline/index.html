@@ -15,7 +15,6 @@
         <div class="wrapper">
             <div class="header">
                 <div class="head">
-
                     <div class="nav_box">
                         <ul class="nav_list" id="nav_list">
                             <li>
@@ -35,27 +34,37 @@
                         <ul>
                             <li class="right_li">
                                 <span class="ic_events png"></span>
-                                <p class="txt_events"><strong>事件1</strong></p>
+                                <p class="txt_events"><strong>2016-10-07</strong></p>
                             </li>
                             <li class="left_li">
                                 <span class="ic_events"><i class="png"></i></span>
-                                <p class="txt_events"><strong>事件2</strong></p>
+                                <p class="txt_events"><strong>2016年12月10日~2016年12月11日</strong></p>
+                                <p>上海 →天津 天津 →上海</p>
                             </li>
                             <li class="right_li">
                                 <span class="ic_events png"></span>
-                                <p class="txt_events"><strong>事件3</strong></p>
+                                <p class="txt_events"><strong>2017年1月21日</strong></p>
+                                <p>上海 →天津 天津 →上海</p>
                             </li>
                             <li class="left_li">
                                 <span class="ic_events"><i class="png"></i></span>
-                                <p class="txt_events"><strong>事件4</strong></p>
+                                <p class="txt_events"><strong>2017-03-21～2017-04-22</strong></p>
                             </li>
                             <li class="right_li">
                                 <span class="ic_events png"></span>
-                                <p class="txt_events"><strong>事件5</strong></p>
+                                <p class="txt_events"><strong>2017-10-03 09:20</strong></p>
                             </li>
                             <li class="left_li">
                                 <span class="ic_events"><i class="png"></i></span>
-                                <p class="txt_events"><strong>事件6</strong></p>
+                                <p class="txt_events"><strong>2017-11-25 18:05</strong></p>
+                            </li>
+                            <li class="right_li">
+                                <span class="ic_events png"></span>
+                                <p class="txt_events"><strong>2018-02-16 11:35</strong></p>
+                            </li>
+                            <li class="left_li">
+                                <span class="ic_events"><i class="png"></i></span>
+                                <p class="txt_events"><strong>待续</strong></p>
                             </li>
                         </ul>
                         <span class="ic_arr png"></span>
@@ -110,9 +119,6 @@
 
         }
         setInterval(function() {
-            moment.locale('zh-cn', {
-                relativeTime: Object
-            });
             var specialday = moment("2016-10-07");
             var now = moment();
             var countdowndiv = document.getElementById('countdown');
