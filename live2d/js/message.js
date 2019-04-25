@@ -22,34 +22,34 @@ String.prototype.renderTip = function (context) {
 
 var re = /x/;
 console.log(re);
-re.toString = function() {
+re.toString = function () {
     showMessage('里面～空荡荡的', 5000);
     return '';
 };
 
-$(document).on('copy', function (){
+$(document).on('copy', function () {
     showMessage('拿走拿走别客气……', 5000);
 });
 
-function initTips(){
+function initTips() {
     $.ajax({
         cache: true,
         url: `${message_Path}message.json`,
         dataType: "json",
-        success: function (result){
-            $.each(result.mouseover, function (index, tips){
-                $(tips.selector).mouseover(function (){
+        success: function (result) {
+            $.each(result.mouseover, function (index, tips) {
+                $(tips.selector).mouseover(function () {
                     var text = tips.text;
-                    if(Array.isArray(tips.text)) text = tips.text[Math.floor(Math.random() * tips.text.length + 1)-1];
-                    text = text.renderTip({text: $(this).text()});
+                    if (Array.isArray(tips.text)) text = tips.text[Math.floor(Math.random() * tips.text.length + 1) - 1];
+                    text = text.renderTip({ text: $(this).text() });
                     showMessage(text, 3000);
                 });
             });
-            $.each(result.click, function (index, tips){
-                $(tips.selector).click(function (){
+            $.each(result.click, function (index, tips) {
+                $(tips.selector).click(function () {
                     var text = tips.text;
-                    if(Array.isArray(tips.text)) text = tips.text[Math.floor(Math.random() * tips.text.length + 1)-1];
-                    text = text.renderTip({text: $(this).text()});
+                    if (Array.isArray(tips.text)) text = tips.text[Math.floor(Math.random() * tips.text.length + 1) - 1];
+                    text = text.renderTip({ text: $(this).text() });
                     showMessage(text, 3000);
                 });
             });
@@ -58,21 +58,21 @@ function initTips(){
 }
 initTips();
 
-(function (){
+(function () {
     var text;
-    if(document.referrer !== ''){
+    if (document.referrer !== '') {
         var referrer = document.createElement('a');
         referrer.href = document.referrer;
         text = '嗨！来自 <span style="color:#0099cc;">' + referrer.hostname + '</span> 的朋友！';
         var domain = referrer.hostname.split('.')[1];
         if (domain == 'baidu') {
-            text = '嗨！ 来自 百度搜索 的朋友！<br>欢迎访问<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
-        }else if (domain == 'so') {
-            text = '嗨！ 来自 360搜索 的朋友！<br>欢迎访问<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
-        }else if (domain == 'google') {
-            text = '嗨！ 来自 谷歌搜索 的朋友！<br>欢迎访问<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
+            text = '嗨！ 来自 度娘 的朋友！<br>欢迎访问<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
+        } else if (domain == 'so') {
+            text = '嗨！ 来自 360全家桶 的朋友！<br>欢迎访问<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
+        } else if (domain == 'google') {
+            text = '嗨！ 来自 谷歌翻墙 的朋友！<br>欢迎访问<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
         }
-    }else {
+    } else {
         if (window.location.href == `${home_Path}`) { //主页URL判断，需要斜杠结尾
             var now = (new Date()).getHours();
             if (now > 23 || now <= 5) {
@@ -94,23 +94,23 @@ initTips();
             } else {
                 text = '嗨~ 你瞅啥，再瞅削你！';
             }
-        }else {
+        } else {
             text = '看了也白看，真的～<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
         }
     }
     showMessage(text, 12000);
 })();
 
-window.setInterval(showHitokoto,30000);
+window.setInterval(showHitokoto, 30000);
 
-function showHitokoto(){
-    $.getJSON('https://v1.hitokoto.cn/',function(result){
+function showHitokoto() {
+    $.getJSON('https://v1.hitokoto.cn/', function (result) {
         showMessage(result.hitokoto, 5000);
     });
 }
 
-function showMessage(text, timeout){
-    if(Array.isArray(text)) text = text[Math.floor(Math.random() * text.length + 1)-1];
+function showMessage(text, timeout) {
+    if (Array.isArray(text)) text = text[Math.floor(Math.random() * text.length + 1) - 1];
     //console.log('showMessage', text);
     $('.message').stop();
     $('.message').html(text).fadeTo(200, 1);
@@ -118,13 +118,13 @@ function showMessage(text, timeout){
     hideMessage(timeout);
 }
 
-function hideMessage(timeout){
-    $('.message').stop().css('opacity',1);
+function hideMessage(timeout) {
+    $('.message').stop().css('opacity', 1);
     if (timeout === null) timeout = 5000;
     $('.message').delay(timeout).fadeTo(200, 0);
 }
 
-function initLive2d (){
+function initLive2d() {
     $('.hide-button').fadeOut(0).on('click', () => {
         $('#landlord').css('display', 'none')
     })
@@ -134,4 +134,4 @@ function initLive2d (){
         $('.hide-button').fadeOut(600)
     })
 }
-initLive2d ();
+initLive2d();
