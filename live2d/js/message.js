@@ -115,7 +115,7 @@ u.lang = 'zh-CN';
 u.rate = 1;
 u.volume = 1;
 function readMessage(text){
-    u.text = textToSpeak;
+    u.text = text;
     synth.speak(u)
 }
 function showMessage(text, timeout) {
