@@ -43,6 +43,7 @@ function initTips() {
                     if (Array.isArray(tips.text)) text = tips.text[Math.floor(Math.random() * tips.text.length + 1) - 1];
                     text = text.renderTip({ text: $(this).text() });
                     showMessage(text, 3000);
+                    readMessage(text);
                 });
             });
             $.each(result.click, function (index, tips) {
@@ -51,6 +52,7 @@ function initTips() {
                     if (Array.isArray(tips.text)) text = tips.text[Math.floor(Math.random() * tips.text.length + 1) - 1];
                     text = text.renderTip({ text: $(this).text() });
                     showMessage(text, 3000);
+                    readMessage(text);
                 });
             });
         }
@@ -101,7 +103,7 @@ initTips();
     showMessage(text, 12000);
 })();
 
-window.setInterval(showHitokoto, 30000);
+window.setInterval(showHitokoto, 120000);
 
 function showHitokoto() {
     $.getJSON('https://v1.hitokoto.cn/', function (result) {
