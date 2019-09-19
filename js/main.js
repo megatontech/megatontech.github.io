@@ -502,7 +502,7 @@ var $container, $blog_container;
         });
 
         columnWidth = Math.floor(containerW / columns);
-        $container.isotope('reLayout').isotope('option', { masonry: { columnWidth: columnWidth } });
+        //$container.isotope('reLayout').isotope('option', { masonry: { columnWidth: columnWidth } });
     }
     // ------------------------------
 
@@ -691,5 +691,5 @@ var $container, $blog_container;
         NProgress.done();
     }
     // ------------------------------
-    $("img").lazyload();
+    //$("img").lazyload();
 })(jQuery);
