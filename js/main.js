@@ -270,22 +270,22 @@ var $container, $blog_container;
         // ------------------------------
         // BLOG MASONRY LAYOUT
         // cache container
-        $blog_container = $('.latest-posts');
-        if ($blog_container.length) {
-            //$blog_container.imagesLoaded(function() {
-            // initialize isotope
-            $blog_container.isotope({
-                itemSelector: '.hentry',
-                layoutMode: $blog_container.attr('data-layout')
-            });
+        //$blog_container = $('.latest-posts');
+        //if ($blog_container.length) {
+        //    //$blog_container.imagesLoaded(function() {
+        //    // initialize isotope
+        //    $blog_container.isotope({
+        //        itemSelector: '.hentry',
+        //        layoutMode: $blog_container.attr('data-layout')
+        //    });
 
-            setBlogMasonry();
-            $(window).resize(function () {
-                setTimeout(function () { setBlogMasonry(); }, 600);
-            });
+        //    setBlogMasonry();
+        //    $(window).resize(function () {
+        //        setTimeout(function () { setBlogMasonry(); }, 600);
+        //    });
 
-            //});
-        }
+        //    //});
+        //}
         // ------------------------------
     };
     // WINDOW ONLOAD
@@ -544,7 +544,7 @@ var $container, $blog_container;
         });
 
         columnWidth = Math.floor(containerW / columns);
-        $blog_container.isotope('reLayout').isotope('option', { masonry: { columnWidth: columnWidth } });
+        //$blog_container.isotope('reLayout').isotope('option', { masonry: { columnWidth: columnWidth } });
     }
     // ------------------------------
 
