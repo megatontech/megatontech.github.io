@@ -5,14 +5,21 @@
 	Author: pixelwars
 */
 
+
+
 /* global variables */
 var classicLayout = false;
 var portfolioKeyword;
 var $container, $blog_container;
 
+
 (function ($) {
+
+
     /* DOCUMENT LOAD */
     $(function () {
+
+
         // ------------------------------
         // start loader
         NProgress.start();
@@ -22,7 +29,9 @@ var $container, $blog_container;
         // Rotating Words
         var rotate_words = $('.rotate-words');
         if (rotate_words.length) {
+
             if (Modernizr.csstransforms) {
+
                 rotate_words.each(function (index, element) {
                     $(element).find('span').eq(0).addClass('active');
                     setInterval(function () {
@@ -31,8 +40,10 @@ var $container, $blog_container;
                         $(element).find('span').eq(next_word_index).addClass('rotate-in active').removeClass('rotate-out');
                     }, 3000);
                 });
+
             }
             else {
+
                 rotate_words.each(function (index, element) {
                     $(element).find('span').eq(0).addClass('active').show();
                     setInterval(function () {
@@ -44,6 +55,7 @@ var $container, $blog_container;
             }
         }
         // ------------------------------
+
 
         // ------------------------------
 		/* LATEST TWEETS WIDGET
@@ -75,6 +87,8 @@ var $container, $blog_container;
         }
         // ------------------------------
 
+
+
         // ------------------------------
         // SEARCH
         $('.search-link').click(function () {
@@ -83,9 +97,12 @@ var $container, $blog_container;
         });
         // ------------------------------
 
+
+
         // ------------------------------
         // ONE PAGE LAYOUT FUNCTIONS
         if ($('html').hasClass('one-page-layout')) {
+
             // ------------------------------
             // PORTFOLIO DETAILS
             // if url contains a portfolio detail url
@@ -93,6 +110,7 @@ var $container, $blog_container;
             initialize();
             var detailUrl = giveDetailUrl();
             // ------------------------------
+
 
             // ------------------------------
             // LAYOUT DETECT
@@ -117,6 +135,7 @@ var $container, $blog_container;
             $.initTripleLayout();
             // ------------------------------
 
+
             // FULL BROWSER BACK BUTTON SUPPORT
             var prevUrl = -1;
             $.address.change(function () {
@@ -137,15 +156,20 @@ var $container, $blog_container;
         }
         // ------------------------------
 
+
+
         // ------------------------------
         // SETUP PLUGINS
         setup();
         // ------------------------------
 
+
+
         // ------------------------------
         // PORTFOLIO DETAILS
         // Show details
-        $(".one-page-layout a.ajax").on('click', function () {
+        $(".one-page-layout a.ajax").live('click', function () {
+
             var returnVal;
             var url = $(this).attr('href');
             var baseUrl = $.address.baseURL();
@@ -160,8 +184,11 @@ var $container, $blog_container;
             $.address.path(portfolioKeyword + '/' + detailUrl);
 
             return false;
+
         });
         // ------------------------------
+
+
 
         // ------------------------------
         // FORM VALIDATION
@@ -184,10 +211,13 @@ var $container, $blog_container;
         }
         // ------------------------------
 
+
         // ------------------------------
         // FILL SKILL BARS
         fillBars();
         // ------------------------------
+
+
 
         // ------------------------------
         /* TOOLTIPS */
@@ -199,8 +229,11 @@ var $container, $blog_container;
                 animation: "grow",
                 delay: 50
             });
+
         });
         // ------------------------------
+
+
 
         // ------------------------------
         // GOOGLE MAP
@@ -224,77 +257,92 @@ var $container, $blog_container;
                     map: map
                 });
             }
+
         }
         //google.maps.event.addDomListener(window, 'load', initializeMap);
         // ------------------------------
+
+
     });
     // DOCUMENT READY
 
+
+
     // WINDOW ONLOAD
     window.onload = function () {
+
         NProgress.done();
 
-        //initReadMore();
+
+        initReadMore();
 
         // ------------------------------
         // PORTFOLIO FILTERING - ISOTOPE
-        //// cache container
-        //$container = $('.Repository-items');
-        //if ($container.length) {
-        //    //$container.imagesLoaded(function() {
-        //    // initialize isotope
-        //    $container.isotope({
-        //        itemSelector: '.hentry',
-        //        layoutMode: $container.attr('data-layout')
-        //    });
+        // cache container
+        $container = $('.Repository-items');
+        if ($container.length) {
+            //$container.imagesLoaded(function() {
 
-        //    setMasonry();
-        //    $(window).resize(function () {
-        //        setMasonry();
-        //        setTimeout(function () { setMasonry(); }, 400);
-        //    });
+            // initialize isotope
+            $container.isotope({
+                itemSelector: '.hentry',
+                layoutMode: $container.attr('data-layout')
+            });
 
-        //    // filter items when filter link is clicked
-        //    $('#filters a').click(function () {
-        //        var selector = $(this).attr('data-filter');
-        //        setMasonry();
-        //        $container.isotope({ filter: selector });
-        //        $(this).parent().addClass('current').siblings().removeClass('current');
-        //        return false;
-        //    });
+            setMasonry();
+            $(window).resize(function () {
+                setMasonry();
+                setTimeout(function () { setMasonry(); }, 400);
+            });
 
-        //    //});
-        //}
+            // filter items when filter link is clicked
+            $('#filters a').click(function () {
+                var selector = $(this).attr('data-filter');
+                setMasonry();
+                $container.isotope({ filter: selector });
+                $(this).parent().addClass('current').siblings().removeClass('current');
+                return false;
+            });
+
+            //});
+        }
         // ------------------------------
+
+
 
         // ------------------------------
         // BLOG MASONRY LAYOUT
         // cache container
-        //$blog_container = $('.latest-posts');
-        //if ($blog_container.length) {
-        //    //$blog_container.imagesLoaded(function() {
-        //    // initialize isotope
-        //    $blog_container.isotope({
-        //        itemSelector: '.hentry',
-        //        layoutMode: $blog_container.attr('data-layout')
-        //    });
+        $blog_container = $('.latest-posts');
+        if ($blog_container.length) {
+            //$blog_container.imagesLoaded(function() {
 
-        //    setBlogMasonry();
-        //    $(window).resize(function () {
-        //        setTimeout(function () { setBlogMasonry(); }, 600);
-        //    });
+            // initialize isotope
+            $blog_container.isotope({
+                itemSelector: '.hentry',
+                layoutMode: $blog_container.attr('data-layout')
+            });
 
-        //    //});
-        //}
+            setBlogMasonry();
+            $(window).resize(function () {
+                setTimeout(function () { setBlogMasonry(); }, 600);
+            });
+
+            //});
+        }
         // ------------------------------
+
     };
     // WINDOW ONLOAD
+
+
 
     // ------------------------------
     // ------------------------------
     // FUNCTIONS
     // ------------------------------
     // ------------------------------
+
 
     // ------------------------------
     // INITIALIZE
@@ -305,6 +353,7 @@ var $container, $blog_container;
     }
     // ------------------------------
 
+
     // ------------------------------
     // SETUP : plugins
     function setup() {
@@ -313,12 +362,16 @@ var $container, $blog_container;
         setupLigtbox();
         // ------------------------------
 
+
+
         // ------------------------------
         // CODE PRETTIFY
         if ($('.prettyprint').length) {
             window.prettyPrint && prettyPrint();
         }
         // ------------------------------
+
+
 
         // ------------------------------
         // TABS
@@ -340,6 +393,7 @@ var $container, $blog_container;
         });
         // ------------------------------
 
+
         // ------------------------------
         // TOGGLES
         var toggleSpeed = 300;
@@ -350,6 +404,7 @@ var $container, $blog_container;
                 $(this).removeClass('active');
                 $(this).next('.toggle-content').stop(true, true).slideUp(toggleSpeed);
             } else {
+
                 $(this).addClass('active');
                 $(this).next('.toggle-content').stop(true, true).slideDown(toggleSpeed);
 
@@ -358,10 +413,13 @@ var $container, $blog_container;
                     $(this).parent().siblings().find('h4').removeClass('active');
                     $(this).parent().siblings().find('.toggle-content').stop(true, true).slideUp(toggleSpeed);
                 }
+
             }
             return false;
         });
         // ------------------------------
+
+
 
         // ------------------------------
         // RESPONSIVE VIDEOS
@@ -369,6 +427,8 @@ var $container, $blog_container;
             $(".media-wrap, .portfolio-single").fitVids();
         }
         // ------------------------------
+
+
 
         // ------------------------------
         // UNIFORM
@@ -380,6 +440,7 @@ var $container, $blog_container;
             $('html').addClass('android');
         }
         if (!isWindowsPhone) {
+
             // ------------------------------
             // remove click delay on touch devices
             FastClick.attach(document.body);
@@ -387,14 +448,19 @@ var $container, $blog_container;
         }
         // ------------------------------
 
+
+
         // ------------------------------
         /* FLEX SLIDER */
         // cache container
         var $flexslider = $('.flexslider');
         if ($flexslider.length) {
+
             $flexslider.each(function () {
+
                 //wait for images
                 $(this).imagesLoaded(function () {
+
                     //remove loading
                     $(this).find('.loading').remove();
 
@@ -422,10 +488,13 @@ var $container, $blog_container;
                             });
                         }
                     });
+
                 });
+
             });
         }
         // ------------------------------
+
 
         // ------------------------------
         /* MEDIAELEMENT.JS - self hosted html5 video and audio player */
@@ -436,9 +505,12 @@ var $container, $blog_container;
     }
     // ------------------------------
 
+
+
     // ------------------------------
     // CHANGE PAGE
     function setActivePage() {
+
         $('.page').removeClass('active').hide();
         var path = $.address.path();
         path = path.slice(1, path.length);
@@ -461,12 +533,15 @@ var $container, $blog_container;
         }
 
         $("body").scrollTop(0);
+
     }
     // ------------------------------
+
 
     // ------------------------------
     // PORTFOLIO MASONRY LAYOUT : change the number of masonry columns based on the current container's width
     function setMasonry() {
+
         var itemPerRow = 4;
         var containerW = $container.width();
         var items = $container.children('.hentry');
@@ -486,11 +561,14 @@ var $container, $blog_container;
         }];
 
         for (var i = 0, len = viewports.length; i < len; ++i) {
+
             var viewport = viewports[i];
 
             if (containerW > viewport.width) {
+
                 columns = viewport.columns;
                 break;
+
             }
         }
 
@@ -502,13 +580,19 @@ var $container, $blog_container;
         });
 
         columnWidth = Math.floor(containerW / columns);
-        //$container.isotope('reLayout').isotope('option', { masonry: { columnWidth: columnWidth } });
+        $container.isotope('reLayout').isotope('option', { masonry: { columnWidth: columnWidth } });
+
     }
     // ------------------------------
+
+
+
+
 
     // ------------------------------
     // BLOG MASONRY LAYOUT : change the number of masonry columns based on the current container's width
     function setBlogMasonry() {
+
         var itemPerRow = 4;
         var containerW = $blog_container.width();
         var items = $blog_container.children('.hentry');
@@ -528,11 +612,14 @@ var $container, $blog_container;
         }];
 
         for (var i = 0, len = viewports.length; i < len; ++i) {
+
             var viewport = viewports[i];
 
             if (containerW > viewport.width) {
+
                 columns = viewport.columns;
                 break;
+
             }
         }
 
@@ -544,9 +631,12 @@ var $container, $blog_container;
         });
 
         columnWidth = Math.floor(containerW / columns);
-        //$blog_container.isotope('reLayout').isotope('option', { masonry: { columnWidth: columnWidth } });
+        $blog_container.isotope('reLayout').isotope('option', { masonry: { columnWidth: columnWidth } });
+
     }
     // ------------------------------
+
+
 
     // ------------------------------
     // FILL PROGRESS BARS
@@ -558,9 +648,12 @@ var $container, $blog_container;
     }
     // ------------------------------
 
+
+
     // ------------------------------
     // LIGHTBOX
     function setupLigtbox() {
+
         //html5 validate fix
         $('.lightbox').each(function (index, element) {
             $(this).attr('rel', $(this).attr('data-lightbox-gallery'));
@@ -594,6 +687,10 @@ var $container, $blog_container;
     }
     // ------------------------------
 
+
+
+
+
     // ------------------------------
     // SET CURRENT MENU ITEM
     function setCurrentMenuItem() {
@@ -603,11 +700,13 @@ var $container, $blog_container;
     }
     // ------------------------------
 
+
     // ------------------------------
     // AJAX PORTFOLIO DETAILS
     var pActive;
 
     function showProjectDetails(url) {
+
         showLoader();
 
         var p = $('.p-overlay:not(.active)').first();
@@ -623,6 +722,7 @@ var $container, $blog_container;
 
             // wait for images to be loaded
             p.imagesLoaded(function () {
+
                 hideLoader();
 
                 $('html').addClass('p-overlay-on');
@@ -669,6 +769,7 @@ var $container, $blog_container;
     }
 
     function giveDetailUrl() {
+
         var address = $.address.value();
         var detailUrl;
 
@@ -682,6 +783,8 @@ var $container, $blog_container;
     }
     // ------------------------------
 
+
+
     // ------------------------------
     // AJAX LOADER
     function showLoader() {
@@ -691,5 +794,10 @@ var $container, $blog_container;
         NProgress.done();
     }
     // ------------------------------
-    //$("img").lazyload();
+
+
+
+
+
+
 })(jQuery);
