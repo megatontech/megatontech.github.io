@@ -145,7 +145,7 @@ var $container, $blog_container;
         // ------------------------------
         // PORTFOLIO DETAILS
         // Show details
-        $(".one-page-layout a.ajax").live('click', function () {
+        $(".one-page-layout a.ajax").on('click', function () {
             var returnVal;
             var url = $(this).attr('href');
             var baseUrl = $.address.baseURL();
