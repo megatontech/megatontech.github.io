@@ -26,7 +26,10 @@
             {"file":"motions/Breath8.mtn"}
         ],
         "sleepy":[
-            {"file":"motions/Sleeping.mtn"}
+          {
+            "file": "motions/Sleeping.mtn",
+            "sound": "sounds/Sleeping.mp3"
+          }
         ],
         "flick_head":[
             {"file":"motions/Touch Dere1.mtn"},
