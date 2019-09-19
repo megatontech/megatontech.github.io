@@ -691,4 +691,5 @@ var $container, $blog_container;
         NProgress.done();
     }
     // ------------------------------
+    $("img").lazyload();
 })(jQuery);
