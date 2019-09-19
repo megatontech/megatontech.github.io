@@ -238,33 +238,33 @@ var $container, $blog_container;
 
         // ------------------------------
         // PORTFOLIO FILTERING - ISOTOPE
-        // cache container
-        $container = $('.Repository-items');
-        if ($container.length) {
-            //$container.imagesLoaded(function() {
-            // initialize isotope
-            $container.isotope({
-                itemSelector: '.hentry',
-                layoutMode: $container.attr('data-layout')
-            });
+        //// cache container
+        //$container = $('.Repository-items');
+        //if ($container.length) {
+        //    //$container.imagesLoaded(function() {
+        //    // initialize isotope
+        //    $container.isotope({
+        //        itemSelector: '.hentry',
+        //        layoutMode: $container.attr('data-layout')
+        //    });
 
-            setMasonry();
-            $(window).resize(function () {
-                setMasonry();
-                setTimeout(function () { setMasonry(); }, 400);
-            });
+        //    setMasonry();
+        //    $(window).resize(function () {
+        //        setMasonry();
+        //        setTimeout(function () { setMasonry(); }, 400);
+        //    });
 
-            // filter items when filter link is clicked
-            $('#filters a').click(function () {
-                var selector = $(this).attr('data-filter');
-                setMasonry();
-                $container.isotope({ filter: selector });
-                $(this).parent().addClass('current').siblings().removeClass('current');
-                return false;
-            });
+        //    // filter items when filter link is clicked
+        //    $('#filters a').click(function () {
+        //        var selector = $(this).attr('data-filter');
+        //        setMasonry();
+        //        $container.isotope({ filter: selector });
+        //        $(this).parent().addClass('current').siblings().removeClass('current');
+        //        return false;
+        //    });
 
-            //});
-        }
+        //    //});
+        //}
         // ------------------------------
 
         // ------------------------------
