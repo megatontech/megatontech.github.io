@@ -234,7 +234,7 @@ var $container, $blog_container;
     window.onload = function () {
         NProgress.done();
 
-        initReadMore();
+        //initReadMore();
 
         // ------------------------------
         // PORTFOLIO FILTERING - ISOTOPE
