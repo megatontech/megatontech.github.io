@@ -40,6 +40,7 @@
         function createHeart(event){
             var d = document.createElement("div");
             d.className = "heart";
+                d.innerText = '♂♂♂♂♂';
             hearts.push({
                     el : d,
                     x : event.clientX - 5,
