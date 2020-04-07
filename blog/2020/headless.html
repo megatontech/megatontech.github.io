@@ -1,0 +1,73 @@
+megatontech.github.io
+有时候测试环境各种问题让人超级痛苦，js报错，样式出错，只测试业务正确性还要先搞好其他问题，何解？Headless！
+##firefox
+##chrome
+Chrome Headless相比于其他的浏览器,可以更便捷的运行web自动化,编写爬虫、截图等。通常是由编程或者命令行来控制的。
+chome59以上版本都可以用这个神奇功能了，就像是很多游戏exe后面加参数就可以直接开启隐藏模式运行一样，Chrome也可以这么做
+pro： 
+
+    1加快UI自动化测试，少了真实浏览器加载css，js以及渲染页面的工作比真实浏览器快
+
+    2无界面的服务器或CI上运行测试减少了外界的干扰使自动化测试更稳定
+chrome \
+  --headless \                   # headless运行Chrome
+  --disable-gpu \                # Win上运行
+  --remote-debugging-port=9222 \
+  https://www.baidu.com   # 打开URL. 默认为about:blank
+  
+  
+  命令行启动chrome：
+
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --headless --remote-debugging-port=9222 https://www.baidu.com
+参数说明：
+
+--headless：无头模式，就是无界面模式运行
+--remote-debugging-port：开启远程调试，端口9222和我们之前转发出来的端口一致
+--user-data-dir：设置独立的文件保存目录，建议一个网站一个目录
+--crash-dumps-dir：设置的crash文件保存目录如果没有指定crash-dumps-dir可能会报错。
+　　
+　ERROR:xattr.cc(64)] setxattr org.chromium.crashpad.database.initialized on file /var/folders/gx/1m0t1z_d03dg4pjhv7bwwt_c0000gp/T/: Operation not permitted (1)
+
+加上crash-dumps-dir参数，命令如下：
+
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 --headless --crash-dumps-dir=/Users/work/baidu http://www.baidu.com/
+
+  
+  1、打印DOM:将 document.body.innerHTML 打印出来：
+命令：--dump -dom
+示例：chrome --headless --disable-gpu --dump-dom https://www.mafengwo.cn
+
+2、将页面转换为PDF
+命令：--pirint-to-pdf
+示例：chrome --headless --disable-gpu --print-to-pdf https://www.mafengwo.cn
+日志参考下图：出现Written to file output.pdf.说明打印成功
+
+$ chrome --headless --disable-gpu --print-to-pdf https://www.mafengwo.cn
+[0822/192626.743981:INFO:headless_shell.cc(572)] Written to file output.pdf.
+3、截屏：将文件生成png格式图片
+命令：--screenshot
+示例：
+
+chrome --headless --disable-gpu --screenshot https://www.mafengwo.cn
+#  标准屏幕大小
+chrome --headless --disable-gpu --screenshot --window-size=1280,1696 https://www.mafengwo.cn
+#  Nexus 5x
+chrome --headless --disable-gpu --screenshot --window-size=412,732 https://www.mafengwo.cn
+给整个页面截屏参考：使用 headless Chrome 作为自动截屏工具
+4、REPL 模式 (read-eval-print loop)
+
+$ chrome --headless --disable-gpu --repl https://www.mafengwo.cn
+[0822/194611.702393:INFO:headless_shell.cc(408)] Type a Javascript expression to evaluate or "quit" to exit.
+>>> location.href
+{"result":{"type":"string","value":"https://www.mafengwo.cn/"}}
+>>> quit
+[0822/194842.071093:ERROR:browser_process_sub_thread.cc(203)] Waited 14 ms for network service
+
+centos等发行版中需要chromedriver_linux64
+  
+https://chromedevtools.github.io/devtools-protocol/
+  
+  
+https://github.com/GoogleChrome/lighthouse
+  
+  下一篇预告：web自动化PhantomJS
