@@ -1,0 +1,1961 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://docpe.com/Download/081214290665/081214290665.html
+Subject: 
+Date: Wed, 12 Aug 2020 06:29:53 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--lDMsHc3RaY64zCTEUUektaLFw9HjDHUrvZpkdTXOvv----"
+
+
+------MultipartBoundary--lDMsHc3RaY64zCTEUUektaLFw9HjDHUrvZpkdTXOvv----
+Content-Type: text/html
+Content-ID: <frame-41FB53F02105190150884A4B8A4695E2@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://docpe.com/Download/081214290665/081214290665.html
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"><meta http-equiv=3D"Content-Style-Type" content=3D"text/css"><met=
+a name=3D"generator" content=3D"Aspose.Words for .NET 15.1.0.0"><title></ti=
+tle></head><body><div><h1 style=3D"margin:5pt 0pt"><span style=3D"font-fami=
+ly:=E5=AE=8B=E4=BD=93; font-size:24pt; font-weight:bold">beego=E5=BC=80=E5=
+=8F=91=E6=A1=86=E6=9E=B6=E5=AD=A6=E4=B9=A0=E7=AC=94=E8=AE=B0</span></h1><p =
+style=3D"margin:0pt; orphans:0; text-align:justify; widows:0"><span style=
+=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E5=AD=A6=E4=B9=A0</s=
+pan><span style=3D"font-family:Calibri; font-size:10.5pt">golang</span><spa=
+n style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E5=BC=80=E5=
+=8F=91=E6=97=B6=E6=8E=A5=E8=A7=A6=E5=88=B0=E4=BA=86</span><span style=3D"fo=
+nt-family:Calibri; font-size:10.5pt">beego</span><span style=3D"font-family=
+:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E5=BC=80=E5=8F=91=E6=A1=86=E6=9E=B6=
+</span></p><p style=3D"margin:0pt; orphans:0; text-align:justify; widows:0"=
+><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E9=A1=B9=
+=E7=9B=AE=E5=9C=B0=E5=9D=80</span><a href=3D"https://github.com/astaxie/bee=
+go/"><span style=3D"color:#0000ff; font-family:Calibri; font-size:10.5pt; t=
+ext-decoration:underline">https://github.com/astaxie/beego/</span></a></p><=
+p style=3D"margin:0pt; orphans:0; text-align:justify; widows:0"><span style=
+=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E9=A1=B9=E7=9B=AE=E6=
+=96=87=E6=A1=A3</span><a href=3D"https://beego.me/docs/intro/"><span style=
+=3D"color:#0000ff; font-family:Calibri; font-size:10.5pt; text-decoration:u=
+nderline">https://beego.me/docs/intro/</span></a></p><p style=3D"margin:0pt=
+"><br style=3D"page-break-before:always; clear:both"></p><p style=3D"margin=
+:0pt; orphans:0; text-align:justify; widows:0"><span style=3D"font-family:C=
+alibri; font-size:10.5pt">&nbsp;</span></p><h2 style=3D"font-size:16pt; lin=
+e-height:173%; margin:13pt 0pt; orphans:0; page-break-after:avoid; page-bre=
+ak-inside:avoid; text-align:justify; widows:0"><span style=3D"font-family:C=
+ambria; font-size:16pt; font-weight:bold">beego</span><span style=3D"font-f=
+amily:=E5=AE=8B=E4=BD=93; font-size:16pt; font-weight:bold">=E4=BD=BF=E7=94=
+=A8=E5=9C=BA=E6=99=AF=EF=BC=9A</span></h2><p style=3D"margin:0pt; orphans:0=
+; text-align:justify; widows:0"><span style=3D"font-family:Calibri; font-si=
+ze:10.5pt">rest </span><span style=3D"font-family:Calibri; font-size:10.5pt=
+">API</span><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt=
+">=E6=8E=A5=E5=8F=A3=E5=BC=80=E5=8F=91</span></p><p style=3D"margin:0pt; or=
+phans:0; text-align:justify; widows:0"><span style=3D"font-family:Calibri; =
+font-size:10.5pt">web</span><span style=3D"font-family:=E5=AE=8B=E4=BD=93; =
+font-size:10.5pt">=E5=BC=80=E5=8F=91</span></p><p style=3D"margin:0pt; orph=
+ans:0; text-align:justify; widows:0"><span style=3D"font-family:=E5=AE=8B=
+=E4=BD=93; font-size:10.5pt">=E5=90=8E=E7=AB=AF=E6=9C=8D=E5=8A=A1</span></p=
+><p style=3D"margin:0pt"><br style=3D"page-break-before:always; clear:both"=
+></p><p style=3D"margin:0pt; orphans:0; text-align:justify; widows:0"><span=
+ style=3D"font-family:Calibri; font-size:10.5pt">&nbsp;</span></p><h2 style=
+=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-brea=
+k-after:avoid; page-break-inside:avoid; text-align:justify; widows:0"><span=
+ style=3D"font-family:Cambria; font-size:16pt; font-weight:bold">beego</spa=
+n><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; font-weigh=
+t:bold">=E4=B8=BB=E8=A6=81=E6=A8=A1=E5=9D=97=EF=BC=9A</span></h2><p style=
+=3D"margin:0pt; orphans:0; text-align:justify; widows:0"><span style=3D"fon=
+t-family:Calibri; font-size:10.5pt">cache</span><span style=3D"font-family:=
+=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E7=BC=93=E5=AD=98</span><span style=
+=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=EF=BC=88</span><span=
+ style=3D"background-color:#fafafa; color:#333333; font-family:Helvetica; f=
+ont-size:6.5pt">&nbsp;</span><span style=3D"background-color:#fafafa; color=
+:#333333; font-family:Helvetica; font-size:6.5pt">file</span><span style=3D=
+"background-color:#fafafa; color:#333333; font-family:=E5=AE=8B=E4=BD=93; f=
+ont-size:6.5pt">=E3=80=81</span><span style=3D"background-color:#fafafa; co=
+lor:#333333; font-family:Helvetica; font-size:6.5pt">memcache</span><span s=
+tyle=3D"background-color:#fafafa; color:#333333; font-family:=E5=AE=8B=E4=
+=BD=93; font-size:6.5pt">=E3=80=81</span><span style=3D"background-color:#f=
+afafa; color:#333333; font-family:Helvetica; font-size:6.5pt">memory </span=
+><span style=3D"background-color:#fafafa; color:#333333; font-family:=E5=AE=
+=8B=E4=BD=93; font-size:6.5pt">=E3=80=81</span><span style=3D"background-co=
+lor:#fafafa; color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt=
+"> </span><span style=3D"background-color:#fafafa; color:#333333; font-fami=
+ly:Helvetica; font-size:6.5pt">redis</span><span style=3D"background-color:=
+#fafafa; color:#333333; font-family:Helvetica; font-size:6.5pt">&nbsp;</spa=
+n><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=EF=BC=
+=89</span></p><p style=3D"margin:0pt; orphans:0; text-align:justify; widows=
+:0"><span style=3D"font-family:Calibri; font-size:10.5pt">config</span><spa=
+n style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E8=A7=A3=E6=
+=9E=90=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6</span><span style=3D"font-family=
+:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=EF=BC=88</span><span style=3D"backg=
+round-color:#fafafa; color:#333333; font-family:Helvetica; font-size:6.5pt"=
+>&nbsp;</span><span style=3D"background-color:#fafafa; color:#333333; font-=
+family:Helvetica; font-size:6.5pt">ini</span><span style=3D"background-colo=
+r:#fafafa; color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=
+=E3=80=81</span><span style=3D"background-color:#fafafa; color:#333333; fon=
+t-family:Helvetica; font-size:6.5pt">json</span><span style=3D"background-c=
+olor:#fafafa; color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5p=
+t">=E3=80=81</span><span style=3D"background-color:#fafafa; color:#333333; =
+font-family:Helvetica; font-size:6.5pt">xml</span><span style=3D"background=
+-color:#fafafa; color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.=
+5pt">=E3=80=81</span><span style=3D"background-color:#fafafa; color:#333333=
+; font-family:Helvetica; font-size:6.5pt">yaml</span><span style=3D"font-fa=
+mily:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=EF=BC=89</span></p><p style=3D"=
+margin:0pt; orphans:0; text-align:justify; widows:0"><span style=3D"font-fa=
+mily:Calibri; font-size:10.5pt">context</span><span style=3D"font-family:=
+=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E6=98=AF</span><span style=3D"backgr=
+ound-color:#fafafa; color:#333333; font-family:Helvetica; font-size:6.5pt">=
+HTTP </span><span style=3D"background-color:#fafafa; color:#333333; font-fa=
+mily:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=E8=AF=B7=E6=B1=82=E4=B8=AD=EF=BC=
+=8C</span><span style=3D"background-color:#fafafa; color:#333333; font-fami=
+ly:Helvetica; font-size:6.5pt">request </span><span style=3D"background-col=
+or:#fafafa; color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt"=
+>=E5=92=8C</span><span style=3D"background-color:#fafafa; color:#333333; fo=
+nt-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt"> </span><span style=3D"backg=
+round-color:#fafafa; color:#333333; font-family:Helvetica; font-size:6.5pt"=
+>response </span><span style=3D"background-color:#fafafa; color:#333333; fo=
+nt-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=E7=9A=84=E8=BF=9B=E4=B8=80=
+=E6=AD=A5=E5=B0=81=E8=A3=85</span></p><p style=3D"margin:0pt; orphans:0; te=
+xt-align:justify; widows:0"><span style=3D"font-family:Calibri; font-size:1=
+0.5pt">httplibs</span><span style=3D"background-color:#fafafa; color:#33333=
+3; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=E6=A8=A1=E6=8B=9F=E5=
+=AE=A2=E6=88=B7=E7=AB=AF=E5=8F=91=E9=80=81</span><span style=3D"background-=
+color:#fafafa; color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5=
+pt"> </span><span style=3D"background-color:#fafafa; color:#333333; font-fa=
+mily:Helvetica; font-size:6.5pt">HTTP </span><span style=3D"background-colo=
+r:#fafafa; color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=
+=E8=AF=B7=E6=B1=82</span></p><p style=3D"margin:0pt; orphans:0; text-align:=
+justify; widows:0"><span style=3D"font-family:Calibri; font-size:10.5pt">lo=
+gs</span><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=
+=E6=97=A5=E5=BF=97</span><span style=3D"font-family:=E5=AE=8B=E4=BD=93; fon=
+t-size:10.5pt">=EF=BC=88</span><span style=3D"background-color:#fafafa; col=
+or:#333333; font-family:Helvetica; font-size:6.5pt">&nbsp;</span><span styl=
+e=3D"background-color:#fafafa; color:#333333; font-family:Helvetica; font-s=
+ize:6.5pt">file</span><span style=3D"background-color:#fafafa; color:#33333=
+3; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=E3=80=81</span><span s=
+tyle=3D"background-color:#fafafa; color:#333333; font-family:Helvetica; fon=
+t-size:6.5pt">console</span><span style=3D"background-color:#fafafa; color:=
+#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=E3=80=81</span><=
+span style=3D"background-color:#fafafa; color:#333333; font-family:Helvetic=
+a; font-size:6.5pt">net</span><span style=3D"background-color:#fafafa; colo=
+r:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=E3=80=81</span=
+><span style=3D"background-color:#fafafa; color:#333333; font-family:Helvet=
+ica; font-size:6.5pt">smtp</span><span style=3D"font-family:=E5=AE=8B=E4=BD=
+=93; font-size:10.5pt">=EF=BC=89</span></p><p style=3D"margin:0pt; orphans:=
+0; text-align:justify; widows:0"><span style=3D"font-family:Calibri; font-s=
+ize:10.5pt">orm</span><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-s=
+ize:10.5pt">=EF=BC=88</span><span style=3D"font-family:Calibri; font-size:1=
+0.5pt">mysql,sqlite,</span><span style=3D"background-color:#fafbfc; color:#=
+24292e; font-family:'Segoe UI'; font-size:7.5pt"> </span><span style=3D"bac=
+kground-color:#fafbfc; color:#24292e; font-family:'Segoe UI'; font-size:7.5=
+pt">Postgres</span><span style=3D"background-color:#fafbfc; color:#24292e; =
+font-family:'Segoe UI'; font-size:7.5pt">&nbsp;</span><span style=3D"font-f=
+amily:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=EF=BC=89</span></p><p style=3D=
+"margin:0pt; orphans:0; text-align:justify; widows:0"><span style=3D"font-f=
+amily:Calibri; font-size:10.5pt">session</span><span style=3D"font-family:=
+=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E4=BD=BF=E7=94=A8=E5=9F=BA=E4=BA=8E<=
+/span><span style=3D"font-family:Calibri; font-size:10.5pt">cookie</span><s=
+pan style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E7=9A=84=E7=
+=94=A8=E6=88=B7=E4=BC=9A=E8=AF=9D=E7=AE=A1=E7=90=86</span><span style=3D"fo=
+nt-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=EF=BC=88</span><span style=
+=3D"background-color:#fafafa; color:#333333; font-family:Helvetica; font-si=
+ze:6.5pt">memory</span><span style=3D"background-color:#fafafa; color:#3333=
+33; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=E3=80=81</span><span =
+style=3D"background-color:#fafafa; color:#333333; font-family:Helvetica; fo=
+nt-size:6.5pt">file</span><span style=3D"background-color:#fafafa; color:#3=
+33333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=E3=80=81</span><sp=
+an style=3D"background-color:#fafafa; color:#333333; font-family:Helvetica;=
+ font-size:6.5pt">Redis </span><span style=3D"background-color:#fafafa; col=
+or:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=E3=80=81</spa=
+n><span style=3D"background-color:#fafafa; color:#333333; font-family:=E5=
+=AE=8B=E4=BD=93; font-size:6.5pt"> </span><span style=3D"background-color:#=
+fafafa; color:#333333; font-family:Helvetica; font-size:6.5pt">MySQL</span>=
+<span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=EF=BC=89<=
+/span></p><p style=3D"margin:0pt; orphans:0; text-align:justify; widows:0">=
+<span style=3D"font-family:Calibri; font-size:10.5pt">toolbox</span><span s=
+tyle=3D"background-color:#fafafa; color:#333333; font-family:=E5=AE=8B=E4=
+=BD=93; font-size:6.5pt">=E5=81=A5=E5=BA=B7=E6=A3=80=E6=9F=A5=E3=80=81=E6=
+=80=A7=E8=83=BD=E8=B0=83=E8=AF=95=E3=80=81=E8=AE=BF=E9=97=AE=E7=BB=9F=E8=AE=
+=A1=E3=80=81=E8=AE=A1=E5=88=92=E4=BB=BB=E5=8A=A1</span></p><p style=3D"marg=
+in:0pt"><br style=3D"page-break-before:always; clear:both"></p><p style=3D"=
+margin:0pt; orphans:0; text-align:justify; widows:0"><span style=3D"font-fa=
+mily:Calibri; font-size:10.5pt">&nbsp;</span></p><h2 style=3D"font-size:16p=
+t; line-height:173%; margin:13pt 0pt; orphans:0; page-break-after:avoid; pa=
+ge-break-inside:avoid; text-align:justify; widows:0"><span style=3D"font-fa=
+mily:Cambria; font-size:16pt; font-weight:bold">beego</span><span style=3D"=
+font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; font-weight:bold">=E7=9A=84=
+</span><span style=3D"font-family:Cambria; font-size:16pt; font-weight:bold=
+">MVC</span><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; =
+font-weight:bold">=E6=A8=A1=E5=9D=97</span><span style=3D"font-family:=E5=
+=AE=8B=E4=BD=93; font-size:16pt; font-weight:bold">=E4=BA=A4=E4=BA=92</span=
+><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; font-weight=
+:bold">=E5=9B=BE</span></h2><p style=3D"margin:0pt; orphans:0; text-align:j=
+ustify; widows:0"><img src=3D"http://docpe.com/Download/081214290665/25a071=
+ec-9ec1-499b-8036-3e1f1e42ac48.001.png" width=3D"554" height=3D"187" alt=3D=
+"https://beego.me/docs/images/flow.png" style=3D"-aw-left-pos:0pt; -aw-rel-=
+hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline"=
+></p><p style=3D"margin:0pt"><br style=3D"page-break-before:always; clear:b=
+oth"></p><p style=3D"margin:0pt; orphans:0; text-align:justify; widows:0"><=
+span style=3D"font-family:Calibri; font-size:10.5pt">&nbsp;</span></p><h2 s=
+tyle=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-=
+break-after:avoid; page-break-inside:avoid; text-align:justify; widows:0"><=
+span style=3D"font-family:Cambria; font-size:16pt; font-weight:bold">beego<=
+/span><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; font-w=
+eight:bold">=E9=A1=B9=E7=9B=AE=E7=BB=93=E6=9E=84=E5=9B=BE</span></h2><div s=
+tyle=3D"border-bottom-color:#dddddd; border-bottom-style:solid; border-bott=
+om-width:0.75pt; border-left-color:#dddddd; border-left-style:solid; border=
+-left-width:0.75pt; border-right-color:#dddddd; border-right-style:solid; b=
+order-right-width:0.75pt; border-top-color:#dddddd; border-top-style:solid;=
+ border-top-width:0.75pt; clear:both; margin:0pt 0pt 4.2pt"><p style=3D"bac=
+kground-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-left:5pt; =
+padding-right:5pt; padding-top:3pt"><span style=3D"color:#333333; font-fami=
+ly:=E5=AE=8B=E4=BD=93; font-size:12pt">=E2=94=9C=E2=94=80=E2=94=80</span><s=
+pan style=3D"color:#333333; font-family:Monaco; font-size:12pt"> conf</span=
+></p><p style=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt=
+; padding-left:5pt; padding-right:5pt"><span style=3D"color:#333333; font-f=
+amily:=E5=AE=8B=E4=BD=93; font-size:12pt">=E2=94=82</span><span style=3D"co=
+lor:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt">&nbsp;&nbsp; <=
+/span><span style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-si=
+ze:12pt">=E2=94=94=E2=94=80=E2=94=80</span><span style=3D"color:#333333; fo=
+nt-family:=E5=AE=8B=E4=BD=93; font-size:12pt"> </span><span style=3D"color:=
+#333333; font-family:Monaco; font-size:12pt">app.conf</span></p><p style=3D=
+"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-left:5=
+pt; padding-right:5pt"><span style=3D"color:#333333; font-family:=E5=AE=8B=
+=E4=BD=93; font-size:12pt">=E2=94=9C=E2=94=80=E2=94=80</span><span style=3D=
+"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt"> </span><sp=
+an style=3D"color:#333333; font-family:Monaco; font-size:12pt">controllers<=
+/span></p><p style=3D"background-color:#ffffff; margin:0pt; padding-bottom:=
+4.2pt; padding-left:5pt; padding-right:5pt"><span style=3D"color:#333333; f=
+ont-family:=E5=AE=8B=E4=BD=93; font-size:12pt">=E2=94=82</span><span style=
+=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt">&nbsp;&n=
+bsp; </span><span style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; f=
+ont-size:12pt">=E2=94=9C=E2=94=80=E2=94=80</span><span style=3D"color:#3333=
+33; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt"> </span><span style=3D"=
+color:#333333; font-family:Monaco; font-size:12pt">admin</span></p><p style=
+=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-lef=
+t:5pt; padding-right:5pt"><span style=3D"color:#333333; font-family:=E5=AE=
+=8B=E4=BD=93; font-size:12pt">=E2=94=82</span><span style=3D"color:#333333;=
+ font-family:=E5=AE=8B=E4=BD=93; font-size:12pt">&nbsp;&nbsp; </span><span =
+style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt">=E2=
+=94=94=E2=94=80=E2=94=80</span><span style=3D"color:#333333; font-family:=
+=E5=AE=8B=E4=BD=93; font-size:12pt"> </span><span style=3D"color:#333333; f=
+ont-family:Monaco; font-size:12pt">default.go</span></p><p style=3D"backgro=
+und-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-left:5pt; padd=
+ing-right:5pt"><span style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93=
+; font-size:12pt">=E2=94=9C=E2=94=80=E2=94=80</span><span style=3D"color:#3=
+33333; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt"> </span><span style=
+=3D"color:#333333; font-family:Monaco; font-size:12pt">main.go</span></p><p=
+ style=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt; paddi=
+ng-left:5pt; padding-right:5pt"><span style=3D"color:#333333; font-family:=
+=E5=AE=8B=E4=BD=93; font-size:12pt">=E2=94=9C=E2=94=80=E2=94=80</span><span=
+ style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt"> <=
+/span><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">mod=
+els</span></p><p style=3D"background-color:#ffffff; margin:0pt; padding-bot=
+tom:4.2pt; padding-left:5pt; padding-right:5pt"><span style=3D"color:#33333=
+3; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt">=E2=94=82</span><span st=
+yle=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt">&nbsp=
+;&nbsp; </span><span style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93=
+; font-size:12pt">=E2=94=94=E2=94=80=E2=94=80</span><span style=3D"color:#3=
+33333; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt"> </span><span style=
+=3D"color:#333333; font-family:Monaco; font-size:12pt">models.go</span></p>=
+<p style=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt; pad=
+ding-left:5pt; padding-right:5pt"><span style=3D"color:#333333; font-family=
+:=E5=AE=8B=E4=BD=93; font-size:12pt">=E2=94=9C=E2=94=80=E2=94=80</span><spa=
+n style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt"> =
+</span><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">st=
+atic</span></p><p style=3D"background-color:#ffffff; margin:0pt; padding-bo=
+ttom:4.2pt; padding-left:5pt; padding-right:5pt"><span style=3D"color:#3333=
+33; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt">=E2=94=82</span><span s=
+tyle=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt">&nbs=
+p;&nbsp; </span><span style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=
+=93; font-size:12pt">=E2=94=9C=E2=94=80=E2=94=80</span><span style=3D"color=
+:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt"> </span><span sty=
+le=3D"color:#333333; font-family:Monaco; font-size:12pt">css</span></p><p s=
+tyle=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padding=
+-left:5pt; padding-right:5pt"><span style=3D"color:#333333; font-family:=E5=
+=AE=8B=E4=BD=93; font-size:12pt">=E2=94=82</span><span style=3D"color:#3333=
+33; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt">&nbsp;&nbsp; </span><sp=
+an style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt">=
+=E2=94=9C=E2=94=80=E2=94=80</span><span style=3D"color:#333333; font-family=
+:=E5=AE=8B=E4=BD=93; font-size:12pt"> </span><span style=3D"color:#333333; =
+font-family:Monaco; font-size:12pt">ico</span></p><p style=3D"background-co=
+lor:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-left:5pt; padding-ri=
+ght:5pt"><span style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font=
+-size:12pt">=E2=94=82</span><span style=3D"color:#333333; font-family:=E5=
+=AE=8B=E4=BD=93; font-size:12pt">&nbsp;&nbsp; </span><span style=3D"color:#=
+333333; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt">=E2=94=9C=E2=94=80=
+=E2=94=80</span><span style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=
+=93; font-size:12pt"> </span><span style=3D"color:#333333; font-family:Mona=
+co; font-size:12pt">img</span></p><p style=3D"background-color:#ffffff; mar=
+gin:0pt; padding-bottom:4.2pt; padding-left:5pt; padding-right:5pt"><span s=
+tyle=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt">=E2=
+=94=82</span><span style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; =
+font-size:12pt">&nbsp;&nbsp; </span><span style=3D"color:#333333; font-fami=
+ly:=E5=AE=8B=E4=BD=93; font-size:12pt">=E2=94=94=E2=94=80=E2=94=80</span><s=
+pan style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt"=
+> </span><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">=
+js</span></p><p style=3D"background-color:#ffffff; margin:0pt; padding-bott=
+om:4.2pt; padding-left:5pt; padding-right:5pt"><span style=3D"color:#333333=
+; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt">=E2=94=94=E2=94=80=E2=94=
+=80</span><span style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; fon=
+t-size:12pt"> </span><span style=3D"color:#333333; font-family:Monaco; font=
+-size:12pt">views</span></p><p style=3D"background-color:#ffffff; margin:0p=
+t; padding-bottom:4.2pt; padding-left:5pt; padding-right:5pt"><span style=
+=3D"color:#333333; font-family:Monaco; font-size:12pt">&nbsp;&nbsp;&nbsp; <=
+/span><span style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-si=
+ze:12pt">=E2=94=9C=E2=94=80=E2=94=80</span><span style=3D"color:#333333; fo=
+nt-family:=E5=AE=8B=E4=BD=93; font-size:12pt"> </span><span style=3D"color:=
+#333333; font-family:Monaco; font-size:12pt">admin</span></p><p style=3D"ba=
+ckground-color:#ffffff; margin:0pt; padding-bottom:3pt; padding-left:5pt; p=
+adding-right:5pt"><span style=3D"color:#333333; font-family:Monaco; font-si=
+ze:12pt">&nbsp;&nbsp;&nbsp; </span><span style=3D"color:#333333; font-famil=
+y:=E5=AE=8B=E4=BD=93; font-size:12pt">=E2=94=94=E2=94=80=E2=94=80</span><sp=
+an style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt">=
+ </span><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">i=
+ndex.tpl</span></p></div><p style=3D"margin:0pt; orphans:0; text-align:just=
+ify; widows:0"><span style=3D"font-family:Calibri; font-size:10.5pt">&nbsp;=
+</span></p><p style=3D"margin:0pt"><br style=3D"page-break-before:always; c=
+lear:both"></p><h2 style=3D"font-size:16pt; line-height:173%; margin:13pt 0=
+pt; orphans:0; page-break-after:avoid; page-break-inside:avoid; text-align:=
+justify; widows:0"><span style=3D"font-family:Cambria; font-size:16pt; font=
+-weight:bold">bee </span><span style=3D"font-family:=E5=AE=8B=E4=BD=93; fon=
+t-size:16pt; font-weight:bold">=E5=B7=A5=E5=85=B7</span><span style=3D"font=
+-family:=E5=AE=8B=E4=BD=93; font-size:16pt; font-weight:bold">=E5=8F=8A=E4=
+=BD=BF=E7=94=A8</span></h2><p style=3D"margin:0pt; orphans:0; text-align:ju=
+stify; widows:0"><span style=3D"font-family:Calibri; font-size:10.5pt">&nbs=
+p;</span></p><p style=3D"margin:0pt; orphans:0; text-align:justify; widows:=
+0"><br style=3D"page-break-before:always; clear:both"></p><h2 style=3D"font=
+-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-break-after:=
+avoid; page-break-inside:avoid; text-align:justify; widows:0"><span style=
+=3D"font-family:Cambria; font-size:16pt; font-weight:bold">&nbsp;</span></h=
+2><h2 style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0=
+; page-break-after:avoid; page-break-inside:avoid; text-align:justify; wido=
+ws:0"><span style=3D"font-family:Cambria; font-size:16pt; font-weight:bold"=
+>beego</span><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt;=
+ font-weight:bold">=E7=9A=84</span><span style=3D"font-family:Cambria; font=
+-size:16pt; font-weight:bold">mvc</span><span style=3D"font-family:=E5=AE=
+=8B=E4=BD=93; font-size:16pt; font-weight:bold">=E6=A8=A1=E5=BC=8F=E8=AF=A6=
+=E8=A7=A3</span></h2><p style=3D"margin:0pt; orphans:0; text-align:justify;=
+ widows:0"><br style=3D"page-break-before:always; clear:both"></p><h2 style=
+=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-brea=
+k-after:avoid; page-break-inside:avoid; text-align:justify; widows:0"><span=
+ style=3D"font-family:Cambria; font-size:16pt; font-weight:bold">&nbsp;</sp=
+an></h2><h3 style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orp=
+hans:0; page-break-after:avoid; page-break-inside:avoid; text-align:justify=
+; widows:0"><span style=3D"font-family:Calibri; font-size:16pt; font-weight=
+:bold">Model</span></h3><p style=3D"margin:0pt; orphans:0; text-align:justi=
+fy; widows:0"><br style=3D"page-break-before:always; clear:both"></p><h3 st=
+yle=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-b=
+reak-after:avoid; page-break-inside:avoid; text-align:justify; widows:0"><s=
+pan style=3D"font-family:Calibri; font-size:16pt; font-weight:bold">&nbsp;<=
+/span></h3><h3 style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; =
+orphans:0; page-break-after:avoid; page-break-inside:avoid; text-align:just=
+ify; widows:0"><span style=3D"font-family:Calibri; font-size:16pt; font-wei=
+ght:bold">View</span></h3><p style=3D"margin:0pt; orphans:0; text-align:jus=
+tify; widows:0"><br style=3D"page-break-before:always; clear:both"></p><h3 =
+style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page=
+-break-after:avoid; page-break-inside:avoid; text-align:justify; widows:0">=
+<span style=3D"font-family:Calibri; font-size:16pt; font-weight:bold">&nbsp=
+;</span></h3><h3 style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt=
+; orphans:0; page-break-after:avoid; page-break-inside:avoid; text-align:ju=
+stify; widows:0"><span style=3D"font-family:Calibri; font-size:16pt; font-w=
+eight:bold">Controller</span></h3><p style=3D"margin:0pt; orphans:0; text-a=
+lign:justify; widows:0"><br style=3D"page-break-before:always; clear:both">=
+</p><h3 style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans=
+:0; page-break-after:avoid; page-break-inside:avoid; text-align:justify; wi=
+dows:0"><span style=3D"font-family:Calibri; font-size:16pt; font-weight:bol=
+d">&nbsp;</span></h3><h2 style=3D"font-size:16pt; line-height:173%; margin:=
+13pt 0pt; orphans:0; page-break-after:avoid; page-break-inside:avoid; text-=
+align:justify; widows:0"><span style=3D"font-family:Cambria; font-size:16pt=
+; font-weight:bold">beego</span><span style=3D"font-family:=E5=AE=8B=E4=BD=
+=93; font-size:16pt; font-weight:bold">=E7=9A=84=E6=A8=A1=E5=9D=97=E8=AF=A6=
+=E8=A7=A3</span></h2><p style=3D"margin:0pt; orphans:0; text-align:justify;=
+ widows:0"><br style=3D"page-break-before:always; clear:both"></p><h2 style=
+=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-brea=
+k-after:avoid; page-break-inside:avoid; text-align:justify; widows:0"><span=
+ style=3D"font-family:Cambria; font-size:16pt; font-weight:bold">&nbsp;</sp=
+an></h2><h3 style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orp=
+hans:0; page-break-after:avoid; page-break-inside:avoid; text-align:justify=
+; widows:0"><span style=3D"font-family:Calibri; font-size:16pt; font-weight=
+:bold">session </span><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-s=
+ize:16pt; font-weight:bold">=E6=A8=A1=E5=9D=97</span></h3><p style=3D"margi=
+n:0pt; orphans:0; text-align:justify; widows:0"><br style=3D"page-break-bef=
+ore:always; clear:both"></p><h3 style=3D"font-size:16pt; line-height:173%; =
+margin:13pt 0pt; orphans:0; page-break-after:avoid; page-break-inside:avoid=
+; text-align:justify; widows:0"><span style=3D"font-family:Calibri; font-si=
+ze:16pt; font-weight:bold">&nbsp;</span></h3><h3 style=3D"font-size:16pt; l=
+ine-height:173%; margin:13pt 0pt; orphans:0; page-break-after:avoid; page-b=
+reak-inside:avoid; text-align:justify; widows:0"><span style=3D"font-family=
+:Calibri; font-size:16pt; font-weight:bold">grace </span><span style=3D"fon=
+t-family:=E5=AE=8B=E4=BD=93; font-size:16pt; font-weight:bold">=E6=A8=A1=E5=
+=9D=97</span></h3><p style=3D"margin:0pt; orphans:0; text-align:justify; wi=
+dows:0"><br style=3D"page-break-before:always; clear:both"></p><h3 style=3D=
+"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-break-a=
+fter:avoid; page-break-inside:avoid; text-align:justify; widows:0"><span st=
+yle=3D"font-family:Calibri; font-size:16pt; font-weight:bold">&nbsp;</span>=
+</h3><h3 style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphan=
+s:0; page-break-after:avoid; page-break-inside:avoid; text-align:justify; w=
+idows:0"><span style=3D"font-family:Calibri; font-size:16pt; font-weight:bo=
+ld">cache </span><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:1=
+6pt; font-weight:bold">=E6=A8=A1=E5=9D=97</span></h3><p style=3D"margin:0pt=
+; orphans:0; text-align:justify; widows:0"><br style=3D"page-break-before:a=
+lways; clear:both"></p><h3 style=3D"font-size:16pt; line-height:173%; margi=
+n:13pt 0pt; orphans:0; page-break-after:avoid; page-break-inside:avoid; tex=
+t-align:justify; widows:0"><span style=3D"font-family:Calibri; font-size:16=
+pt; font-weight:bold">&nbsp;</span></h3><h3 style=3D"font-size:16pt; line-h=
+eight:173%; margin:13pt 0pt; orphans:0; page-break-after:avoid; page-break-=
+inside:avoid; text-align:justify; widows:0"><span style=3D"font-family:Cali=
+bri; font-size:16pt; font-weight:bold">logs </span><span style=3D"font-fami=
+ly:=E5=AE=8B=E4=BD=93; font-size:16pt; font-weight:bold">=E6=A8=A1=E5=9D=97=
+</span></h3><p style=3D"margin:0pt; orphans:0; text-align:justify; widows:0=
+"><br style=3D"page-break-before:always; clear:both"></p><h3 style=3D"font-=
+size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-break-after:a=
+void; page-break-inside:avoid; text-align:justify; widows:0"><span style=3D=
+"font-family:Calibri; font-size:16pt; font-weight:bold">&nbsp;</span></h3><=
+h3 style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; p=
+age-break-after:avoid; page-break-inside:avoid; text-align:justify; widows:=
+0"><span style=3D"font-family:Calibri; font-size:16pt; font-weight:bold">ht=
+tplib </span><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt;=
+ font-weight:bold">=E6=A8=A1=E5=9D=97</span></h3><p style=3D"margin:0pt; or=
+phans:0; text-align:justify; widows:0"><br style=3D"page-break-before:alway=
+s; clear:both"></p><h3 style=3D"font-size:16pt; line-height:173%; margin:13=
+pt 0pt; orphans:0; page-break-after:avoid; page-break-inside:avoid; text-al=
+ign:justify; widows:0"><span style=3D"font-family:Calibri; font-size:16pt; =
+font-weight:bold">&nbsp;</span></h3><h3 style=3D"font-size:16pt; line-heigh=
+t:173%; margin:13pt 0pt; orphans:0; page-break-after:avoid; page-break-insi=
+de:avoid; text-align:justify; widows:0"><span style=3D"font-family:Calibri;=
+ font-size:16pt; font-weight:bold">context </span><span style=3D"font-famil=
+y:=E5=AE=8B=E4=BD=93; font-size:16pt; font-weight:bold">=E6=A8=A1=E5=9D=97<=
+/span></h3><p style=3D"margin:0pt; orphans:0; text-align:justify; widows:0"=
+><br style=3D"page-break-before:always; clear:both"></p><h3 style=3D"font-s=
+ize:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-break-after:av=
+oid; page-break-inside:avoid; text-align:justify; widows:0"><span style=3D"=
+font-family:Calibri; font-size:16pt; font-weight:bold">&nbsp;</span></h3><h=
+3 style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; pa=
+ge-break-after:avoid; page-break-inside:avoid; text-align:justify; widows:0=
+"><span style=3D"font-family:Calibri; font-size:16pt; font-weight:bold">too=
+lbox </span><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; =
+font-weight:bold">=E6=A8=A1=E5=9D=97</span></h3><p style=3D"margin:0pt; orp=
+hans:0; text-align:justify; widows:0"><br style=3D"page-break-before:always=
+; clear:both"></p><h3 style=3D"font-size:16pt; line-height:173%; margin:13p=
+t 0pt; orphans:0; page-break-after:avoid; page-break-inside:avoid; text-ali=
+gn:justify; widows:0"><span style=3D"font-family:Calibri; font-size:16pt; f=
+ont-weight:bold">&nbsp;</span></h3><h3 style=3D"font-size:16pt; line-height=
+:173%; margin:13pt 0pt; orphans:0; page-break-after:avoid; page-break-insid=
+e:avoid; text-align:justify; widows:0"><span style=3D"font-family:Calibri; =
+font-size:16pt; font-weight:bold">config </span><span style=3D"font-family:=
+=E5=AE=8B=E4=BD=93; font-size:16pt; font-weight:bold">=E6=A8=A1=E5=9D=97</s=
+pan></h3><p style=3D"margin:0pt; orphans:0; text-align:justify; widows:0"><=
+br style=3D"page-break-before:always; clear:both"></p><h3 style=3D"font-siz=
+e:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-break-after:avoi=
+d; page-break-inside:avoid; text-align:justify; widows:0"><span style=3D"fo=
+nt-family:Calibri; font-size:16pt; font-weight:bold">&nbsp;</span></h3><h3 =
+style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page=
+-break-after:avoid; page-break-inside:avoid; text-align:justify; widows:0">=
+<span style=3D"font-family:Calibri; font-size:16pt; font-weight:bold">i18n =
+</span><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; font-=
+weight:bold">=E6=A8=A1=E5=9D=97</span></h3><p style=3D"margin:0pt; orphans:=
+0; text-align:justify; widows:0"><br style=3D"page-break-before:always; cle=
+ar:both"></p><h3 style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt=
+; orphans:0; page-break-after:avoid; page-break-inside:avoid; text-align:ju=
+stify; widows:0"><span style=3D"font-family:Calibri; font-size:16pt; font-w=
+eight:bold">&nbsp;</span></h3><h2 style=3D"font-size:16pt; line-height:173%=
+; margin:13pt 0pt; orphans:0; page-break-after:avoid; page-break-inside:avo=
+id; text-align:justify; widows:0"><span style=3D"font-family:Cambria; font-=
+size:16pt; font-weight:bold">beego</span><span style=3D"font-family:=E5=AE=
+=8B=E4=BD=93; font-size:16pt; font-weight:bold">=E9=AB=98=E7=BA=A7=E7=89=B9=
+=E6=80=A7</span></h2><p style=3D"margin:0pt; orphans:0; text-align:justify;=
+ widows:0"><br style=3D"page-break-before:always; clear:both"></p><h2 style=
+=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-brea=
+k-after:avoid; page-break-inside:avoid; text-align:justify; widows:0"><span=
+ style=3D"font-family:Cambria; font-size:16pt; font-weight:bold">&nbsp;</sp=
+an></h2><p style=3D"margin:0pt; orphans:0; text-align:justify; widows:0"><s=
+pan style=3D"font-family:Calibri; font-size:10.5pt">&nbsp;</span></p><h2 st=
+yle=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-b=
+reak-after:avoid; page-break-inside:avoid; text-align:justify; widows:0"><s=
+pan style=3D"font-family:Cambria; font-size:16pt; font-weight:bold">beego</=
+span><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; font-we=
+ight:bold">=E9=A1=B9=E7=9B=AE</span><span style=3D"font-family:=E5=AE=8B=E4=
+=BD=93; font-size:16pt; font-weight:bold">=E5=BC=80=E5=8F=91</span><span st=
+yle=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; font-weight:bold">=
+=E5=AE=9E=E4=BE=8B</span></h2><p style=3D"margin:0pt; orphans:0; text-align=
+:justify; widows:0"><br style=3D"page-break-before:always; clear:both"></p>=
+<h2 style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; =
+page-break-after:avoid; page-break-inside:avoid; text-align:justify; widows=
+:0"><span style=3D"font-family:Cambria; font-size:16pt; font-weight:bold">&=
+nbsp;</span></h2><h3 style=3D"font-size:16pt; line-height:173%; margin:13pt=
+ 0pt; orphans:0; page-break-after:avoid; page-break-inside:avoid; text-alig=
+n:justify; widows:0"><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-si=
+ze:16pt; font-weight:bold">=E9=A1=B9=E7=9B=AE=E6=90=AD=E5=BB=BA</span></h3>=
+<p style=3D"margin:0pt; orphans:0; text-align:justify; widows:0"><br style=
+=3D"page-break-before:always; clear:both"></p><h3 style=3D"font-size:16pt; =
+line-height:173%; margin:13pt 0pt; orphans:0; page-break-after:avoid; page-=
+break-inside:avoid; text-align:justify; widows:0"><span style=3D"font-famil=
+y:Calibri; font-size:16pt; font-weight:bold">&nbsp;</span></h3><h3 style=3D=
+"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-break-a=
+fter:avoid; page-break-inside:avoid; text-align:justify; widows:0"><span st=
+yle=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; font-weight:bold">=
+=E5=9F=BA=E7=A1=80=E8=AE=BE=E7=BD=AE</span></h3><p style=3D"margin:0pt; orp=
+hans:0; text-align:justify; widows:0"><br style=3D"page-break-before:always=
+; clear:both"></p><h3 style=3D"font-size:16pt; line-height:173%; margin:13p=
+t 0pt; orphans:0; page-break-after:avoid; page-break-inside:avoid; text-ali=
+gn:justify; widows:0"><span style=3D"font-family:Calibri; font-size:16pt; f=
+ont-weight:bold">&nbsp;</span></h3><h3 style=3D"font-size:16pt; line-height=
+:173%; margin:13pt 0pt; orphans:0; page-break-after:avoid; page-break-insid=
+e:avoid; text-align:justify; widows:0"><span style=3D"font-family:=E5=AE=8B=
+=E4=BD=93; font-size:16pt; font-weight:bold">=E8=B7=AF=E7=94=B1=E8=A1=A8=E8=
+=AE=BE=E7=BD=AE</span></h3><p style=3D"margin:0pt; orphans:0; text-align:ju=
+stify; widows:0"><br style=3D"page-break-before:always; clear:both"></p><h3=
+ style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; pag=
+e-break-after:avoid; page-break-inside:avoid; text-align:justify; widows:0"=
+><span style=3D"font-family:Calibri; font-size:16pt; font-weight:bold">&nbs=
+p;</span></h3><h3 style=3D"font-size:16pt; line-height:173%; margin:13pt 0p=
+t; orphans:0; page-break-after:avoid; page-break-inside:avoid; text-align:j=
+ustify; widows:0"><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:=
+16pt; font-weight:bold">=E6=8E=A7=E5=88=B6=E5=99=A8=E7=BC=96=E5=86=99</span=
+></h3><p style=3D"margin:0pt; orphans:0; text-align:justify; widows:0"><br =
+style=3D"page-break-before:always; clear:both"></p><h3 style=3D"font-size:1=
+6pt; line-height:173%; margin:13pt 0pt; orphans:0; page-break-after:avoid; =
+page-break-inside:avoid; text-align:justify; widows:0"><span style=3D"font-=
+family:Calibri; font-size:16pt; font-weight:bold">&nbsp;</span></h3><h3 sty=
+le=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-br=
+eak-after:avoid; page-break-inside:avoid; text-align:justify; widows:0"><sp=
+an style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; font-weight:bol=
+d">=E6=A8=A1=E5=9E=8B=E7=BC=96=E5=86=99</span></h3><p style=3D"margin:0pt; =
+orphans:0; text-align:justify; widows:0"><br style=3D"page-break-before:alw=
+ays; clear:both"></p><h3 style=3D"font-size:16pt; line-height:173%; margin:=
+13pt 0pt; orphans:0; page-break-after:avoid; page-break-inside:avoid; text-=
+align:justify; widows:0"><span style=3D"font-family:Calibri; font-size:16pt=
+; font-weight:bold">&nbsp;</span></h3><h3 style=3D"font-size:16pt; line-hei=
+ght:173%; margin:13pt 0pt; orphans:0; page-break-after:avoid; page-break-in=
+side:avoid; text-align:justify; widows:0"><span style=3D"font-family:=E5=AE=
+=8B=E4=BD=93; font-size:16pt; font-weight:bold">=E8=A7=86=E5=9B=BE=E7=BC=96=
+=E5=86=99</span></h3><p style=3D"margin:0pt; orphans:0; text-align:justify;=
+ widows:0"><br style=3D"page-break-before:always; clear:both"></p><h3 style=
+=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-brea=
+k-after:avoid; page-break-inside:avoid; text-align:justify; widows:0"><span=
+ style=3D"font-family:Calibri; font-size:16pt; font-weight:bold">&nbsp;</sp=
+an></h3><h3 style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orp=
+hans:0; page-break-after:avoid; page-break-inside:avoid; text-align:justify=
+; widows:0"><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; =
+font-weight:bold">=E9=9D=99=E6=80=81=E8=B5=84=E6=BA=90=E8=A7=A3=E6=9E=90</s=
+pan></h3><p style=3D"margin:0pt; orphans:0; text-align:justify; widows:0"><=
+br style=3D"page-break-before:always; clear:both"></p><h3 style=3D"font-siz=
+e:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-break-after:avoi=
+d; page-break-inside:avoid; text-align:justify; widows:0"><span style=3D"fo=
+nt-family:Calibri; font-size:16pt; font-weight:bold">&nbsp;</span></h3><p s=
+tyle=3D"margin:0pt 0pt 0pt 21pt; orphans:0; text-align:justify; widows:0"><=
+span style=3D"font-family:Calibri; font-size:10.5pt">&nbsp;</span></p><h2 s=
+tyle=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-=
+break-after:avoid; page-break-inside:avoid; text-align:justify; widows:0"><=
+span style=3D"font-family:Cambria; font-size:16pt; font-weight:bold">beego<=
+/span><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; font-w=
+eight:bold">=E5=AE=89=E8=A3=85</span><span style=3D"font-family:=E5=AE=8B=
+=E4=BD=93; font-size:16pt; font-weight:bold">=E9=83=A8=E7=BD=B2=E5=8F=91=E5=
+=B8=83=E6=B3=A8=E6=84=8F=E4=BA=8B=E9=A1=B9</span></h2><p style=3D"margin:0p=
+t; orphans:0; text-align:justify; widows:0"><br style=3D"page-break-before:=
+always; clear:both"></p><h2 style=3D"font-size:16pt; line-height:173%; marg=
+in:13pt 0pt; orphans:0; page-break-after:avoid; page-break-inside:avoid; te=
+xt-align:justify; widows:0"><span style=3D"font-family:Cambria; font-size:1=
+6pt; font-weight:bold">&nbsp;</span></h2><h3 style=3D"font-size:16pt; line-=
+height:173%; margin:13pt 0pt; orphans:0; page-break-after:avoid; page-break=
+-inside:avoid; text-align:justify; widows:0"><span style=3D"font-family:=E5=
+=AE=8B=E4=BD=93; font-size:16pt; font-weight:bold">=E5=AE=89=E8=A3=85</span=
+></h3><div style=3D"border-bottom-color:#dddddd; border-bottom-style:solid;=
+ border-bottom-width:0.75pt; border-left-color:#dddddd; border-left-style:s=
+olid; border-left-width:0.75pt; border-right-color:#dddddd; border-right-st=
+yle:solid; border-right-width:0.75pt; border-top-color:#dddddd; border-top-=
+style:solid; border-top-width:0.75pt; clear:both; margin:0pt 0pt 4.2pt"><p =
+style=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt; paddin=
+g-left:5pt; padding-right:5pt; padding-top:3pt"><span style=3D"color:#33333=
+3; font-family:Monaco; font-size:12pt">$ go </span><span style=3D"color:#33=
+3333; font-family:Monaco; font-size:12pt">get</span><span style=3D"color:#3=
+33333; font-family:Monaco; font-size:12pt"> </span><span style=3D"color:#33=
+3333; font-family:Monaco; font-size:12pt">-</span><span style=3D"color:#333=
+333; font-family:Monaco; font-size:12pt">u github</span><span style=3D"colo=
+r:#333333; font-family:Monaco; font-size:12pt">.</span><span style=3D"color=
+:#333333; font-family:Monaco; font-size:12pt">com</span><span style=3D"colo=
+r:#333333; font-family:Monaco; font-size:12pt">/</span><span style=3D"color=
+:#333333; font-family:Monaco; font-size:12pt">astaxie</span><span style=3D"=
+color:#333333; font-family:Monaco; font-size:12pt">/</span><span style=3D"c=
+olor:#333333; font-family:Monaco; font-size:12pt">beego</span></p><p style=
+=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-lef=
+t:5pt; padding-right:5pt"><span style=3D"color:#333333; font-family:Monaco;=
+ font-size:12pt">$ go </span><span style=3D"color:#333333; font-family:Mona=
+co; font-size:12pt">get</span><span style=3D"color:#333333; font-family:Mon=
+aco; font-size:12pt"> </span><span style=3D"color:#333333; font-family:Mona=
+co; font-size:12pt">-</span><span style=3D"color:#333333; font-family:Monac=
+o; font-size:12pt">u github</span><span style=3D"color:#333333; font-family=
+:Monaco; font-size:12pt">.</span><span style=3D"color:#333333; font-family:=
+Monaco; font-size:12pt">com</span><span style=3D"color:#333333; font-family=
+:Monaco; font-size:12pt">/</span><span style=3D"color:#333333; font-family:=
+Monaco; font-size:12pt">beego</span><span style=3D"color:#333333; font-fami=
+ly:Monaco; font-size:12pt">/</span><span style=3D"color:#333333; font-famil=
+y:Monaco; font-size:12pt">bee</span></p><p style=3D"background-color:#fffff=
+f; margin:0pt; padding-bottom:4.2pt; padding-left:5pt; padding-right:5pt"><=
+span style=3D"color:#999988; font-family:Monaco; font-size:12pt"># </span><=
+span style=3D"color:#999988; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt=
+">=E5=A6=82=E6=9E=9C=E6=82=A8=E8=BF=98=E6=B2=A1=E6=B7=BB=E5=8A=A0</span><sp=
+an style=3D"color:#999988; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt">=
+ </span><span style=3D"color:#999988; font-family:Monaco; font-size:12pt">$=
+GOPATH </span><span style=3D"color:#999988; font-family:=E5=AE=8B=E4=BD=93;=
+ font-size:12pt">=E5=8F=98=E9=87=8F</span></p><p style=3D"background-color:=
+#ffffff; margin:0pt; padding-bottom:4.2pt; padding-left:5pt; padding-right:=
+5pt"><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">$ ec=
+ho </span><span style=3D"color:#dd1144; font-family:Monaco; font-size:12pt"=
+>'export GOPATH=3D"$HOME/go"'</span><span style=3D"color:#333333; font-fami=
+ly:Monaco; font-size:12pt"> </span><span style=3D"color:#333333; font-famil=
+y:Monaco; font-size:12pt">&gt;&gt;</span><span style=3D"color:#333333; font=
+-family:Monaco; font-size:12pt"> </span><span style=3D"color:#333333; font-=
+family:Monaco; font-size:12pt">~</span><span style=3D"color:#dd1144; font-f=
+amily:Monaco; font-size:12pt">/.profile # </span><span style=3D"color:#dd11=
+44; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt">=E6=88=96=E8=80=85</spa=
+n><span style=3D"color:#dd1144; font-family:=E5=AE=8B=E4=BD=93; font-size:1=
+2pt"> </span><span style=3D"color:#dd1144; font-family:Monaco; font-size:12=
+pt">~/</span><span style=3D"color:#333333; font-family:Monaco; font-size:12=
+pt">.</span><span style=3D"color:#333333; font-family:Monaco; font-size:12p=
+t">zshrc</span><span style=3D"color:#333333; font-family:Monaco; font-size:=
+12pt">,</span><span style=3D"color:#333333; font-family:Monaco; font-size:1=
+2pt"> </span><span style=3D"color:#333333; font-family:Monaco; font-size:12=
+pt">~/.</span><span style=3D"color:#333333; font-family:Monaco; font-size:1=
+2pt">cshrc</span><span style=3D"color:#333333; font-family:Monaco; font-siz=
+e:12pt">,</span><span style=3D"color:#333333; font-family:Monaco; font-size=
+:12pt"> </span><span style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93=
+; font-size:12pt">=E6=82=A8=E6=89=80=E4=BD=BF=E7=94=A8=E7=9A=84</span><span=
+ style=3D"color:#333333; font-family:Monaco; font-size:12pt">sh</span><span=
+ style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt">=
+=E5=AF=B9=E5=BA=94=E7=9A=84=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6</span></p><=
+p style=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padd=
+ing-left:5pt; padding-right:5pt"><span style=3D"color:#333333; font-family:=
+Monaco; font-size:12pt">&nbsp;</span></p><p style=3D"background-color:#ffff=
+ff; margin:0pt; padding-bottom:4.2pt; padding-left:5pt; padding-right:5pt">=
+<span style=3D"color:#999988; font-family:Monaco; font-size:12pt"># </span>=
+<span style=3D"color:#999988; font-family:=E5=AE=8B=E4=BD=93; font-size:12p=
+t">=E5=A6=82=E6=9E=9C=E6=82=A8=E5=B7=B2=E7=BB=8F=E6=B7=BB=E5=8A=A0=E4=BA=86=
+</span><span style=3D"color:#999988; font-family:=E5=AE=8B=E4=BD=93; font-s=
+ize:12pt"> </span><span style=3D"color:#999988; font-family:Monaco; font-si=
+ze:12pt">$GOPATH </span><span style=3D"color:#999988; font-family:=E5=AE=8B=
+=E4=BD=93; font-size:12pt">=E5=8F=98=E9=87=8F</span></p><p style=3D"backgro=
+und-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-left:5pt; padd=
+ing-right:5pt"><span style=3D"color:#333333; font-family:Monaco; font-size:=
+12pt">$ echo </span><span style=3D"color:#dd1144; font-family:Monaco; font-=
+size:12pt">'export PATH=3D"$GOPATH/bin:$PATH"'</span><span style=3D"color:#=
+333333; font-family:Monaco; font-size:12pt"> </span><span style=3D"color:#3=
+33333; font-family:Monaco; font-size:12pt">&gt;&gt;</span><span style=3D"co=
+lor:#333333; font-family:Monaco; font-size:12pt"> </span><span style=3D"col=
+or:#333333; font-family:Monaco; font-size:12pt">~</span><span style=3D"colo=
+r:#dd1144; font-family:Monaco; font-size:12pt">/.profile # </span><span sty=
+le=3D"color:#dd1144; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt">=E6=88=
+=96=E8=80=85</span><span style=3D"color:#dd1144; font-family:=E5=AE=8B=E4=
+=BD=93; font-size:12pt"> </span><span style=3D"color:#dd1144; font-family:M=
+onaco; font-size:12pt">~/</span><span style=3D"color:#333333; font-family:M=
+onaco; font-size:12pt">.</span><span style=3D"color:#333333; font-family:Mo=
+naco; font-size:12pt">zshrc</span><span style=3D"color:#333333; font-family=
+:Monaco; font-size:12pt">,</span><span style=3D"color:#333333; font-family:=
+Monaco; font-size:12pt"> </span><span style=3D"color:#333333; font-family:M=
+onaco; font-size:12pt">~/.</span><span style=3D"color:#333333; font-family:=
+Monaco; font-size:12pt">cshrc</span><span style=3D"color:#333333; font-fami=
+ly:Monaco; font-size:12pt">,</span><span style=3D"color:#333333; font-famil=
+y:Monaco; font-size:12pt"> </span><span style=3D"color:#333333; font-family=
+:=E5=AE=8B=E4=BD=93; font-size:12pt">=E6=82=A8=E6=89=80=E4=BD=BF=E7=94=A8=
+=E7=9A=84</span><span style=3D"color:#333333; font-family:Monaco; font-size=
+:12pt">sh</span><span style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=
+=93; font-size:12pt">=E5=AF=B9=E5=BA=94=E7=9A=84=E9=85=8D=E7=BD=AE=E6=96=87=
+=E4=BB=B6</span></p><p style=3D"background-color:#ffffff; margin:0pt; paddi=
+ng-bottom:4.2pt; padding-left:5pt; padding-right:5pt"><span style=3D"color:=
+#333333; font-family:Monaco; font-size:12pt">$ </span><span style=3D"color:=
+#333333; font-family:Monaco; font-size:12pt">exec</span><span style=3D"colo=
+r:#333333; font-family:Monaco; font-size:12pt"> $SHELL</span></p><p style=
+=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-lef=
+t:5pt; padding-right:5pt"><span style=3D"color:#333333; font-family:Monaco;=
+ font-size:12pt">$ cd $GOPATH</span><span style=3D"color:#333333; font-fami=
+ly:Monaco; font-size:12pt">/</span><span style=3D"color:#333333; font-famil=
+y:Monaco; font-size:12pt">src</span></p><p style=3D"background-color:#fffff=
+f; margin:0pt; padding-bottom:4.2pt; padding-left:5pt; padding-right:5pt"><=
+span style=3D"color:#333333; font-family:Monaco; font-size:12pt">$ bee </sp=
+an><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">new</s=
+pan><span style=3D"color:#333333; font-family:Monaco; font-size:12pt"> hell=
+o</span></p><p style=3D"background-color:#ffffff; margin:0pt; padding-botto=
+m:4.2pt; padding-left:5pt; padding-right:5pt"><span style=3D"color:#333333;=
+ font-family:Monaco; font-size:12pt">$ cd hello</span></p><p style=3D"backg=
+round-color:#ffffff; margin:0pt; padding-bottom:3pt; padding-left:5pt; padd=
+ing-right:5pt"><span style=3D"color:#333333; font-family:Monaco; font-size:=
+12pt">$ bee run</span></p></div><p style=3D"background-color:#fafafa; margi=
+n:0pt 0pt 4.2pt"><span style=3D"color:#333333; font-family:Helvetica; font-=
+size:6.5pt">Windows </span><span style=3D"color:#333333; font-family:=E5=AE=
+=8B=E4=BD=93; font-size:6.5pt">=E5=B9=B3=E5=8F=B0=E4=B8=8B=E8=BE=93=E5=85=
+=A5=EF=BC=9A</span></p><div style=3D"border-bottom-color:#dddddd; border-bo=
+ttom-style:solid; border-bottom-width:0.75pt; border-left-color:#dddddd; bo=
+rder-left-style:solid; border-left-width:0.75pt; border-right-color:#dddddd=
+; border-right-style:solid; border-right-width:0.75pt; border-top-color:#dd=
+dddd; border-top-style:solid; border-top-width:0.75pt; clear:both; margin:0=
+pt 0pt 4.2pt"><p style=3D"background-color:#ffffff; margin:0pt; padding-bot=
+tom:4.2pt; padding-left:5pt; padding-right:5pt; padding-top:3pt"><span styl=
+e=3D"color:#333333; font-family:Monaco; font-size:12pt">&gt;</span><span st=
+yle=3D"color:#333333; font-family:Monaco; font-size:12pt">cd </span><span s=
+tyle=3D"color:#333333; font-family:Monaco; font-size:12pt">%</span><span st=
+yle=3D"color:#333333; font-family:Monaco; font-size:12pt">GOPATH</span><spa=
+n style=3D"color:#333333; font-family:Monaco; font-size:12pt">%/</span><spa=
+n style=3D"color:#333333; font-family:Monaco; font-size:12pt">src</span></p=
+><p style=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt; pa=
+dding-left:5pt; padding-right:5pt"><span style=3D"color:#333333; font-famil=
+y:Monaco; font-size:12pt">&gt;</span><span style=3D"color:#333333; font-fam=
+ily:Monaco; font-size:12pt">bee </span><span style=3D"color:#333333; font-f=
+amily:Monaco; font-size:12pt">new</span><span style=3D"color:#333333; font-=
+family:Monaco; font-size:12pt"> hello</span></p><p style=3D"background-colo=
+r:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-left:5pt; padding-righ=
+t:5pt"><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">&g=
+t;</span><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">=
+cd hello</span></p><p style=3D"background-color:#ffffff; margin:0pt; paddin=
+g-bottom:3pt; padding-left:5pt; padding-right:5pt"><span style=3D"color:#33=
+3333; font-family:Monaco; font-size:12pt">&gt;</span><span style=3D"color:#=
+333333; font-family:Monaco; font-size:12pt">bee run</span></p></div><p styl=
+e=3D"margin:0pt"><br style=3D"page-break-before:always; clear:both"></p><di=
+v style=3D"border-bottom-color:#dddddd; border-bottom-style:solid; border-b=
+ottom-width:0.75pt; border-left-color:#dddddd; border-left-style:solid; bor=
+der-left-width:0.75pt; border-right-color:#dddddd; border-right-style:solid=
+; border-right-width:0.75pt; border-top-color:#dddddd; border-top-style:sol=
+id; border-top-width:0.75pt; clear:both; margin:0pt 0pt 4.2pt"><p style=3D"=
+background-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-left:5p=
+t; padding-right:5pt; padding-top:3pt"><span style=3D"color:#333333; font-f=
+amily:Monaco; font-size:5.5pt">&nbsp;</span></p><p style=3D"background-colo=
+r:#ffffff; margin:0pt; padding-bottom:3pt; padding-left:5pt; padding-right:=
+5pt"><span style=3D"color:#333333; font-family:Monaco; font-size:5.5pt">&nb=
+sp;</span></p></div><h3 style=3D"font-size:16pt; line-height:173%; margin:1=
+3pt 0pt; orphans:0; page-break-after:avoid; page-break-inside:avoid; text-a=
+lign:justify; widows:0"><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font=
+-size:16pt; font-weight:bold">=E6=B5=8B=E8=AF=95</span><span style=3D"font-=
+family:=E5=AE=8B=E4=BD=93; font-size:16pt; font-weight:bold"> </span></h3><=
+div style=3D"border-bottom-color:#dddddd; border-bottom-style:solid; border=
+-bottom-width:0.75pt; border-left-color:#dddddd; border-left-style:solid; b=
+order-left-width:0.75pt; border-right-color:#dddddd; border-right-style:sol=
+id; border-right-width:0.75pt; border-top-color:#dddddd; border-top-style:s=
+olid; border-top-width:0.75pt; clear:both; margin:0pt 0pt 4.2pt"><p style=
+=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-lef=
+t:5pt; padding-right:5pt; padding-top:3pt"><span style=3D"color:#333333; fo=
+nt-family:Monaco; font-size:12pt">package</span><span style=3D"color:#33333=
+3; font-family:Monaco; font-size:12pt"> main</span></p><p style=3D"backgrou=
+nd-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-left:5pt; paddi=
+ng-right:5pt"><span style=3D"color:#333333; font-family:Monaco; font-size:1=
+2pt">&nbsp;</span></p><p style=3D"background-color:#ffffff; margin:0pt; pad=
+ding-bottom:4.2pt; padding-left:5pt; padding-right:5pt"><span style=3D"colo=
+r:#333333; font-family:Monaco; font-size:12pt">import</span><span style=3D"=
+color:#333333; font-family:Monaco; font-size:12pt"> </span><span style=3D"c=
+olor:#333333; font-family:Monaco; font-size:12pt">(</span></p><p style=3D"b=
+ackground-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-left:5pt=
+; padding-right:5pt"><span style=3D"color:#333333; font-family:Monaco; font=
+-size:12pt">&nbsp;&nbsp;&nbsp; </span><span style=3D"color:#dd1144; font-fa=
+mily:Monaco; font-size:12pt">"github.com/astaxie/beego"</span></p><p style=
+=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-lef=
+t:5pt; padding-right:5pt"><span style=3D"color:#333333; font-family:Monaco;=
+ font-size:12pt">)</span></p><p style=3D"background-color:#ffffff; margin:0=
+pt; padding-bottom:4.2pt; padding-left:5pt; padding-right:5pt"><span style=
+=3D"color:#333333; font-family:Monaco; font-size:12pt">&nbsp;</span></p><p =
+style=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt; paddin=
+g-left:5pt; padding-right:5pt"><span style=3D"color:#333333; font-family:Mo=
+naco; font-size:12pt">type </span><span style=3D"color:#445588; font-family=
+:Monaco; font-size:12pt">MainController</span><span style=3D"color:#333333;=
+ font-family:Monaco; font-size:12pt"> </span><span style=3D"color:#333333; =
+font-family:Monaco; font-size:12pt">struct</span><span style=3D"color:#3333=
+33; font-family:Monaco; font-size:12pt"> </span><span style=3D"color:#33333=
+3; font-family:Monaco; font-size:12pt">{</span></p><p style=3D"background-c=
+olor:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-left:5pt; padding-r=
+ight:5pt"><span style=3D"color:#333333; font-family:Monaco; font-size:12pt"=
+>&nbsp;&nbsp;&nbsp; beego</span><span style=3D"color:#333333; font-family:M=
+onaco; font-size:12pt">.</span><span style=3D"color:#445588; font-family:Mo=
+naco; font-size:12pt">Controller</span></p><p style=3D"background-color:#ff=
+ffff; margin:0pt; padding-bottom:4.2pt; padding-left:5pt; padding-right:5pt=
+"><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">}</span=
+></p><p style=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt=
+; padding-left:5pt; padding-right:5pt"><span style=3D"color:#333333; font-f=
+amily:Monaco; font-size:12pt">&nbsp;</span></p><p style=3D"background-color=
+:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-left:5pt; padding-right=
+:5pt"><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">fun=
+c </span><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">=
+(</span><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">t=
+his</span><span style=3D"color:#333333; font-family:Monaco; font-size:12pt"=
+> </span><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">=
+*</span><span style=3D"color:#445588; font-family:Monaco; font-size:12pt">M=
+ainController</span><span style=3D"color:#333333; font-family:Monaco; font-=
+size:12pt">)</span><span style=3D"color:#333333; font-family:Monaco; font-s=
+ize:12pt"> </span><span style=3D"color:#445588; font-family:Monaco; font-si=
+ze:12pt">Get</span><span style=3D"color:#333333; font-family:Monaco; font-s=
+ize:12pt">()</span><span style=3D"color:#333333; font-family:Monaco; font-s=
+ize:12pt"> </span><span style=3D"color:#333333; font-family:Monaco; font-si=
+ze:12pt">{</span></p><p style=3D"background-color:#ffffff; margin:0pt; padd=
+ing-bottom:4.2pt; padding-left:5pt; padding-right:5pt"><span style=3D"color=
+:#333333; font-family:Monaco; font-size:12pt">&nbsp;&nbsp;&nbsp; </span><sp=
+an style=3D"color:#333333; font-family:Monaco; font-size:12pt">this</span><=
+span style=3D"color:#333333; font-family:Monaco; font-size:12pt">.</span><s=
+pan style=3D"color:#445588; font-family:Monaco; font-size:12pt">Ctx</span><=
+span style=3D"color:#333333; font-family:Monaco; font-size:12pt">.</span><s=
+pan style=3D"color:#445588; font-family:Monaco; font-size:12pt">WriteString=
+</span><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">(<=
+/span><span style=3D"color:#dd1144; font-family:Monaco; font-size:12pt">"he=
+llo world"</span><span style=3D"color:#333333; font-family:Monaco; font-siz=
+e:12pt">)</span></p><p style=3D"background-color:#ffffff; margin:0pt; paddi=
+ng-bottom:4.2pt; padding-left:5pt; padding-right:5pt"><span style=3D"color:=
+#333333; font-family:Monaco; font-size:12pt">}</span></p><p style=3D"backgr=
+ound-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-left:5pt; pad=
+ding-right:5pt"><span style=3D"color:#333333; font-family:Monaco; font-size=
+:12pt">&nbsp;</span></p><p style=3D"background-color:#ffffff; margin:0pt; p=
+adding-bottom:4.2pt; padding-left:5pt; padding-right:5pt"><span style=3D"co=
+lor:#333333; font-family:Monaco; font-size:12pt">func main</span><span styl=
+e=3D"color:#333333; font-family:Monaco; font-size:12pt">()</span><span styl=
+e=3D"color:#333333; font-family:Monaco; font-size:12pt"> </span><span style=
+=3D"color:#333333; font-family:Monaco; font-size:12pt">{</span></p><p style=
+=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-lef=
+t:5pt; padding-right:5pt"><span style=3D"color:#333333; font-family:Monaco;=
+ font-size:12pt">&nbsp;&nbsp;&nbsp; beego</span><span style=3D"color:#33333=
+3; font-family:Monaco; font-size:12pt">.</span><span style=3D"color:#445588=
+; font-family:Monaco; font-size:12pt">Router</span><span style=3D"color:#33=
+3333; font-family:Monaco; font-size:12pt">(</span><span style=3D"color:#dd1=
+144; font-family:Monaco; font-size:12pt">"/"</span><span style=3D"color:#33=
+3333; font-family:Monaco; font-size:12pt">,</span><span style=3D"color:#333=
+333; font-family:Monaco; font-size:12pt"> </span><span style=3D"color:#3333=
+33; font-family:Monaco; font-size:12pt">&amp;</span><span style=3D"color:#4=
+45588; font-family:Monaco; font-size:12pt">MainController</span><span style=
+=3D"color:#333333; font-family:Monaco; font-size:12pt">{})</span></p><p sty=
+le=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-l=
+eft:5pt; padding-right:5pt"><span style=3D"color:#333333; font-family:Monac=
+o; font-size:12pt">&nbsp;&nbsp;&nbsp; beego</span><span style=3D"color:#333=
+333; font-family:Monaco; font-size:12pt">.</span><span style=3D"color:#4455=
+88; font-family:Monaco; font-size:12pt">Run</span><span style=3D"color:#333=
+333; font-family:Monaco; font-size:12pt">()</span></p><p style=3D"backgroun=
+d-color:#ffffff; margin:0pt; padding-bottom:3pt; padding-left:5pt; padding-=
+right:5pt"><span style=3D"color:#333333; font-family:Monaco; font-size:12pt=
+">}</span></p></div><p style=3D"background-color:#fafafa; margin:0pt 0pt 4.=
+2pt"><span style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-siz=
+e:6.5pt">=E6=8A=8A=E4=B8=8A=E9=9D=A2=E7=9A=84=E4=BB=A3=E7=A0=81=E4=BF=9D=E5=
+=AD=98=E4=B8=BA</span><span style=3D"color:#333333; font-family:=E5=AE=8B=
+=E4=BD=93; font-size:6.5pt"> </span><span style=3D"color:#333333; font-fami=
+ly:Helvetica; font-size:6.5pt">hello.go</span><span style=3D"color:#333333;=
+ font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=EF=BC=8C=E7=84=B6=E5=90=
+=8E=E9=80=9A=E8=BF=87=E5=91=BD=E4=BB=A4=E8=A1=8C=E8=BF=9B=E8=A1=8C=E7=BC=96=
+=E8=AF=91=E5=B9=B6=E6=89=A7=E8=A1=8C=EF=BC=9A</span></p><div style=3D"borde=
+r-bottom-color:#dddddd; border-bottom-style:solid; border-bottom-width:0.75=
+pt; border-left-color:#dddddd; border-left-style:solid; border-left-width:0=
+.75pt; border-right-color:#dddddd; border-right-style:solid; border-right-w=
+idth:0.75pt; border-top-color:#dddddd; border-top-style:solid; border-top-w=
+idth:0.75pt; clear:both; margin:0pt 0pt 4.2pt"><p style=3D"background-color=
+:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-left:5pt; padding-right=
+:5pt; padding-top:3pt"><span style=3D"color:#333333; font-family:Monaco; fo=
+nt-size:12pt">$ go build </span><span style=3D"color:#333333; font-family:M=
+onaco; font-size:12pt">-</span><span style=3D"color:#333333; font-family:Mo=
+naco; font-size:12pt">o hello hello</span><span style=3D"color:#333333; fon=
+t-family:Monaco; font-size:12pt">.</span><span style=3D"color:#333333; font=
+-family:Monaco; font-size:12pt">go</span></p><p style=3D"background-color:#=
+ffffff; margin:0pt; padding-bottom:3pt; padding-left:5pt; padding-right:5pt=
+"><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">$ </spa=
+n><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">./</spa=
+n><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">hello</=
+span></p></div><p style=3D"margin:0pt; orphans:0; text-align:justify; widow=
+s:0"><span style=3D"font-family:Calibri; font-size:10.5pt">&nbsp;</span></p=
+><p style=3D"margin:0pt; orphans:0; text-align:justify; widows:0"><span sty=
+le=3D"background-color:#fafafa; color:#333333; font-family:=E5=AE=8B=E4=BD=
+=93; font-size:6.5pt">=E4=B8=80=E6=97=A6=E7=A8=8B=E5=BA=8F=E5=BC=80=E5=A7=
+=8B=E8=BF=90=E8=A1=8C=EF=BC=8C=E6=82=A8=E5=B0=B1=E5=8F=AF=E4=BB=A5=E5=9C=A8=
+=E6=B5=8F=E8=A7=88=E5=99=A8=E4=B8=AD=E6=89=93=E5=BC=80</span><span style=3D=
+"background-color:#fafafa; color:#333333; font-family:Helvetica; font-size:=
+6.5pt">&nbsp;</span><a style=3D"color:#4183c4" href=3D"http://localhost:808=
+0/"><span style=3D"background-color:#fafafa; color:#4183c4; font-family:Hel=
+vetica; font-size:6.5pt; text-decoration:underline">http://localhost:8080/<=
+/span></a><span style=3D"background-color:#fafafa; color:#333333; font-fami=
+ly:Helvetica; font-size:6.5pt">&nbsp;</span><span style=3D"background-color=
+:#fafafa; color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=
+=E8=BF=9B=E8=A1=8C=E8=AE=BF=E9=97=AE=E3=80=82</span></p><p style=3D"margin:=
+0pt; orphans:0; text-align:justify; widows:0"><span style=3D"background-col=
+or:#fafafa; color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt=
+">=E5=81=9C=E6=AD=A2=E6=9C=8D=E5=8A=A1=E7=9A=84=E8=AF=9D=EF=BC=8C=E8=AF=B7=
+=E6=8C=89</span><span style=3D"background-color:#fafafa; color:#333333; fon=
+t-family:Helvetica; font-size:10.5pt">&nbsp;</span><span style=3D"backgroun=
+d-color:#f9f2f4; color:#c7254e; font-family:Monaco; font-size:9.5pt">Ctrl+c=
+</span></p><p style=3D"margin:0pt"><br style=3D"page-break-before:always; c=
+lear:both"></p><p style=3D"margin:0pt; orphans:0; text-align:justify; widow=
+s:0"><span style=3D"font-family:Calibri; font-size:10.5pt">&nbsp;</span></p=
+><h3 style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0;=
+ page-break-after:avoid; page-break-inside:avoid; text-align:justify; widow=
+s:0"><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; font-we=
+ight:bold">=E9=83=A8=E7=BD=B2</span></h3><p style=3D"background-color:#fafa=
+fa; margin:0pt 0pt 4.2pt"><span style=3D"color:#333333; font-family:=E5=AE=
+=8B=E4=BD=93; font-size:6.5pt">=E4=B8=8B=E9=9D=A2=E4=B8=BA</span><span styl=
+e=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt"> </spa=
+n><span style=3D"color:#333333; font-family:Helvetica; font-size:6.5pt">win=
+dows </span><span style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; f=
+ont-size:6.5pt">=E4=B8=8B=E7=9A=84=E5=BF=AB=E6=8D=B7=E6=93=8D=E4=BD=9C=E6=
+=89=B9=E5=A4=84=E7=90=86=E6=96=87=E4=BB=B6=EF=BC=9A</span><br><span style=
+=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=E5=9C=
+=A8</span><span style=3D"color:#333333; font-family:Helvetica; font-size:6.=
+5pt">&nbsp;</span><span style=3D"background-color:#f9f2f4; color:#c7254e; f=
+ont-family:Monaco; font-size:6pt">%GOPATH%/src</span><span style=3D"color:#=
+333333; font-family:Helvetica; font-size:6.5pt">&nbsp;</span><span style=3D=
+"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=E7=9B=AE=
+=E5=BD=95=E4=B8=8B=E5=88=86=E5=88=AB=E5=88=9B=E5=BB=BA=E6=96=87=E4=BB=B6</s=
+pan><span style=3D"color:#333333; font-family:Helvetica; font-size:6.5pt">&=
+nbsp;</span><span style=3D"background-color:#f9f2f4; color:#c7254e; font-fa=
+mily:Monaco; font-size:6pt">step1.install-bee.bat</span><span style=3D"colo=
+r:#333333; font-family:Helvetica; font-size:6.5pt">&nbsp;</span><span style=
+=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=E5=92=
+=8C</span><span style=3D"color:#333333; font-family:Helvetica; font-size:6.=
+5pt">&nbsp;</span><span style=3D"background-color:#f9f2f4; color:#c7254e; f=
+ont-family:Monaco; font-size:6pt">step2.new-beego-app.bat</span><span style=
+=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=E3=80=
+=82</span></p><p style=3D"background-color:#fafafa; margin:0pt 0pt 4.2pt"><=
+span style=3D"background-color:#f9f2f4; color:#c7254e; font-family:Monaco; =
+font-size:6pt">step1.install-bee.bat</span><span style=3D"color:#333333; fo=
+nt-family:Helvetica; font-size:6.5pt">&nbsp;</span><span style=3D"color:#33=
+3333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=E6=96=87=E4=BB=B6=
+=E5=86=85=E5=AE=B9=EF=BC=9A</span></p><div style=3D"border-bottom-color:#dd=
+dddd; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-co=
+lor:#dddddd; border-left-style:solid; border-left-width:0.75pt; border-righ=
+t-color:#dddddd; border-right-style:solid; border-right-width:0.75pt; borde=
+r-top-color:#dddddd; border-top-style:solid; border-top-width:0.75pt; clear=
+:both; margin:0pt 0pt 4.2pt"><p style=3D"background-color:#ffffff; margin:0=
+pt; padding-bottom:4.2pt; padding-left:5pt; padding-right:5pt; padding-top:=
+3pt"><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">set<=
+/span><span style=3D"color:#333333; font-family:Monaco; font-size:12pt"> GO=
+PATH</span><span style=3D"color:#333333; font-family:Monaco; font-size:12pt=
+">=3D%~</span><span style=3D"color:#333333; font-family:Monaco; font-size:1=
+2pt">dp0</span><span style=3D"color:#333333; font-family:Monaco; font-size:=
+12pt">..</span></p><p style=3D"background-color:#ffffff; margin:0pt; paddin=
+g-bottom:4.2pt; padding-left:5pt; padding-right:5pt"><span style=3D"color:#=
+333333; font-family:Monaco; font-size:12pt">go build github</span><span sty=
+le=3D"color:#333333; font-family:Monaco; font-size:12pt">.</span><span styl=
+e=3D"color:#333333; font-family:Monaco; font-size:12pt">com\beego\bee</span=
+></p><p style=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt=
+; padding-left:5pt; padding-right:5pt"><span style=3D"color:#333333; font-f=
+amily:Monaco; font-size:12pt">copy bee</span><span style=3D"color:#333333; =
+font-family:Monaco; font-size:12pt">.</span><span style=3D"color:#333333; f=
+ont-family:Monaco; font-size:12pt">exe </span><span style=3D"color:#333333;=
+ font-family:Monaco; font-size:12pt">%</span><span style=3D"color:#333333; =
+font-family:Monaco; font-size:12pt">GOPATH</span><span style=3D"color:#3333=
+33; font-family:Monaco; font-size:12pt">%</span><span style=3D"color:#33333=
+3; font-family:Monaco; font-size:12pt">\b</span><span style=3D"color:#33333=
+3; font-family:Monaco; font-size:12pt">in</span><span style=3D"color:#33333=
+3; font-family:Monaco; font-size:12pt">\bee</span><span style=3D"color:#333=
+333; font-family:Monaco; font-size:12pt">.</span><span style=3D"color:#3333=
+33; font-family:Monaco; font-size:12pt">exe</span></p><p style=3D"backgroun=
+d-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-left:5pt; paddin=
+g-right:5pt"><span style=3D"color:#333333; font-family:Monaco; font-size:12=
+pt">del</span><span style=3D"color:#333333; font-family:Monaco; font-size:1=
+2pt"> bee</span><span style=3D"color:#333333; font-family:Monaco; font-size=
+:12pt">.</span><span style=3D"color:#333333; font-family:Monaco; font-size:=
+12pt">exe</span></p><p style=3D"background-color:#ffffff; margin:0pt; paddi=
+ng-bottom:3pt; padding-left:5pt; padding-right:5pt"><span style=3D"color:#3=
+33333; font-family:Monaco; font-size:12pt">pause</span></p></div><p style=
+=3D"background-color:#fafafa; margin:0pt 0pt 4.2pt"><span style=3D"backgrou=
+nd-color:#f9f2f4; color:#c7254e; font-family:Monaco; font-size:6pt">step2.n=
+ew-beego-app.bat</span><span style=3D"color:#333333; font-family:Helvetica;=
+ font-size:6.5pt">&nbsp;</span><span style=3D"color:#333333; font-family:=
+=E5=AE=8B=E4=BD=93; font-size:6.5pt">=E6=96=87=E4=BB=B6=E5=86=85=E5=AE=B9=
+=EF=BC=9A</span></p><div style=3D"border-bottom-color:#dddddd; border-botto=
+m-style:solid; border-bottom-width:0.75pt; border-left-color:#dddddd; borde=
+r-left-style:solid; border-left-width:0.75pt; border-right-color:#dddddd; b=
+order-right-style:solid; border-right-width:0.75pt; border-top-color:#ddddd=
+d; border-top-style:solid; border-top-width:0.75pt; clear:both; margin:0pt =
+0pt 4.2pt"><p style=3D"background-color:#ffffff; margin:0pt; padding-bottom=
+:4.2pt; padding-left:5pt; padding-right:5pt; padding-top:3pt"><span style=
+=3D"color:#445588; font-family:Monaco; font-size:12pt">@echo</span><span st=
+yle=3D"color:#333333; font-family:Monaco; font-size:12pt"> </span><span sty=
+le=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:12pt">=E8=AE=
+=BE=E7=BD=AE</span><span style=3D"color:#333333; font-family:=E5=AE=8B=E4=
+=BD=93; font-size:12pt"> </span><span style=3D"color:#445588; font-family:M=
+onaco; font-size:12pt">App</span><span style=3D"color:#333333; font-family:=
+Monaco; font-size:12pt"> </span><span style=3D"color:#333333; font-family:=
+=E5=AE=8B=E4=BD=93; font-size:12pt">=E7=9A=84=E5=80=BC=E4=B8=BA=E6=82=A8=E7=
+=9A=84=E5=BA=94=E7=94=A8=E6=96=87=E4=BB=B6=E5=A4=B9=E5=90=8D=E7=A7=B0</span=
+></p><p style=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt=
+; padding-left:5pt; padding-right:5pt"><span style=3D"color:#333333; font-f=
+amily:Monaco; font-size:12pt">set</span><span style=3D"color:#333333; font-=
+family:Monaco; font-size:12pt"> APP</span><span style=3D"color:#333333; fon=
+t-family:Monaco; font-size:12pt">=3D</span><span style=3D"color:#333333; fo=
+nt-family:Monaco; font-size:12pt">coscms</span><span style=3D"color:#333333=
+; font-family:Monaco; font-size:12pt">.</span><span style=3D"color:#333333;=
+ font-family:Monaco; font-size:12pt">com</span></p><p style=3D"background-c=
+olor:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-left:5pt; padding-r=
+ight:5pt"><span style=3D"color:#333333; font-family:Monaco; font-size:12pt"=
+>set</span><span style=3D"color:#333333; font-family:Monaco; font-size:12pt=
+"> GOPATH</span><span style=3D"color:#333333; font-family:Monaco; font-size=
+:12pt">=3D%~</span><span style=3D"color:#333333; font-family:Monaco; font-s=
+ize:12pt">dp0</span><span style=3D"color:#333333; font-family:Monaco; font-=
+size:12pt">..</span></p><p style=3D"background-color:#ffffff; margin:0pt; p=
+adding-bottom:4.2pt; padding-left:5pt; padding-right:5pt"><span style=3D"co=
+lor:#333333; font-family:Monaco; font-size:12pt">set</span><span style=3D"c=
+olor:#333333; font-family:Monaco; font-size:12pt"> BEE</span><span style=3D=
+"color:#333333; font-family:Monaco; font-size:12pt">=3D%</span><span style=
+=3D"color:#333333; font-family:Monaco; font-size:12pt">GOPATH</span><span s=
+tyle=3D"color:#333333; font-family:Monaco; font-size:12pt">%</span><span st=
+yle=3D"color:#333333; font-family:Monaco; font-size:12pt">\b</span><span st=
+yle=3D"color:#333333; font-family:Monaco; font-size:12pt">in</span><span st=
+yle=3D"color:#333333; font-family:Monaco; font-size:12pt">\bee</span></p><p=
+ style=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt; paddi=
+ng-left:5pt; padding-right:5pt"><span style=3D"color:#333333; font-family:M=
+onaco; font-size:12pt">%</span><span style=3D"color:#333333; font-family:Mo=
+naco; font-size:12pt">BEE</span><span style=3D"color:#333333; font-family:M=
+onaco; font-size:12pt">%</span><span style=3D"color:#333333; font-family:Mo=
+naco; font-size:12pt"> </span><span style=3D"color:#333333; font-family:Mon=
+aco; font-size:12pt">new</span><span style=3D"color:#333333; font-family:Mo=
+naco; font-size:12pt"> </span><span style=3D"color:#333333; font-family:Mon=
+aco; font-size:12pt">%</span><span style=3D"color:#333333; font-family:Mona=
+co; font-size:12pt">APP</span><span style=3D"color:#333333; font-family:Mon=
+aco; font-size:12pt">%</span></p><p style=3D"background-color:#ffffff; marg=
+in:0pt; padding-bottom:4.2pt; padding-left:5pt; padding-right:5pt"><span st=
+yle=3D"color:#333333; font-family:Monaco; font-size:12pt">cd </span><span s=
+tyle=3D"color:#333333; font-family:Monaco; font-size:12pt">%</span><span st=
+yle=3D"color:#333333; font-family:Monaco; font-size:12pt">APP</span><span s=
+tyle=3D"color:#333333; font-family:Monaco; font-size:12pt">%</span></p><p s=
+tyle=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padding=
+-left:5pt; padding-right:5pt"><span style=3D"color:#333333; font-family:Mon=
+aco; font-size:12pt">echo </span><span style=3D"color:#333333; font-family:=
+Monaco; font-size:12pt">%</span><span style=3D"color:#333333; font-family:M=
+onaco; font-size:12pt">BEE</span><span style=3D"color:#333333; font-family:=
+Monaco; font-size:12pt">%</span><span style=3D"color:#333333; font-family:M=
+onaco; font-size:12pt"> run </span><span style=3D"color:#333333; font-famil=
+y:Monaco; font-size:12pt">%</span><span style=3D"color:#333333; font-family=
+:Monaco; font-size:12pt">APP</span><span style=3D"color:#333333; font-famil=
+y:Monaco; font-size:12pt">%.</span><span style=3D"color:#333333; font-famil=
+y:Monaco; font-size:12pt">exe </span><span style=3D"color:#333333; font-fam=
+ily:Monaco; font-size:12pt">&gt;</span><span style=3D"color:#333333; font-f=
+amily:Monaco; font-size:12pt"> run</span><span style=3D"color:#333333; font=
+-family:Monaco; font-size:12pt">.</span><span style=3D"color:#333333; font-=
+family:Monaco; font-size:12pt">bat</span></p><p style=3D"background-color:#=
+ffffff; margin:0pt; padding-bottom:4.2pt; padding-left:5pt; padding-right:5=
+pt"><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">echo =
+pause </span><span style=3D"color:#333333; font-family:Monaco; font-size:12=
+pt">&gt;&gt;</span><span style=3D"color:#333333; font-family:Monaco; font-s=
+ize:12pt"> run</span><span style=3D"color:#333333; font-family:Monaco; font=
+-size:12pt">.</span><span style=3D"color:#333333; font-family:Monaco; font-=
+size:12pt">bat</span></p><p style=3D"background-color:#ffffff; margin:0pt; =
+padding-bottom:4.2pt; padding-left:5pt; padding-right:5pt"><span style=3D"c=
+olor:#333333; font-family:Monaco; font-size:12pt">start run</span><span sty=
+le=3D"color:#333333; font-family:Monaco; font-size:12pt">.</span><span styl=
+e=3D"color:#333333; font-family:Monaco; font-size:12pt">bat</span></p><p st=
+yle=3D"background-color:#ffffff; margin:0pt; padding-bottom:4.2pt; padding-=
+left:5pt; padding-right:5pt"><span style=3D"color:#333333; font-family:Mona=
+co; font-size:12pt">pause</span></p><p style=3D"background-color:#ffffff; m=
+argin:0pt; padding-bottom:3pt; padding-left:5pt; padding-right:5pt"><span s=
+tyle=3D"color:#333333; font-family:Monaco; font-size:12pt">start http</span=
+><span style=3D"color:#333333; font-family:Monaco; font-size:12pt">:</span>=
+<span style=3D"color:#999988; font-family:Monaco; font-size:12pt">//127.0.0=
+.1:8080</span></p></div><p style=3D"background-color:#fafafa; margin:0pt"><=
+span style=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5p=
+t">=E4=BE=9D=E6=AC=A1=E7=82=B9=E5=87=BB=E4=B8=8A=E9=9D=A2=E5=88=9B=E5=BB=BA=
+=E7=9A=84=E4=B8=A4=E4=B8=AA=E6=96=87=E4=BB=B6=E5=8D=B3=E5=8F=AF=E5=BF=AB=E9=
+=80=9F=E5=BC=80=E5=90=AF</span><span style=3D"color:#333333; font-family:=
+=E5=AE=8B=E4=BD=93; font-size:6.5pt"> </span><span style=3D"color:#333333; =
+font-family:Helvetica; font-size:6.5pt">beego </span><span style=3D"color:#=
+333333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=E4=B9=8B=E6=97=85=
+=E3=80=82</span><br><span style=3D"color:#333333; font-family:=E5=AE=8B=E4=
+=BD=93; font-size:6.5pt">=E4=BB=A5=E5=90=8E=E5=8F=AA=E9=9C=80=E8=A6=81=E5=
+=88=B0=E6=82=A8=E7=9A=84=E5=BA=94=E7=94=A8=E7=9B=AE=E5=BD=95=E4=B8=8B=E7=82=
+=B9=E5=87=BB</span><span style=3D"color:#333333; font-family:Helvetica; fon=
+t-size:6.5pt">&nbsp;</span><span style=3D"background-color:#f9f2f4; color:#=
+c7254e; font-family:Monaco; font-size:6pt">run.bat</span><span style=3D"col=
+or:#333333; font-family:Helvetica; font-size:6.5pt">&nbsp;</span><span styl=
+e=3D"color:#333333; font-family:=E5=AE=8B=E4=BD=93; font-size:6.5pt">=E5=8D=
+=B3=E5=8F=AF=E3=80=82</span></p><p style=3D"margin:0pt; orphans:0; text-ali=
+gn:justify; widows:0"><span style=3D"font-family:Calibri; font-size:10.5pt"=
+>&nbsp;</span></p><h3 style=3D"font-size:16pt; line-height:173%; margin:13p=
+t 0pt; orphans:0; page-break-after:avoid; page-break-inside:avoid; text-ali=
+gn:justify; widows:0"><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-s=
+ize:16pt; font-weight:bold">=E5=8F=91=E5=B8=83</span></h3><p style=3D"margi=
+n:0pt; orphans:0; text-align:justify; widows:0"><br style=3D"page-break-bef=
+ore:always; clear:both"></p><h3 style=3D"font-size:16pt; line-height:173%; =
+margin:13pt 0pt; orphans:0; page-break-after:avoid; page-break-inside:avoid=
+; text-align:justify; widows:0"><span style=3D"font-family:Calibri; font-si=
+ze:16pt; font-weight:bold">&nbsp;</span></h3><h3 style=3D"font-size:16pt; l=
+ine-height:173%; margin:13pt 0pt; orphans:0; page-break-after:avoid; page-b=
+reak-inside:avoid; text-align:justify; widows:0"><span style=3D"font-family=
+:=E5=AE=8B=E4=BD=93; font-size:16pt; font-weight:bold">=E8=B0=83=E8=AF=95</=
+span></h3><p style=3D"margin:0pt; orphans:0; text-align:justify; widows:0">=
+<br style=3D"page-break-before:always; clear:both"></p><h3 style=3D"font-si=
+ze:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-break-after:avo=
+id; page-break-inside:avoid; text-align:justify; widows:0"><span style=3D"f=
+ont-family:Calibri; font-size:16pt; font-weight:bold">&nbsp;</span></h3><h2=
+ style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; pag=
+e-break-after:avoid; page-break-inside:avoid; text-align:justify; widows:0"=
+><span style=3D"font-family:Cambria; font-size:16pt; font-weight:bold">beeg=
+o</span><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; font=
+-weight:bold">=E7=9B=B8=E5=85=B3=E7=B1=BB=E5=BA=93</span></h2><p style=3D"m=
+argin:0pt; orphans:0; text-align:justify; widows:0"><br style=3D"page-break=
+-before:always; clear:both"></p><h2 style=3D"font-size:16pt; line-height:17=
+3%; margin:13pt 0pt; orphans:0; page-break-after:avoid; page-break-inside:a=
+void; text-align:justify; widows:0"><span style=3D"font-family:Cambria; fon=
+t-size:16pt; font-weight:bold">&nbsp;</span></h2><h3 style=3D"font-size:16p=
+t; line-height:173%; margin:13pt 0pt; orphans:0; page-break-after:avoid; pa=
+ge-break-inside:avoid; text-align:justify; widows:0"><span style=3D"font-fa=
+mily:=E5=AE=8B=E4=BD=93; font-size:16pt; font-weight:bold">=E5=BE=AE=E4=BF=
+=A1</span></h3><p style=3D"margin:0pt; orphans:0; text-align:justify; widow=
+s:0"><br style=3D"page-break-before:always; clear:both"></p><h3 style=3D"fo=
+nt-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-break-afte=
+r:avoid; page-break-inside:avoid; text-align:justify; widows:0"><span style=
+=3D"font-family:Calibri; font-size:16pt; font-weight:bold">&nbsp;</span></h=
+3><h3 style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0=
+; page-break-after:avoid; page-break-inside:avoid; text-align:justify; wido=
+ws:0"><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; font-w=
+eight:bold">=E6=94=AF=E4=BB=98=E5=AE=9D</span></h3><p style=3D"margin:0pt; =
+orphans:0; text-align:justify; widows:0"><br style=3D"page-break-before:alw=
+ays; clear:both"></p><h3 style=3D"font-size:16pt; line-height:173%; margin:=
+13pt 0pt; orphans:0; page-break-after:avoid; page-break-inside:avoid; text-=
+align:justify; widows:0"><span style=3D"font-family:Calibri; font-size:16pt=
+; font-weight:bold">&nbsp;</span></h3><h3 style=3D"font-size:16pt; line-hei=
+ght:173%; margin:13pt 0pt; orphans:0; page-break-after:avoid; page-break-in=
+side:avoid; text-align:justify; widows:0"><span style=3D"font-family:Calibr=
+i; font-size:16pt; font-weight:bold">redis</span></h3><p style=3D"margin:0p=
+t; orphans:0; text-align:justify; widows:0"><br style=3D"page-break-before:=
+always; clear:both"></p><h3 style=3D"font-size:16pt; line-height:173%; marg=
+in:13pt 0pt; orphans:0; page-break-after:avoid; page-break-inside:avoid; te=
+xt-align:justify; widows:0"><span style=3D"font-family:Calibri; font-size:1=
+6pt; font-weight:bold">&nbsp;</span></h3><h3 style=3D"font-size:16pt; line-=
+height:173%; margin:13pt 0pt; orphans:0; page-break-after:avoid; page-break=
+-inside:avoid; text-align:justify; widows:0"><span style=3D"font-family:=E5=
+=AE=8B=E4=BD=93; font-size:16pt; font-weight:bold">=E4=BA=8C=E7=BB=B4=E7=A0=
+=81</span></h3><p style=3D"margin:0pt; orphans:0; text-align:justify; widow=
+s:0"><br style=3D"page-break-before:always; clear:both"></p><h3 style=3D"fo=
+nt-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-break-afte=
+r:avoid; page-break-inside:avoid; text-align:justify; widows:0"><span style=
+=3D"font-family:Calibri; font-size:16pt; font-weight:bold">&nbsp;</span></h=
+3><h3 style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0=
+; page-break-after:avoid; page-break-inside:avoid; text-align:justify; wido=
+ws:0"><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; font-w=
+eight:bold">=E6=97=A5=E5=BF=97</span></h3><p style=3D"margin:0pt; orphans:0=
+; text-align:justify; widows:0"><br style=3D"page-break-before:always; clea=
+r:both"></p><h3 style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt;=
+ orphans:0; page-break-after:avoid; page-break-inside:avoid; text-align:jus=
+tify; widows:0"><span style=3D"font-family:Calibri; font-size:16pt; font-we=
+ight:bold">&nbsp;</span></h3><h3 style=3D"font-size:16pt; line-height:173%;=
+ margin:13pt 0pt; orphans:0; page-break-after:avoid; page-break-inside:avoi=
+d; text-align:justify; widows:0"><span style=3D"font-family:=E5=AE=8B=E4=BD=
+=93; font-size:16pt; font-weight:bold">=E6=B6=88=E6=81=AF=E9=98=9F=E5=88=97=
+</span></h3><p style=3D"margin:0pt; orphans:0; text-align:justify; widows:0=
+"><br style=3D"page-break-before:always; clear:both"></p><h3 style=3D"font-=
+size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-break-after:a=
+void; page-break-inside:avoid; text-align:justify; widows:0"><span style=3D=
+"font-family:Calibri; font-size:16pt; font-weight:bold">&nbsp;</span></h3><=
+h3 style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; p=
+age-break-after:avoid; page-break-inside:avoid; text-align:justify; widows:=
+0"><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; font-weig=
+ht:bold">=E7=9F=AD=E4=BF=A1</span></h3><p style=3D"margin:0pt; orphans:0; t=
+ext-align:justify; widows:0"><br style=3D"page-break-before:always; clear:b=
+oth"></p><h3 style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; or=
+phans:0; page-break-after:avoid; page-break-inside:avoid; text-align:justif=
+y; widows:0"><span style=3D"font-family:Calibri; font-size:16pt; font-weigh=
+t:bold">&nbsp;</span></h3><h3 style=3D"font-size:16pt; line-height:173%; ma=
+rgin:13pt 0pt; orphans:0; page-break-after:avoid; page-break-inside:avoid; =
+text-align:justify; widows:0"><span style=3D"font-family:=E5=AE=8B=E4=BD=93=
+; font-size:16pt; font-weight:bold">=E9=82=AE=E4=BB=B6</span></h3><p style=
+=3D"margin:0pt; orphans:0; text-align:justify; widows:0"><br style=3D"page-=
+break-before:always; clear:both"></p><h3 style=3D"font-size:16pt; line-heig=
+ht:173%; margin:13pt 0pt; orphans:0; page-break-after:avoid; page-break-ins=
+ide:avoid; text-align:justify; widows:0"><span style=3D"font-family:Calibri=
+; font-size:16pt; font-weight:bold">&nbsp;</span></h3><h3 style=3D"font-siz=
+e:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-break-after:avoi=
+d; page-break-inside:avoid; text-align:justify; widows:0"><span style=3D"fo=
+nt-family:Calibri; font-size:16pt; font-weight:bold">office</span><span sty=
+le=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; font-weight:bold">=E6=
+=96=87=E6=A1=A3=E6=93=8D=E4=BD=9C</span></h3><p style=3D"margin:0pt; orphan=
+s:0; text-align:justify; widows:0"><br style=3D"page-break-before:always; c=
+lear:both"></p><h3 style=3D"font-size:16pt; line-height:173%; margin:13pt 0=
+pt; orphans:0; page-break-after:avoid; page-break-inside:avoid; text-align:=
+justify; widows:0"><span style=3D"font-family:Calibri; font-size:16pt; font=
+-weight:bold">&nbsp;</span></h3><h3 style=3D"font-size:16pt; line-height:17=
+3%; margin:13pt 0pt; orphans:0; page-break-after:avoid; page-break-inside:a=
+void; text-align:justify; widows:0"><span style=3D"font-family:=E5=AE=8B=E4=
+=BD=93; font-size:16pt; font-weight:bold">=E4=B8=8A=E4=BC=A0=E4=B8=8B=E8=BD=
+=BD</span></h3><p style=3D"margin:0pt; orphans:0; text-align:justify; widow=
+s:0"><br style=3D"page-break-before:always; clear:both"></p><h3 style=3D"fo=
+nt-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0; page-break-afte=
+r:avoid; page-break-inside:avoid; text-align:justify; widows:0"><span style=
+=3D"font-family:Calibri; font-size:16pt; font-weight:bold">&nbsp;</span></h=
+3><h2 style=3D"font-size:16pt; line-height:173%; margin:13pt 0pt; orphans:0=
+; page-break-after:avoid; page-break-inside:avoid; text-align:justify; wido=
+ws:0"><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:16pt; font-w=
+eight:bold">=E5=90=8E=E8=AE=B0=EF=BC=9A</span></h2><p style=3D"margin:0pt; =
+orphans:0; text-align:justify; widows:0"><span style=3D"font-family:=E5=AE=
+=8B=E4=BD=93; font-size:10.5pt">=E7=B1=BB=E4=BC=BC=E6=A1=86=E6=9E=B6</span>=
+<span style=3D"background-color:#ffffff; color:#333333; font-family:=E5=BE=
+=AE=E8=BD=AF=E9=9B=85=E9=BB=91; font-size:6.5pt">Beego Buffalo</span><span =
+style=3D"background-color:#ffffff; color:#333333; font-family:=E5=BE=AE=E8=
+=BD=AF=E9=9B=85=E9=BB=91; font-size:6.5pt">&nbsp;</span><span style=3D"back=
+ground-color:#ffffff; color:#333333; font-family:=E5=BE=AE=E8=BD=AF=E9=9B=
+=85=E9=BB=91; font-size:6.5pt"> Echo Gin Iris Revel</span><span style=3D"ba=
+ckground-color:#ffffff; color:#333333; font-family:=E5=BE=AE=E8=BD=AF=E9=9B=
+=85=E9=BB=91; font-size:6.5pt"> </span><span style=3D"background-color:#fff=
+fff; color:#4d4d4d; font-family:=E5=BE=AE=E8=BD=AF=E9=9B=85=E9=BB=91; font-=
+size:7.5pt">go-restful</span></p><p style=3D"margin:0pt; orphans:0; text-al=
+ign:justify; widows:0"><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-=
+size:10.5pt">=E5=BC=80=E6=BA=90=E9=A1=B9=E7=9B=AE=E5=8F=82=E4=B8=8E=E8=B4=
+=A1=E7=8C=AE=E9=9C=80=E8=A6=81=E6=8F=90</span><span style=3D"font-family:Ca=
+libri; font-size:10.5pt">PR</span><span style=3D"font-family:=E5=AE=8B=E4=
+=BD=93; font-size:10.5pt">=EF=BC=8C=E5=BC=80=E5=8F=91=E8=A6=81=E5=9C=A8</sp=
+an><span style=3D"background-color:#fafafa; color:#333333; font-family:Helv=
+etica; font-size:6.5pt">develop</span><span style=3D"background-color:#fafa=
+fa; color:#333333; font-family:Helvetica; font-size:6.5pt">&nbsp;</span><sp=
+an style=3D"background-color:#fafafa; color:#333333; font-family:=E5=AE=8B=
+=E4=BD=93; font-size:6.5pt">=E5=88=86=E6=94=AF</span></p><p style=3D"margin=
+:0pt; orphans:0; text-align:justify; widows:0"><span style=3D"font-family:C=
+alibri; font-size:10.5pt">beego</span><span style=3D"font-family:=E5=AE=8B=
+=E4=BD=93; font-size:10.5pt">=E4=B8=8E</span><span style=3D"font-family:Cal=
+ibri; font-size:10.5pt">gin</span><span style=3D"font-family:=E5=AE=8B=E4=
+=BD=93; font-size:10.5pt">=E6=A1=86=E6=9E=B6=E5=AF=B9=E6=AF=94=E4=B8=8E=E9=
+=80=89=E6=8B=A9</span></p><table cellspacing=3D"0" cellpadding=3D"0" style=
+=3D"border-collapse:collapse; margin-left:0pt"><tbody><tr><td style=3D"bord=
+er-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.7=
+5pt; border-left-color:#000000; border-left-style:solid; border-left-width:=
+0.75pt; border-right-color:#000000; border-right-style:solid; border-right-=
+width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-=
+width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top=
+; width:131.2pt"><p style=3D"margin:0pt; orphans:0; text-align:justify; wid=
+ows:0"><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E7=
+=89=B9=E6=80=A7</span></p></td><td style=3D"border-bottom-color:#000000; bo=
+rder-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000=
+000; border-left-style:solid; border-left-width:0.75pt; border-right-color:=
+#000000; border-right-style:solid; border-right-width:0.75pt; border-top-co=
+lor:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:=
+5.03pt; padding-right:5.03pt; vertical-align:top; width:131.25pt"><p style=
+=3D"margin:0pt; orphans:0; text-align:justify; widows:0"><span style=3D"fon=
+t-family:Calibri; font-size:10.5pt">beego</span></p></td><td style=3D"borde=
+r-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75=
+pt; border-left-color:#000000; border-left-style:solid; border-left-width:0=
+.75pt; border-right-color:#000000; border-right-style:solid; border-right-w=
+idth:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-w=
+idth:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top;=
+ width:131.25pt"><p style=3D"margin:0pt; orphans:0; text-align:justify; wid=
+ows:0"><span style=3D"font-family:Calibri; font-size:10.5pt">gin</span></p>=
+</td></tr><tr><td style=3D"border-bottom-color:#000000; border-bottom-style=
+:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-=
+style:solid; border-left-width:0.75pt; border-right-color:#000000; border-r=
+ight-style:solid; border-right-width:0.75pt; border-top-color:#000000; bord=
+er-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-r=
+ight:5.03pt; vertical-align:top; width:131.2pt"><p style=3D"margin:0pt; orp=
+hans:0; text-align:justify; widows:0"><span style=3D"font-family:Calibri; f=
+ont-size:10.5pt">MVC</span></p></td><td style=3D"border-bottom-color:#00000=
+0; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color=
+:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-c=
+olor:#000000; border-right-style:solid; border-right-width:0.75pt; border-t=
+op-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-=
+left:5.03pt; padding-right:5.03pt; vertical-align:top; width:131.25pt"><p s=
+tyle=3D"margin:0pt; orphans:0; text-align:justify; widows:0"><span style=3D=
+"font-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E5=AE=8C=E6=95=B4=E6=94=
+=AF=E6=8C=81</span></p></td><td style=3D"border-bottom-color:#000000; borde=
+r-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000=
+; border-left-style:solid; border-left-width:0.75pt; border-right-color:#00=
+0000; border-right-style:solid; border-right-width:0.75pt; border-top-color=
+:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.0=
+3pt; padding-right:5.03pt; vertical-align:top; width:131.25pt"><p style=3D"=
+margin:0pt; orphans:0; text-align:justify; widows:0"><span style=3D"font-fa=
+mily:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E9=9C=80=E8=A6=81=E8=87=AA=E5=
+=B7=B1=E5=AE=9E=E7=8E=B0</span></p></td></tr><tr><td style=3D"border-bottom=
+-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; bord=
+er-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; b=
+order-right-color:#000000; border-right-style:solid; border-right-width:0.7=
+5pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.7=
+5pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top; width:1=
+31.2pt"><p style=3D"margin:0pt; orphans:0; text-align:justify; widows:0"><s=
+pan style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E8=B7=AF=E7=
+=94=B1</span></p></td><td style=3D"border-bottom-color:#000000; border-bott=
+om-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; bord=
+er-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; =
+border-right-style:solid; border-right-width:0.75pt; border-top-color:#0000=
+00; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; p=
+adding-right:5.03pt; vertical-align:top; width:131.25pt"><p style=3D"margin=
+:0pt; orphans:0; text-align:justify; widows:0"><span style=3D"font-family:=
+=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E6=94=AF=E6=8C=81=E6=AD=A3=E5=88=99<=
+/span></p></td><td style=3D"border-bottom-color:#000000; border-bottom-styl=
+e:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left=
+-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-=
+right-style:solid; border-right-width:0.75pt; border-top-color:#000000; bor=
+der-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-=
+right:5.03pt; vertical-align:top; width:131.25pt"><p style=3D"margin:0pt; o=
+rphans:0; text-align:justify; widows:0"><span style=3D"font-family:=E5=AE=
+=8B=E4=BD=93; font-size:10.5pt">=E4=B8=8D=E6=94=AF=E6=8C=81=E6=AD=A3=E5=88=
+=99</span></p></td></tr><tr><td style=3D"border-bottom-color:#000000; borde=
+r-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000=
+; border-left-style:solid; border-left-width:0.75pt; border-right-color:#00=
+0000; border-right-style:solid; border-right-width:0.75pt; border-top-color=
+:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.0=
+3pt; padding-right:5.03pt; vertical-align:top; width:131.2pt"><p style=3D"m=
+argin:0pt; orphans:0; text-align:justify; widows:0"><span style=3D"font-fam=
+ily:Calibri; font-size:10.5pt">S</span><span style=3D"font-family:Calibri; =
+font-size:10.5pt">ession</span></p></td><td style=3D"border-bottom-color:#0=
+00000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-c=
+olor:#000000; border-left-style:solid; border-left-width:0.75pt; border-rig=
+ht-color:#000000; border-right-style:solid; border-right-width:0.75pt; bord=
+er-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padd=
+ing-left:5.03pt; padding-right:5.03pt; vertical-align:top; width:131.25pt">=
+<p style=3D"margin:0pt; orphans:0; text-align:justify; widows:0"><span styl=
+e=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E6=94=AF=E6=8C=81</=
+span></p></td><td style=3D"border-bottom-color:#000000; border-bottom-style=
+:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-=
+style:solid; border-left-width:0.75pt; border-right-color:#000000; border-r=
+ight-style:solid; border-right-width:0.75pt; border-top-color:#000000; bord=
+er-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-r=
+ight:5.03pt; vertical-align:top; width:131.25pt"><p style=3D"margin:0pt; or=
+phans:0; text-align:justify; widows:0"><span style=3D"font-family:=E5=AE=8B=
+=E4=BD=93; font-size:10.5pt">=E9=9C=80=E8=A6=81=E9=A2=9D=E5=A4=96=E5=8C=85<=
+/span></p></td></tr><tr><td style=3D"border-bottom-color:#000000; border-bo=
+ttom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; bo=
+rder-left-style:solid; border-left-width:0.75pt; border-right-color:#000000=
+; border-right-style:solid; border-right-width:0.75pt; border-top-color:#00=
+0000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt;=
+ padding-right:5.03pt; vertical-align:top; width:131.2pt"><p style=3D"margi=
+n:0pt; orphans:0; text-align:justify; widows:0"><span style=3D"font-family:=
+=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E6=80=A7=E8=83=BD=E8=B7=91=E5=88=86<=
+/span></p></td><td style=3D"border-bottom-color:#000000; border-bottom-styl=
+e:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left=
+-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-=
+right-style:solid; border-right-width:0.75pt; border-top-color:#000000; bor=
+der-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-=
+right:5.03pt; vertical-align:top; width:131.25pt"><p style=3D"margin:0pt; o=
+rphans:0; text-align:justify; widows:0"><span style=3D"font-family:=E5=AE=
+=8B=E4=BD=93; font-size:10.5pt">=E8=89=AF</span></p></td><td style=3D"borde=
+r-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75=
+pt; border-left-color:#000000; border-left-style:solid; border-left-width:0=
+.75pt; border-right-color:#000000; border-right-style:solid; border-right-w=
+idth:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-w=
+idth:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top;=
+ width:131.25pt"><p style=3D"margin:0pt; orphans:0; text-align:justify; wid=
+ows:0"><span style=3D"font-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E4=
+=BC=98</span></p></td></tr><tr><td style=3D"border-bottom-color:#000000; bo=
+rder-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000=
+000; border-left-style:solid; border-left-width:0.75pt; border-right-color:=
+#000000; border-right-style:solid; border-right-width:0.75pt; border-top-co=
+lor:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:=
+5.03pt; padding-right:5.03pt; vertical-align:top; width:131.2pt"><p style=
+=3D"margin:0pt; orphans:0; text-align:justify; widows:0"><span style=3D"fon=
+t-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E5=85=B6=E4=BB=96=E7=89=B9=
+=E6=80=A7</span></p></td><td style=3D"border-bottom-color:#000000; border-b=
+ottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; b=
+order-left-style:solid; border-left-width:0.75pt; border-right-color:#00000=
+0; border-right-style:solid; border-right-width:0.75pt; border-top-color:#0=
+00000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt=
+; padding-right:5.03pt; vertical-align:top; width:131.25pt"><p style=3D"mar=
+gin:0pt; orphans:0; text-align:justify; widows:0"><span style=3D"font-famil=
+y:Calibri; font-size:10.5pt">&nbsp;</span></p></td><td style=3D"border-bott=
+om-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; bo=
+rder-left-color:#000000; border-left-style:solid; border-left-width:0.75pt;=
+ border-right-color:#000000; border-right-style:solid; border-right-width:0=
+.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0=
+.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top; width=
+:131.25pt"><p style=3D"margin:0pt; orphans:0; text-align:justify; widows:0"=
+><span style=3D"font-family:Calibri; font-size:10.5pt">&nbsp;</span></p></t=
+d></tr><tr><td style=3D"border-bottom-color:#000000; border-bottom-style:so=
+lid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-sty=
+le:solid; border-left-width:0.75pt; border-right-color:#000000; border-righ=
+t-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-=
+top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-righ=
+t:5.03pt; vertical-align:top; width:131.2pt"><p style=3D"margin:0pt; orphan=
+s:0; text-align:justify; widows:0"><span style=3D"font-family:=E5=AE=8B=E4=
+=BD=93; font-size:10.5pt">=E9=80=82=E7=94=A8=E5=9C=BA=E6=99=AF</span></p></=
+td><td style=3D"border-bottom-color:#000000; border-bottom-style:solid; bor=
+der-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid=
+; border-left-width:0.75pt; border-right-color:#000000; border-right-style:=
+solid; border-right-width:0.75pt; border-top-color:#000000; border-top-styl=
+e:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt=
+; vertical-align:top; width:131.25pt"><p style=3D"margin:0pt; orphans:0; te=
+xt-align:justify; widows:0"><span style=3D"font-family:=E5=AE=8B=E4=BD=93; =
+font-size:10.5pt">=E4=B8=9A=E5=8A=A1=E5=A4=8D=E6=9D=82</span></p><p style=
+=3D"margin:0pt; orphans:0; text-align:justify; widows:0"><span style=3D"fon=
+t-family:=E5=AE=8B=E4=BD=93; font-size:10.5pt">=E5=BF=AB=E9=80=9F=E6=88=90=
+=E5=9E=8B</span></p></td><td style=3D"border-bottom-color:#000000; border-b=
+ottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; b=
+order-left-style:solid; border-left-width:0.75pt; border-right-color:#00000=
+0; border-right-style:solid; border-right-width:0.75pt; border-top-color:#0=
+00000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt=
+; padding-right:5.03pt; vertical-align:top; width:131.25pt"><p style=3D"mar=
+gin:0pt; orphans:0; text-align:justify; widows:0"><span style=3D"background=
+-color:#ffffff; color:#4d4d4d; font-family:=E5=BE=AE=E8=BD=AF=E9=9B=85=E9=
+=BB=91; font-size:7.5pt">=E6=80=A7=E8=83=BD=E7=93=B6=E9=A2=88</span></p></t=
+d></tr><tr><td style=3D"border-bottom-color:#000000; border-bottom-style:so=
+lid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-sty=
+le:solid; border-left-width:0.75pt; border-right-color:#000000; border-righ=
+t-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-=
+top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-righ=
+t:5.03pt; vertical-align:top; width:131.2pt"><p style=3D"margin:0pt; orphan=
+s:0; text-align:justify; widows:0"><span style=3D"font-family:Calibri; font=
+-size:10.5pt">&nbsp;</span></p></td><td style=3D"border-bottom-color:#00000=
+0; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color=
+:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-c=
+olor:#000000; border-right-style:solid; border-right-width:0.75pt; border-t=
+op-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-=
+left:5.03pt; padding-right:5.03pt; vertical-align:top; width:131.25pt"><p s=
+tyle=3D"margin:0pt; orphans:0; text-align:justify; widows:0"><span style=3D=
+"font-family:Calibri; font-size:10.5pt">&nbsp;</span></p></td><td style=3D"=
+border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width=
+:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-wi=
+dth:0.75pt; border-right-color:#000000; border-right-style:solid; border-ri=
+ght-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-=
+top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align=
+:top; width:131.25pt"><p style=3D"margin:0pt; orphans:0; text-align:justify=
+; widows:0"><span style=3D"font-family:Calibri; font-size:10.5pt">&nbsp;</s=
+pan></p></td></tr></tbody></table><p style=3D"margin:0pt; orphans:0; text-a=
+lign:justify; widows:0"><span style=3D"font-family:Calibri; font-size:10.5p=
+t">&nbsp;</span></p></div><div class=3D"cnzz" style=3D"display: none;">
+	        <a href=3D"https://www.cnzz.com/stat/website.php?web_id=3D12776558=
+52" target=3D"_blank" title=3D"=E7=AB=99=E9=95=BF=E7=BB=9F=E8=AE=A1">=E7=AB=
+=99=E9=95=BF=E7=BB=9F=E8=AE=A1</a>
+            </div>
+            <div class=3D"docpe" style=3D"position: absolute;color: white;m=
+argin-left:-450;">
+            <a target=3D"_blank" href=3D"http://www.docpe.com/">=E6=A1=A3=
+=E9=93=BA=E7=BD=91=E2=80=94=E2=80=94=E5=9C=A8=E7=BA=BF=E6=96=87=E6=A1=A3=E5=
+=85=8D=E8=B4=B9=E5=A4=84=E7=90=86</a>
+            </div>
+            <div id=3D"fatkun-drop-panel">
+        <a id=3D"fatkun-drop-panel-close-btn">=C3=97</a>
+            <div id=3D"fatkun-drop-panel-inner">
+                <div class=3D"fatkun-content">
+                    <svg class=3D"fatkun-icon" viewBox=3D"0 0 1024 1024" ve=
+rsion=3D"1.1" xmlns=3D"http://www.w3.org/2000/svg" p-id=3D"5892"><path d=3D=
+"M494.933333 782.933333c2.133333 2.133333 4.266667 4.266667 8.533334 6.4h8.=
+533333c6.4 0 10.666667-2.133333 14.933333-6.4l2.133334-2.133333 275.2-275.2=
+c8.533333-8.533333 8.533333-21.333333 0-29.866667-8.533333-8.533333-21.3333=
+33-8.533333-29.866667 0L533.333333 716.8V128c0-12.8-8.533333-21.333333-21.3=
+33333-21.333333s-21.333333 8.533333-21.333333 21.333333v588.8L249.6 475.733=
+333c-8.533333-8.533333-21.333333-8.533333-29.866667 0-8.533333 8.533333-8.5=
+33333 21.333333 0 29.866667l275.2 277.333333zM853.333333 874.666667H172.8c-=
+12.8 0-21.333333 8.533333-21.333333 21.333333s8.533333 21.333333 21.333333 =
+21.333333H853.333333c12.8 0 21.333333-8.533333 21.333334-21.333333s-10.6666=
+67-21.333333-21.333334-21.333333z" p-id=3D"5893"></path></svg>
+                    <div class=3D"fatkun-title">=E6=8B=96=E6=8B=BD=E5=88=B0=
+=E6=AD=A4=E5=A4=84</div>
+                    <div class=3D"fatkun-desc">=E5=9B=BE=E7=89=87=E5=B0=86=
+=E5=AE=8C=E6=88=90=E4=B8=8B=E8=BD=BD</div>
+                </div>
+            </div>
+    </div></body></html>
+------MultipartBoundary--lDMsHc3RaY64zCTEUUektaLFw9HjDHUrvZpkdTXOvv----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://docpe.com/Download/081214290665/25a071ec-9ec1-499b-8036-3e1f1e42ac48.001.png
+
+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
+lqdHo6Pz/wGNv3QFZNkEQgAAAABJRU5ErkJggg==
+
+------MultipartBoundary--lDMsHc3RaY64zCTEUUektaLFw9HjDHUrvZpkdTXOvv------
