@@ -22,4 +22,4 @@ jobs:
         app-name: 'megatontech'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_56bf7198c83f45829975e14f18b2d77c }}
-        package: ${{env.DOTNET_ROOT}}
+        package: /*
