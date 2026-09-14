@@ -27,8 +27,7 @@
         ],
         "sleepy":[
           {
-            "file": "motions/Sleeping.mtn",
-            "sound": "sounds/Sleeping.mp3"
+            "file": "motions/Sleeping.mtn"
           }
         ],
         "flick_head":[
